@@ -1,7 +1,7 @@
 import numpy as np
 import scipy.stats as sps
 
-num_sides = 4 #Number of sides on the dice
+num_sides = 6 #Number of sides on the dice
 
 possible_rolls = list(range(2, num_sides * 2 + 1))
 frequency = list(range(1, num_sides + 1))
@@ -59,7 +59,12 @@ def CH(pos):
     row[id_dict['R1']] += 1 / 16
     row[next_r] += 1 / 8
     row[next_u] += 1 / 16
-    row[pos - 3] += 1 / 16
+    if pos - 3 in cc_pos:
+        row += 1 / 16 * CC(pos - 3)
+    elif pos - 3 in ch_pos:
+        row += 1 / 16 * CH(pos - 3)
+    else:
+        row[pos - 3] += 1 / 16
     row[pos] += 3 / 8
     
     if not sum(row) == 1: raise ValueError('CH row does not sum to one.')
@@ -99,19 +104,19 @@ for pos in range(num_spaces):
 #np.matmul(x, T)
 
 #Steady state
-#tol = 1e-8
-#eigvals = np.linalg.eigvals(T.transpose())
-#unit_index = np.where(np.abs(eigvals - 1) < tol)[0]
-#
-#if len(unit_index) > 1: raise ValueError('More than one unit eigenvalue found.')
-#
-#unit_index = unit_index[0]
-#eigvec = np.linalg.eig(T.transpose())
+tol = 1e-8
+eigvals = np.linalg.eigvals(T.transpose())
+unit_index = np.where(np.abs(eigvals - 1) < tol)[0]
+
+if len(unit_index) > 1: raise ValueError('More than one unit eigenvalue found.')
+
+unit_index = unit_index[0]
+eigvec = np.linalg.eig(T.transpose())
 
 T_inf = np.linalg.matrix_power(T, 100000)
-init = np.ones(num_spaces) / num_spaces
-#init = np.zeros(num_spaces)
-#init[id_dict['GO']] = 1
+#init = np.ones(num_spaces) / num_spaces
+init = np.zeros(num_spaces)
+init[id_dict['GO']] = 1
 
 steady_state = np.matmul(init, T_inf)
 #print(list(zip(id_dict.keys(), steady_state)))
