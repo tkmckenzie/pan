@@ -1,0 +1,28 @@
+\documentclass{article}
+
+\usepackage{fullpage}
+
+\begin{document}
+
+Suppose the length of the track is $\hat{D}$. Let Alice ($A$) travel at constant velocity $v_A$ and Bob ($B$) travel at $v_B$. Then, the total distance traveled by person $i$ is
+$$D_i(t) = v_i t.$$
+Alice will reach the end of the track at time $\hat{t}_A$, when
+$$D_A\left(\hat{t}_A\right) = v_A \hat{t}_A = \hat{D}$$ $$\Rightarrow \hat{t}_A = \frac{\hat{D}}{v_A}.$$
+By that time, Bob will have traveled
+$$D_B\left(\hat{t}_A\right) = v_B\hat{t}_A = v_B\frac{\hat{D}}{v_A},$$
+making the distance between Bob and Alice
+$$\hat{D} - D_B(\hat{t}_A) = \hat{D}\left(1 - \frac{v_B}{v_A}\right).$$
+
+Now, once Alice reaches the end of the track, the distance between Alice and Bob will shrink at a rate of $v_A + v_B$ since they are traveling toward each other. Specifically, the distance between Alice and Bob between the time Alice reaches the end of the track and the time Alice and Bob meet is
+$$D_{AB}(t) = \hat{D}\left(1 - \frac{v_B}{v_A}\right) - (v_A + v_B)\left(t - \hat{t}_A\right).$$
+Alice and Bob will meet at time $\hat{t}_{AB}$, when
+$$D_{AB}\left(\hat{t}_{AB}\right) = \hat{D}\left(1 - \frac{v_B}{v_A}\right) - (v_A + v_B)\left(\hat{t}_{AB} - \hat{t}_A\right) = 0$$
+$$\Rightarrow \hat{t}_{AB} - \hat{t}_A = \frac{\hat{D}\left(1 - \frac{v_B}{v_A}\right)}{v_A + v_B}.$$
+
+Notice that $\hat{t}_{AB} - \hat{t}_A$ is the total time Alice and Bob will spend facing each other. Alice wants to maximize this time, which will occur when
+$$\frac{d\left(\hat{t}_{AB} - \hat{t}_A\right)}{dv_A} = \frac{\hat{D}\frac{v_B}{v_A^2}(v_A + v_B) - \hat{D}\left(1 - \frac{v_B}{v_A}\right)}{(v_A + v_B)^2} = 0$$
+$$\Rightarrow \frac{v_B}{v_A^2}(v_A + v_B) - \left(1 - \frac{v_B}{v_A}\right) = \left(\frac{v_B}{v_A}\right)^2 + 2\left(\frac{v_B}{v_A}\right) - 1 = 0$$
+$$\Rightarrow \frac{v_B}{v_A} = \frac{-2 \pm \sqrt{4 + 4}}{2} = -1 \pm \sqrt{2}.$$
+Since Alice's and Bob's velocities are both positive, $v_B/v_A = -1 + \sqrt{2}$. This implies that Alice should travel $v_A/v_B = 1 / (-1 + \sqrt{2}) \approx 2.414$ times faster than Bob.
+
+\end{document}
