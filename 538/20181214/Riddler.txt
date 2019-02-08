@@ -1,0 +1,9 @@
+The strategy is similar to regular tic-tac-toe:
+	1) Play 1
+	2) Try to play 5
+		2.1) If 5 is taken, play 7 (forcing O to play 4)
+		2.2) Play 6
+		2.3) Play 2 or 8, whichever is open
+		2.4) Finish the game, which results in draw
+	3) 
+	

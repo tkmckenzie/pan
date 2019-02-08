@@ -1,0 +1,9 @@
+,NULL,A,B,C,AB,AC,BC,ABC
+NULL,(1-p.A)*(1-p.B)*(1-p.C),p.A*(1-p.B)*(1-p.C),p.B*(1-p.A)*(1-p.C),p.C*(1-p.A)*(1-p.B),p.A*p.B*(1-p.C),p.A*p.C*(1-p.B),p.B*p.C*(1-p.A),p.A*p.B*p.C
+A,(1-p.A)*(1-p.B)*(1-p.C),p.A*(1-p.B)*(1-p.C),p.B*(1-p.A)*(1-p.C),p.C*(1-p.A)*(1-p.B),p.A*p.B*(1-p.C),p.A*p.C*(1-p.B),p.B*p.C*(1-p.A),p.A*p.B*p.C
+B,(1-p.A)*(1-p.B)*(1-p.C),p.A*(1-p.B)*(1-p.C),p.B*(1-p.A)*(1-p.C),p.C*(1-p.A)*(1-p.B),p.A*p.B*(1-p.C),p.A*p.C*(1-p.B),p.B*p.C*(1-p.A),p.A*p.B*p.C
+C,(1-p.A)*(1-p.B)*(1-p.C),p.A*(1-p.B)*(1-p.C),p.B*(1-p.A)*(1-p.C),p.C*(1-p.A)*(1-p.B),p.A*p.B*(1-p.C),p.A*p.C*(1-p.B),p.B*p.C*(1-p.A),p.A*p.B*p.C
+AB,0,0,(1-p.A)*(1-p.C),0,p.A*(1-p.C),0,(1-p.A)*p.C,p.A*p.C
+AC,0,0,0,(1-p.A)*(1-p.B),0,p.A*(1-p.B),p.B*(1-p.A),p.A*p.B
+BC,0,0,0,(1-p.A)*(1-p.B),0,p.A*(1-p.B),p.B*(1-p.A),p.A*p.B
+ABC,0,0,0,0,0,0,0,1

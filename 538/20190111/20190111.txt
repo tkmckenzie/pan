@@ -1,0 +1,19 @@
+The mission will fail when all three printers have failure status on a given day.
+
+Let printers be denoted A, B, and C with failure probabilities p.A = 0.05, p.B = 0.075, and p.C = 0.1. On a given day, the crew will perform the following actions:
+	1. Use available printers to fix broken printers, if any. If multiple printers are broken, the crew will fix most reliable (i.e., lowest failure probability) printers first to maximize their chances of survival. Note: If no printers are available, the crew cannot print the replacement for the vital piece of equipment and will die.
+	2. Print a replacement for the vital piece of equipment that failed using any available printer. The printer fixed in step 1 may be used, so if any printer is available at the beginning of the day, the crew will survive to the next day.
+	3. Failures of printers are observed (this is assumed to happen last because the crew prints components ASAP at the beginning of the day before failures can occur).
+We can construct a Markov chain to represent transition between states. In the matrix below, letters in a state indicate the corresponding printer has failed by the end of the day. Entries in the matrix are probability of transitioning from row state to column state. Note that if all three printers are broken, there is no way of repairing any of them, so all three will remain broken and the crew will die.
+
+     NULL                    A                   B                   C                   AB              AC              BC              ABC        
+NULL (1-p.A)*(1-p.B)*(1-p.C) p.A*(1-p.B)*(1-p.C) p.B*(1-p.A)*(1-p.C) p.C*(1-p.A)*(1-p.B) p.A*p.B*(1-p.C) p.A*p.C*(1-p.B) p.B*p.C*(1-p.A) p.A*p.B*p.C
+A    (1-p.A)*(1-p.B)*(1-p.C) p.A*(1-p.B)*(1-p.C) p.B*(1-p.A)*(1-p.C) p.C*(1-p.A)*(1-p.B) p.A*p.B*(1-p.C) p.A*p.C*(1-p.B) p.B*p.C*(1-p.A) p.A*p.B*p.C
+B    (1-p.A)*(1-p.B)*(1-p.C) p.A*(1-p.B)*(1-p.C) p.B*(1-p.A)*(1-p.C) p.C*(1-p.A)*(1-p.B) p.A*p.B*(1-p.C) p.A*p.C*(1-p.B) p.B*p.C*(1-p.A) p.A*p.B*p.C
+C    (1-p.A)*(1-p.B)*(1-p.C) p.A*(1-p.B)*(1-p.C) p.B*(1-p.A)*(1-p.C) p.C*(1-p.A)*(1-p.B) p.A*p.B*(1-p.C) p.A*p.C*(1-p.B) p.B*p.C*(1-p.A) p.A*p.B*p.C
+AB   0                       0                   (1-p.A)*(1-p.C)     0                   p.A*(1-p.C)     0               (1-p.A)*p.C     p.A*p.C    
+AC   0                       0                   0                   (1-p.A)*(1-p.B)     0               p.A*(1-p.B)     p.B*(1-p.A)     p.A*p.B    
+BC   0                       0                   0                   (1-p.A)*(1-p.B)     0               p.A*(1-p.B)     p.B*(1-p.A)     p.A*p.B    
+ABC  0                       0                   0                   0                   0               0               0               1          
+
+Calling this transition matrix P. The initial state is where no printers are broken, with state vector v = (1, 0, 0, 0, 0, 0, 0, 0). The state distribution after 1825 days is given by v * P^1825 ~ (0.3506202, 0.01845369, 0.02976885, 0.04429573, 0.001566781, 0.002331354, 0.003740455, 0.549223). So, the probability that all three printers will have been broken at the same time at some point in the five year span is 0.549223, making the probability of mission success 1 - 0.549223 = 0.450777.
