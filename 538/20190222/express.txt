@@ -1,0 +1,20 @@
+Statements:
+1. A: “B is more than 20 years old.”
+2. B: “C is more than 18 years old.”
+3. C: “D is less than 22 years old.”
+4. D: “E is not 17 years old.”
+5. E: “A is more than 21 years old.”
+6. A: “D is more than 16 years old.”
+7. B: “E is less than 20 years old.”
+8. C: “A is 19 years old.”
+9. D: “B is 20 years old.”
+10. E: “C is less than 18 years old.”
+
+
+Conclusions:
+1. S1 & S9 -> (A >= L) | (D >= L)
+2. S2 & S10 -> (B >= L) | (E >= L)
+3. S5 & S8 -> (E >= L) | (C >= L)
+4. Suppose E < L. Then C3 & (E < L) -> C >= L; (E < L) & S10 -> C < 18; L <= C < 18 -> L < 18. Next, C2 & (E < L) -> B >= L; (B >= L) & S7 -> E >= 20. Altogether, E >= 20 > 18 > L > E (contradiction). So, E >= L.
+5. C4 & S5 -> A <= 21.
+6. C4 & S10 -> C >= 18.
