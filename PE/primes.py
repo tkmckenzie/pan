@@ -34,8 +34,8 @@ def sieve(max_n):
         
     return primes
 
-def is_prime(n):
-    # Note that primes greater than 3 must be of the form 6k + 1 or 6k + 5
-    if n == 2 or n == 3:
-        return True
-    elif
+#def is_prime(n):
+#    # Note that primes greater than 3 must be of the form 6k + 1 or 6k + 5
+#    if n == 2 or n == 3:
+#        return True
+#    elif

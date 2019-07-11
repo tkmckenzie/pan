@@ -19,4 +19,4 @@ for L in range(2, max_L + 1):
 		p_array[D, L] = p * p_array[D - 1, L] + (1 - p) * p_array[D + 1, L - 1]
 p_array = p_array[:max_D + 1, :max_L + 1]
 
-print(np.where(p_array == 0.5))
+print(np.where(np.abs(p_array - 0.5) < 0.0001))
