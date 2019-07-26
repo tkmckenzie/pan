@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <meta>
+      <creator>NetworkX 2.1</creator>
+      <lastmodified>26/07/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="Alabama" label="Alabama" />
+      <node id="Arizona" label="Arizona" />
+      <node id="Arkansas" label="Arkansas" />
+      <node id="California" label="California" />
+      <node id="Colorado" label="Colorado" />
+      <node id="Connecticut" label="Connecticut" />
+      <node id="Delaware" label="Delaware" />
+      <node id="Florida" label="Florida" />
+      <node id="Georgia" label="Georgia" />
+      <node id="Idaho" label="Idaho" />
+      <node id="Illinois" label="Illinois" />
+      <node id="Indiana" label="Indiana" />
+      <node id="Iowa" label="Iowa" />
+      <node id="Kansas" label="Kansas" />
+      <node id="Kentucky" label="Kentucky" />
+      <node id="Louisiana" label="Louisiana" />
+      <node id="Maine" label="Maine" />
+      <node id="Maryland" label="Maryland" />
+      <node id="Massachusetts" label="Massachusetts" />
+      <node id="Michigan" label="Michigan" />
+      <node id="Minnesota" label="Minnesota" />
+      <node id="Mississippi" label="Mississippi" />
+      <node id="Missouri" label="Missouri" />
+      <node id="Montana" label="Montana" />
+      <node id="Nebraska" label="Nebraska" />
+      <node id="Nevada" label="Nevada" />
+      <node id="New Hampshire" label="New Hampshire" />
+      <node id="New Jersey" label="New Jersey" />
+      <node id="New Mexico" label="New Mexico" />
+      <node id="New York" label="New York" />
+      <node id="North Carolina" label="North Carolina" />
+      <node id="North Dakota" label="North Dakota" />
+      <node id="Ohio" label="Ohio" />
+      <node id="Oklahoma" label="Oklahoma" />
+      <node id="Oregon" label="Oregon" />
+      <node id="Pennsylvania" label="Pennsylvania" />
+      <node id="Rhode Island" label="Rhode Island" />
+      <node id="South Carolina" label="South Carolina" />
+      <node id="South Dakota" label="South Dakota" />
+      <node id="Tennessee" label="Tennessee" />
+      <node id="Texas" label="Texas" />
+      <node id="Utah" label="Utah" />
+      <node id="Vermont" label="Vermont" />
+      <node id="Virginia" label="Virginia" />
+      <node id="Washington" label="Washington" />
+      <node id="West Virginia" label="West Virginia" />
+      <node id="Wisconsin" label="Wisconsin" />
+      <node id="Wyoming" label="Wyoming" />
+    </nodes>
+    <edges>
+      <edge id="0" source="Alabama" target="Florida" />
+      <edge id="1" source="Alabama" target="Georgia" />
+      <edge id="2" source="Alabama" target="Mississippi" />
+      <edge id="3" source="Alabama" target="Tennessee" />
+      <edge id="4" source="Arizona" target="California" />
+      <edge id="5" source="Arizona" target="Colorado" />
+      <edge id="6" source="Arizona" target="Nevada" />
+      <edge id="7" source="Arizona" target="New Mexico" />
+      <edge id="8" source="Arizona" target="Utah" />
+      <edge id="9" source="Arkansas" target="Louisiana" />
+      <edge id="10" source="Arkansas" target="Mississippi" />
+      <edge id="11" source="Arkansas" target="Missouri" />
+      <edge id="12" source="Arkansas" target="Oklahoma" />
+      <edge id="13" source="Arkansas" target="Tennessee" />
+      <edge id="14" source="Arkansas" target="Texas" />
+      <edge id="15" source="California" target="Nevada" />
+      <edge id="16" source="California" target="Oregon" />
+      <edge id="17" source="Colorado" target="Kansas" />
+      <edge id="18" source="Colorado" target="Nebraska" />
+      <edge id="19" source="Colorado" target="New Mexico" />
+      <edge id="20" source="Colorado" target="Oklahoma" />
+      <edge id="21" source="Colorado" target="Utah" />
+      <edge id="22" source="Colorado" target="Wyoming" />
+      <edge id="23" source="Connecticut" target="Massachusetts" />
+      <edge id="24" source="Connecticut" target="New York" />
+      <edge id="25" source="Connecticut" target="Rhode Island" />
+      <edge id="26" source="Delaware" target="Maryland" />
+      <edge id="27" source="Delaware" target="New Jersey" />
+      <edge id="28" source="Delaware" target="Pennsylvania" />
+      <edge id="29" source="Florida" target="Georgia" />
+      <edge id="30" source="Georgia" target="North Carolina" />
+      <edge id="31" source="Georgia" target="South Carolina" />
+      <edge id="32" source="Georgia" target="Tennessee" />
+      <edge id="33" source="Idaho" target="Montana" />
+      <edge id="34" source="Idaho" target="Nevada" />
+      <edge id="35" source="Idaho" target="Oregon" />
+      <edge id="36" source="Idaho" target="Utah" />
+      <edge id="37" source="Idaho" target="Washington" />
+      <edge id="38" source="Idaho" target="Wyoming" />
+      <edge id="39" source="Illinois" target="Indiana" />
+      <edge id="40" source="Illinois" target="Iowa" />
+      <edge id="41" source="Illinois" target="Michigan" />
+      <edge id="42" source="Illinois" target="Kentucky" />
+      <edge id="43" source="Illinois" target="Missouri" />
+      <edge id="44" source="Illinois" target="Wisconsin" />
+      <edge id="45" source="Indiana" target="Kentucky" />
+      <edge id="46" source="Indiana" target="Michigan" />
+      <edge id="47" source="Indiana" target="Ohio" />
+      <edge id="48" source="Iowa" target="Minnesota" />
+      <edge id="49" source="Iowa" target="Missouri" />
+      <edge id="50" source="Iowa" target="Nebraska" />
+      <edge id="51" source="Iowa" target="South Dakota" />
+      <edge id="52" source="Iowa" target="Wisconsin" />
+      <edge id="53" source="Kansas" target="Missouri" />
+      <edge id="54" source="Kansas" target="Nebraska" />
+      <edge id="55" source="Kansas" target="Oklahoma" />
+      <edge id="56" source="Kentucky" target="Missouri" />
+      <edge id="57" source="Kentucky" target="Ohio" />
+      <edge id="58" source="Kentucky" target="Tennessee" />
+      <edge id="59" source="Kentucky" target="Virginia" />
+      <edge id="60" source="Kentucky" target="West Virginia" />
+      <edge id="61" source="Louisiana" target="Mississippi" />
+      <edge id="62" source="Louisiana" target="Texas" />
+      <edge id="63" source="Maine" target="New Hampshire" />
+      <edge id="64" source="Maryland" target="Pennsylvania" />
+      <edge id="65" source="Maryland" target="Virginia" />
+      <edge id="66" source="Maryland" target="West Virginia" />
+      <edge id="67" source="Massachusetts" target="New Hampshire" />
+      <edge id="68" source="Massachusetts" target="New York" />
+      <edge id="69" source="Massachusetts" target="Rhode Island" />
+      <edge id="70" source="Massachusetts" target="Vermont" />
+      <edge id="71" source="Michigan" target="Ohio" />
+      <edge id="72" source="Michigan" target="Wisconsin" />
+      <edge id="73" source="Minnesota" target="North Dakota" />
+      <edge id="74" source="Minnesota" target="South Dakota" />
+      <edge id="75" source="Minnesota" target="Wisconsin" />
+      <edge id="76" source="Mississippi" target="Tennessee" />
+      <edge id="77" source="Missouri" target="Nebraska" />
+      <edge id="78" source="Missouri" target="Oklahoma" />
+      <edge id="79" source="Missouri" target="Tennessee" />
+      <edge id="80" source="Montana" target="North Dakota" />
+      <edge id="81" source="Montana" target="South Dakota" />
+      <edge id="82" source="Montana" target="Wyoming" />
+      <edge id="83" source="Nebraska" target="South Dakota" />
+      <edge id="84" source="Nebraska" target="Wyoming" />
+      <edge id="85" source="Nevada" target="Oregon" />
+      <edge id="86" source="Nevada" target="Utah" />
+      <edge id="87" source="New Hampshire" target="Vermont" />
+      <edge id="88" source="New Jersey" target="New York" />
+      <edge id="89" source="New Jersey" target="Pennsylvania" />
+      <edge id="90" source="New Mexico" target="Oklahoma" />
+      <edge id="91" source="New Mexico" target="Texas" />
+      <edge id="92" source="New Mexico" target="Utah" />
+      <edge id="93" source="New York" target="Pennsylvania" />
+      <edge id="94" source="New York" target="Vermont" />
+      <edge id="95" source="North Carolina" target="South Carolina" />
+      <edge id="96" source="North Carolina" target="Tennessee" />
+      <edge id="97" source="North Carolina" target="Virginia" />
+      <edge id="98" source="North Dakota" target="South Dakota" />
+      <edge id="99" source="Ohio" target="Pennsylvania" />
+      <edge id="100" source="Ohio" target="West Virginia" />
+      <edge id="101" source="Oklahoma" target="Texas" />
+      <edge id="102" source="Oregon" target="Washington" />
+      <edge id="103" source="Pennsylvania" target="West Virginia" />
+      <edge id="104" source="South Dakota" target="Wyoming" />
+      <edge id="105" source="Tennessee" target="Virginia" />
+      <edge id="106" source="Utah" target="Wyoming" />
+      <edge id="107" source="Virginia" target="West Virginia" />
+    </edges>
+  </graph>
+</gexf>
