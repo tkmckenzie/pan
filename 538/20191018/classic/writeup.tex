@@ -1,0 +1,47 @@
+\documentclass{article}
+
+\usepackage{fullpage}
+
+\begin{document}
+	
+We are trying to find the maximum value of $c$ such that the equation
+\begin{equation}
+	538x + 19y = c
+\end{equation}
+has no non-negative integral solutions for $x$ and $y$. The above equation is called a linear Diophantine equation, which takes the form $ax + by = c$. In general, there exist infinitely many integral solutions (that is, integers $x$ and $y$ that could be negative, zero, or positive) to the equation whenever $gcd(a, b)$ evenly divides $c$. Notice that $gcd(538, 19) = 1$; thus, if the bank were to offer arbitrarily large loans of either denomination, there would always be a way to convert dollars to Dios and Phanti.
+
+However, we are interested in the case where the bank does not offer any loans. First, notice that a base solution for the Diophantine equation can be found via the extended Euclidean algorithm, which finds integers $n$ and $m$ such that
+\begin{equation}
+	gcd(a, b) = an + bm.
+\end{equation}
+In the case where $a = 538$ and $b = 19$, the algorithm finds the base solution $n = -3$ and $m = 85$. All other solutions will be of the form
+\begin{equation}
+	x = \frac{nc}{gcd(a, b)} + \frac{bk}{gcd(a, b)}
+\end{equation}
+\begin{equation}
+	y = \frac{mc}{gcd(a, b)} - \frac{ak}{gcd(a, b)}
+\end{equation}
+for an integer $k$. Since we are restricting ourselves to $x, y \geq 0$, the following inequalities must be true:
+\begin{equation}
+	nc + bk \geq 0
+\end{equation}
+\begin{equation}
+	mc - ak \geq 0.
+\end{equation}
+Since $a$ and $b$ are positive in our example, these inequalities reduce to
+\begin{equation}
+	-\frac{nc}{b} \leq k \leq \frac{mc}{a}.
+\end{equation}
+Thus, there does not exist a positive solution to the Diophantine equation if and only if there does not exist an integer between $-nc / b$ and $mc / a$. Notice that this implies that if $mc / a - (-nc / b) \geq 1$, then there will necessarily be a positive solution. This inequality reduces to
+\begin{equation}
+	c \geq \frac{1}{\frac{m}{a} + \frac{n}{b}}
+\end{equation}
+so long as $m / a + n / b$ is positive.
+
+Returning to our specific example, recall that $a = 538$, $b = 19$, $n = -3$, and $m = 85$. Thus, $m / a + n / b$ is positive, with
+\begin{equation}
+	\frac{1}{\frac{m}{a} + \frac{n}{b}} = \frac{1}{\frac{85}{538} - \frac{3}{19}} = 10222.
+\end{equation}
+Thus, for all dollar amounts $c\geq 10222$, there is a way to convert to non-negative amounts of Dios and Phanti. So, if we find the largest dollar amount less than \$10222 that cannot be converted, we will have found the largest dollar amount that cannot be converted in general. Iterating through values of $c$ less than 10222 and using inequality (7) to determine if a positive integral solution exists, the largest amount that cannot be converted is \$9665.
+
+\end{document}
