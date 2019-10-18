@@ -1,0 +1,1179 @@
+package.name,dependencies,imports,suggestions,authors,maintainers
+A3,"R (>= 2.15.0),xtable,pbapply",,"randomForest,e1071",Scott Fortmann-Roe,Scott Fortmann-Roe  <scottfr at berkeley.edu>
+aaSEA,R (>= 3.4.0),"DT (>= 0.4),networkD3 (>= 0.4),shiny (>= 1.0.5),shinydashboard (>= 0.7.0),magrittr (>= 1.5),Bios2cor (>= 1.2),seqinr (>= 3.4-5),plotly (>= 4.7.1),Hmisc (>= 4.1-1)","knitr,rmarkdown",Raja Sekhara Reddy D.M,Raja Sekhara Reddy D.M  <raja.duvvuru at gmail.com>
+ABACUS,R (>= 3.1.0),"ggplot2 (>= 3.1.0),shiny (>= 1.3.1)","rmarkdown (>= 1.13),knitr (>= 1.22)","Mintu Nath [aut,cre]",Mintu Nath  <dr.m.nath at gmail.com>
+abbyyR,R (>= 3.2.0),"httr,XML,curl,readr,plyr,progress","testthat,rmarkdown,knitr (>= 1.11),lintr","Gaurav Sood [aut,cre]",Gaurav Sood  <gsood07 at gmail.com>
+abc,"R (>= 2.10),abc.data,nnet,quantreg,MASS,locfit",,,"Csillery Katalin [aut],
+  Lemaire Louisiane [aut],
+  Francois Olivier [aut],
+  Blum Michael [aut,cre]",Blum Michael  <michael.blum at imag.fr>
+abc.data,R (>= 2.10),,,"Csillery Katalin [aut],
+  Lemaire Louisiane [aut],
+  Francois Olivier [aut],
+  Blum Michael [aut,cre]",Blum Michael  <michael.blum at imag.fr>
+ABC.RAP,R (>= 3.1.0),"graphics,stats,utils","knitr,rmarkdown","Abdulmonem Alsaleh [cre,aut],Robert Weeks [aut],Ian Morison [aut],RStudio [ctb]",Abdulmonem Alsaleh  <a.alsaleh at hotmail.co.nz>
+ABCanalysis,R (>= 2.10),plotrix,,"Michael Thrun,Jorn Lotsch,Alfred Ultsch",Florian Lerch  <lerch at mathematik.uni-marburg.de>
+abcdeFBA,"Rglpk,rgl,corrplot,lattice,R (>= 2.10)",,"LIM,sybil","Abhilash Gangadharan,Neha Rohatgi",Abhilash Gangadharan  <gangutalk at gmail.com>
+ABCoptim,,"Rcpp,graphics,stats,utils","testthat,covr","George Vega Yon [aut,cre],
+  Enyelbert Muñoz [ctb]",George Vega Yon  <g.vegayon at gmail.com>
+ABCp2,MASS,,,"M. Catherine Duryea,Andrew D. Kern,Robert M. Cox,and Ryan Calsbeek ",M. Catherine Duryea  <katie.duryea at gmail.com>
+abcrf,R (>= 3.1),"readr,MASS,matrixStats,ranger,doParallel,parallel,foreach,stringr,Rcpp (>= 0.11.2)",,"Jean-Michel Marin [aut,cre],
+  Louis Raynal [aut],
+  Pierre Pudlo [aut],
+  Christian P. Robert [ctb],
+  Arnaud Estoup [ctb]",Jean-Michel Marin  <jean-michel.marin at umontpellier.fr>
+abctools,"R (>= 2.10),abc,abind,parallel,plyr,Hmisc",,"ggplot2,abc.data","Matt Nunes [aut,cre],
+  Dennis Prangle [aut],
+  Guilhereme Rodrigues [ctb]",Matt Nunes  <nunesrpackages at gmail.com>
+abd,"R (>= 3.0),nlme,lattice,grid,mosaic",,"boot,car,ggplot2,plyr,HH,ICC,vcd,Hmisc","Kevin M. Middleton,Randall Pruim",Kevin M. Middleton  <middletonk at missouri.edu>
+abe,,,,"Rok Blagus [aut,cre],
+  Sladana Babic [ctb]",Rok Blagus  <rok.blagus at mf.uni-lj.si>
+abf2,,,,Matthew Caldwell,Matthew Caldwell  <m.caldwell at ucl.ac.uk>
+ABHgenotypeR,,"ggplot2,reshape2,utils","knitr,rmarkdown","Stefan Reuscher [aut,cre],
+  Tomoyuki Furuta [aut]",Stefan Reuscher  <reuscher.stefan at gmail.com>
+abind,R (>= 1.5.0),"methods,utils",,Tony Plate and Richard Heiberger,Tony Plate  <tplate at acm.org>
+abjutils,R (>= 3.4),"devtools,dplyr,furrr,future,glue,httr,magrittr,progress,purrr,readr,rlang,rstudioapi,scales,stringi,stringr,tibble,tidyr",testthat,"Julio Trecenti [aut],
+  Athos Damiani [ctb],
+  Fernando Correa [aut],
+  Caio Lente [aut,cre],
+  Brazilian Jurimetrics Association [cph]",Caio Lente  <caio.lente at usp.br>
+abn,"nnet,MASS,lme4,R (>= 2.15.1)","methods,rjags","INLA,Rgraphviz,R.rsp","Gilles Kratzer 
+    [aut,cre],
+  Fraser Ian Lewis [aut],
+  Reinhard Furrer 
+    [ctb],
+  Marta Pittavino 
+    [ctb]",Gilles Kratzer  <gilles.kratzer at math.uzh.ch>
+abnormality,,"MASS (>= 7.3.0),Matrix",,"Michael Marks [aut,cre]",Michael Marks  <mmarks13 at gmail.com>
+abodOutlier,"cluster,R (>= 3.1.2)",,,Jose Jimenez,Jose Jimenez  <jose at jimenezluna.com>
+ABPS,,kernlab,testthat,"Frédéric Schütz [aut,cre],
+  Alix Zollinger [aut]",Frédéric Schütz  <schutz at mathgen.ch>
+AbsFilterGSEA,,"Rcpp,Biobase,stats,DESeq,limma",,Sora Yoon,Sora Yoon  <yoonsora at unist.ac.kr>
+AbSim,"R (>= 3.1.0),ape,poweRlaw",,"knitr,rmarkdown",Alexander Yermanos,Alexander Yermanos  <ayermano at ethz.ch>
+abstractr,,"shiny (>= 1.2.0),ggplot2 (>= 3.0.0),gridExtra (>= 2.3.0),colourpicker,shinythemes,emojifont,rintrojs","knitr,rmarkdown",Matthew Kumar,Matthew Kumar  <mattkumar at gmail.com>
+abtest,R (>= 3.0.0),"Rcpp (>= 0.12.14),mvtnorm,sn,VGAM,truncnorm,plotrix,grDevices,RColorBrewer,Matrix,parallel",testthat,"Quentin F. Gronau [aut,cre],
+  Akash Raj [ctb],
+  Eric-Jan Wagenmakers [ths]",Quentin F. Gronau  <Quentin.F.Gronau at gmail.com>
+abundant,"R (>= 2.10),QUIC",,,Adam J. Rothman,Adam J. Rothman  <arothman at umn.edu>
+Ac3net,"R (>= 3.3.0),data.table",,,Gokmen Altay,Gokmen Altay  <altaylabs at gmail.com>
+ACA,R (>= 3.2.2),"graphics,grDevices,stats,utils",,Daniel Amorese  ,Daniel Amorese   <amorese at ipgp.fr>
+acc,"R (>= 2.10),mhsmm","zoo,PhysicalActivity,nleqslv,plyr,methods,DBI,RSQLite,circlize,ggplot2,R.utils,iterators,Rcpp",,"Jaejoon Song,Matthew G. Cox",Jaejoon Song  <jjsong2 at mdanderson.org>
+accelerometry,R (>= 3.0.0),"Rcpp (>= 0.12.15),dvmisc","knitr,rmarkdown,pander",Dane R. Van Domelen,Dane R. Van Domelen  <vandomed at gmail.com>
+accelmissing,"R (>= 2.10),mice,pscl",,,Jung Ae Lee,Jung Ae Lee  <jungaeleeb at gmail.com>
+accept,R (>= 3.4.0),"stats,MASS,dplyr,stringr,extrafont,plotly,viridis",,"Amin Adibi [aut,cre],
+  Mohsen Sadatsafavi [aut,cph],
+  Ainsleigh Hill [aut]",Amin Adibi  <adibi at alumni.ubc.ca>
+AcceptanceSampling,"methods,R (>= 2.4.0),stats","graphics,utils",,"Andreas Kiermeier [aut,cre],
+  Peter Bloomfield [ctb]",Andreas Kiermeier  <Andreas.Kiermeier at gmail.com>
+ACCLMA,,,,"Tal Carmi,Liat Gaziel",Tal Carmi  <talca at bgu.ac.il>
+accrual,"R (>= 3.1.3),tcltk2","fgui,SMPracticals",,"Junhao Liu,Yu Jiang,Cen Wu,Steve Simon,Matthew S. Mayo,Rama Raghavan,Byron J. Gajewski",Junhao Liu  <jliu4 at kumc.edu>
+accrued,"R (>= 2.14.1),grid",,,Julie Eaton and Ian Painter,Julie Eaton  <jreaton at uw.edu>
+accSDA,R (>= 3.2),"MASS (>= 7.3.45),rARPACK (>= 0.10.0),sparseLDA (>= 0.1.7),ggplot2 (>= 2.1.0),ggthemes (>= 3.2.0),grid (>= 3.2.2),gridExtra (>= 2.2.1)",,"Gudmundur Einarsson [aut,cre,trl],
+  Line Clemmensen [aut,ths],
+  Brendan Ames [aut],
+  Summer Atkins [aut]",Gudmundur Einarsson  <gumeo140688 at gmail.com>
+ACD,R (>= 2.13.0),,,"Frederico Zanqueta Poleto,Julio da Mota Singer,Carlos Daniel Paulino,Fabio Mathias Correa and Enio Galinkin Jelihovschi",Fabio Mathias Correa  <fmcorrea at uesc.br>
+ACDm,R (>= 2.10.0),"plyr,dplyr,ggplot2,Rsolnp,zoo,graphics","optimx,rgl",Markus Belfrage,Markus Belfrage  <markus.belfrage at gmail.com>
+ace2fastq,,stringr,"testthat,knitr,rmarkdown,covr","Reinhard Simon 
+    [aut,cre]",Reinhard Simon  <rsimon64 at gmail.com>
+acebayes,"R (>= 3.5.0),lhs","Rcpp (>= 0.12.9),compare,randtoolbox,parallel",R.rsp,"Antony M. Overstall,David C. Woods,Maria Adamou & Damianos Michaelides",Antony M. Overstall  <A.M.Overstall at soton.ac.uk>
+acepack,,,testthat,"Phil Spector,Jerome Friedman,Robert Tibshirani,Thomas Lumley,Shawn Garbett,Jonathan Baron",Shawn Garbett  <shawn.garbett at vanderbilt.edu>
+ACEt,R (>= 3.1.1),"Rcpp (>= 0.11.1),splines,MASS",,Liang He,Liang He  <lianghe at mit.edu>
+acfMPeriod,"R (>= 3.2.2),MASS",,,"Higor Cotta,Valderio Reisen,Pascal Bondon and Céline Lévy-Leduc",Higor Cotta  <cotta.higor at gmail.com>
+acid,"gamlss,gamlss.dist,Hmisc,stats,graphics,splines","grDevices,utils,datasets,methods",ineq,Alexander Sohn,Alexander Sohn  <asohn at uni-goettingen.de>
+acm4r,MASS,,,"Andrea Benedetti,Sahir Rai Bhatnagar,Xiaofei Zhao",Andrea Benedetti  <andrea.benedetti at mcgill.ca>
+ACMEeqtl,"R (>= 3.3.0),filematrix",parallel,"knitr,rmarkdown,pander","Andrey A Shabalin 
+    [aut,cre],
+  John Palowitch 
+    [aut]",Andrey A Shabalin  <andrey.shabalin at gmail.com>
+acmeR,R (>= 3.1.1),"foreign (>= 0.8-63),grDevices (>= 3.1.1),graphics (>=
+3.1.1),stats (>= 3.1.1),utils (>= 3.1.1)","knitr,devtools","Robert Wolpert [aut,cre],
+  Jacob Coleman [aut]",Robert Wolpert  <wolpert at stat.duke.edu>
+ACNE,"R (>= 3.0.0),aroma.affymetrix (>= 2.14.0)","MASS,R.methodsS3 (>= 1.7.0),R.oo (>= 1.19.0),R.utils (>=
+2.1.0),matrixStats (>= 0.14.2),R.filesets (>= 2.9.0),aroma.core (>= 2.14.0)",DNAcopy,"Maria Ortiz [aut],
+  Henrik Bengtsson [aut,cre,cph],
+  Angel Rubio [aut]",Henrik Bengtsson  <henrikb at braju.com>
+acnr,R (>= 2.10),,"R.utils,knitr,rmarkdown,testthat","Morgane Pierre-Jean [aut,cre],
+  Pierre Neuvial [aut]",Morgane Pierre-Jean  <morgane.pierrejean at genopole.cnrs.fr>
+acopula,,,mvtnorm,Tomas Bacigal,Tomas Bacigal  <bacigal at math.sk>
+AcousticNDLCodeR,R (>= 3.0.0),"tuneR,zoo,seewave,parallel",,"Denis Arnold [aut,dtc,cre],
+  Elnaz Shafaei Bajestan [ctb]",Denis Arnold  <arnold at ids-mannheim.de>
+acp,"tseries,quantmod",,,Siakoulis Vasileios,Siakoulis Vasilios  <Siakoulis.Vasilios at atticabank.gr>
+aCRM,,"dummies,randomForest,kernelFactory,ada",,"Dirk Van den Poel,Michel Ballings,Andrey Volkov,Jeroen D'haen,Michiel Van Herwegen",Michel Ballings  <Michel.Ballings at GMail.com>
+AcrossTic,"treeClust (>= 1.1-6),lpSolve",,,"Dave Ruth,Sam Buttrey",Sam Buttrey  <buttrey at nps.edu>
+acrt,,"methods,stats,sandwich,Rcpp",,David Preinerstorfer ,David Preinerstorfer  <david.preinerstorfer at econ.au.dk>
+acs,"R (>= 2.10),stringr,methods,XML","graphics,stats,plyr,utils,httr",,"Ezra Haber Glenn [aut,cre]",Ezra Haber Glenn  <eglenn at mit.edu>
+ACSNMineR,"R (>= 3.1.0),ggplot2,gridExtra,scales",,"rmarkdown,knitr","Paul Deveau [aut,cre],
+  Eric Bonnet [aut]",Paul Deveau  <paul.deveau at curie.fr>
+acss,"R (>= 2.15.0),acss.data",zoo,"effects,lattice","Nicolas Gauvrit [aut],
+  Henrik Singmann [aut,cre],
+  Fernando Soler Toscano [ctb],
+  Hector Zenil [ctb]",Henrik Singmann  <singmann+acss at gmail.com>
+acss.data,R (>= 2.10),,,"Fernando Soler Toscano [aut],
+  Nicolas Gauvrit [aut],
+  Hector Zenil [aut],
+  Henrik Singmann [aut,cre]",Henrik Singmann  <singmann at gmail.com>
+ACSWR,,MASS,,Prabhanjan Tattar,Prabhanjan Tattar  <prabhanjannt at gmail.com>
+ACTCD,"R (>= 3.1.0),R.methodsS3","GDINA,stats,utils",,"Chia-Yi Chiu (Rutgers,the State University of New Jersey) and Wenchao
+    Ma (The University of Alabama)",Wenchao Ma  <wenchao.ma at ua.edu>
+ActFrag,R (>= 3.5.0),"accelerometry,dplyr,ineq,survival,stats,tidyr","knitr,rmarkdown,testthat","Junrui Di [aut,cre],
+  John Muschelli [aut],
+  Vadim zipunnikov [aut]",Junrui Di  <dijunrui at gmail.com>
+Actigraphy,"R (>= 2.14.0),fda",SDMTools,lattice,"William Shannon,Tao Li,Hong Xian,Jia Wang,Elena Deych,Carlos Gonzalez",Berkley Shands  <rpackages at biorankings.com>
+ActiveDriver,R (>= 3.0),"stats,parallel,MASS",,"Juri Reimand [aut,cre]",Juri Reimand  <juri.reimand at utoronto.ca>
+ActiveDriverWGS,R (>= 3.0.2),"BSgenome,BSgenome.Hsapiens.UCSC.hg19,Biostrings,GenomeInfoDb,GenomicRanges,IRanges,S4Vectors,plyr","knitr,testthat,rmarkdown","Helen Zhu [aut,cre],
+  Juri Reimand [aut]",Helen Zhu  <helen.zhu at oicr.on.ca>
+ActivePathways,R (>= 3.2.3),"metap,data.table,ggplot2","testthat,knitr,rmarkdown","Helen Zhu [aut,cre],
+  Juri Reimand [aut],
+  Jonathan Barenboim [aut]",Helen Zhu  <helen.zhu at oicr.on.ca>
+activity,methods,"circular,pbapply,insol",,Marcus Rowcliffe,Marcus Rowcliffe  <marcus.rowcliffe at ioz.ac.uk>
+activityCounts,R (>= 2.10),"seewave,signal,tibble,lubridate,magrittr","knitr,rmarkdown,ggplot2","Ruben Brondeel [aut],
+  Javad Rahimipour Anaraki [aut],
+  SeyedJavad KhataeiPour [aut,cre],
+  Daniel Fuller [aut,cph],
+  Beap Lab [cph]",SeyedJavad KhataeiPour  <skhataeipour at mun.ca>
+ActivityIndex,R (>= 2.10),"matrixStats,data.table,utils,R.utils","knitr,testthat,graphics,rmarkdown","Jiawei Bai  [cre,
+    aut],
+  John Muschelli 
+    [ctb]",Jiawei Bai  <jbai at jhsph.edu>
+activPAL,,"dplyr,ggplot2,tidyr,lubridate,magrittr,methods,devtools",testthat,"Craig Speirs [aut,cre],
+  Kate Lyden [ctb],
+  Douglas Maxwell [ctb],
+  David Loudon [ctb]",Craig Speirs  <craig at paltechnologies.com>
+activpalProcessing,"R (>= 2.10),graphics,grDevices,stats,utils",chron,,Kate Lyden,Kate Lyden  <activpalProcessing at gmail.com>
+actogrammr,,"dplyr,ggplot2,lubridate,readr,tidyr","testthat,covr","Robert Corty [aut,cre]",Robert Corty  <rcorty at gmail.com>
+actuar,R (>= 3.3.0),"stats,graphics,expint",MASS,"Vincent Goulet [cre,aut],
+  Sébastien Auclair [ctb],
+  Christophe Dutang [aut],
+  Nicholas Langevin [ctb],
+  Xavier Milhaud [ctb],
+  Tommy Ouellet [ctb],
+  Alexandre Parent [ctb],
+  Mathieu Pigeon [aut],
+  Louis-Philippe Pouliot [ctb]",Vincent Goulet  <vincent.goulet at act.ulaval.ca>
+AcuityView,R (>= 3.0.0),"imager (>= 0.40.1),fftwtools (>= 0.9-7),plotrix (>= 3.2.3),tools,grid,grDevices,graphics",,"Eleanor Caves [aut,cre],
+	Sönke Johnsen [aut]",Eleanor Caves  <eleanor.caves at gmail.com>
+ada,"R (>= 2.10),rpart",,,"Mark Culp,Kjell Johnson,and George Michailidis",Mark Culp  <mvculp at mail.wvu.edu>
+adabag,"rpart,caret,foreach,doParallel",,mlbench,"Alfaro,Esteban; Gamez,Matias and Garcia,Noelia; with contributions from Li Guo",Esteban Alfaro  <Esteban.Alfaro at uclm.es>
+adagio,R (>= 3.1.0),"graphics,stats",,Hans Werner Borchers,Hans W. Borchers  <hwborchers at googlemail.com>
+adamethods,R (>= 3.4.0),"Anthropometry,archetypes,FNN,foreach,graphics,nnls,parallel,stats,tolerance,univOutl,utils","doParallel,fda","Guillermo Vinue,Irene Epifanio",Guillermo Vinue  <Guillermo.Vinue at uv.es>
+AdapEnetClass,"imputeYn,glmnet,lars,quadprog,R (>= 3.0.2)",,,Hasinur Rahaman Khan and Ewart Shaw,Hasinur Rahaman Khan  <hasinurkhan at gmail.com>
+adapr,R (>= 3.1),"gdata,plotly,ggplot2,shiny,shinydashboard,knitr,rmarkdown,igraph,digest,devtools,plyr,git2r,methods,parallel,versions,archivist,doParallel",packrat,"Jon Gelfond,Martin Goros",Jonathan Gelfond  <gelfondjal at uthscsa.edu>
+AdapSamp,,"pracma,stats",,Dong Zhang,Dong Zhang  <dzhang0716 at 126.com>
+adaptalint,R (>= 3.3.0),"dplyr,lintr,purrr","devtools,git2r,testthat","Max Conway [aut,cre],
+  Natasha Latysheva [aut]",Max Conway  <conway.max1 at gmail.com>
+AdaptFit,"SemiPar,MASS,nlme,cluster",,,Tatyana Krivobokova,Tatyana Krivobokova  <tkrivob at gwdg.de>
+AdaptFitOS,"nlme,MASS,splines","mgcv,SemiPar",,Manuel Wiesenfarth and Tatyana Krivobokova,Manuel Wiesenfarth  <m.wiesenfarth at dkfz.de>
+AdaptGauss,R (>= 2.10),"shiny,pracma,methods,ggplot2","mclust,grid,foreach","Michael Thrun,Onno Hansen-Goos,Rabea Griese,Catharina Lippmann,Florian Lerch,Jorn Lotsch,Alfred Ultsch",Florian Lerch  <lerch at mathematik.uni-marburg.de>
+adaptiveGPCA,R (>= 3.1.0),"ape (>= 3.1.4),ggplot2 (>= 1.0.0),shiny (>= 1.0.0),phyloseq (>= 1.14.0)","knitr,rmarkdown","Julia Fukuyama [aut,cre]",Julia Fukuyama  <julia.fukuyama at gmail.com>
+AdaptiveSparsity,R (>= 3.0.2),"MASS,Matrix,Rcpp",,"Kristen Zygmunt,Eleanor Wong,Tom Fletcher",Kris Campbell  <kris at sci.utah.edu>
+adaptivetau,R (>= 2.10.1),,,Philip Johnson,Philip Johnson  <plfj at umd.edu>
+adaptMCMC,"R (>= 2.14.1),parallel,coda,Matrix",,,"Andreas Scheidegger,,",Andreas Scheidegger  <andreas.scheidegger at eawag.ch>
+adaptMT,,methods,"glmnet,HDtweedie,mgcv,splines,testthat,knitr,rmarkdown,dplyr","Lihua Lei [aut,cre]",Lihua Lei  <lihua.lei at berkeley.edu>
+ADAPTS,R (>= 3.3.0),"missForest,e1071,WGCNA,ComICS,pheatmap,doParallel,quantmod,preprocessCore,pcaMethods,foreach,DeconRNASeq,nnls",R.rsp,Samuel A Danziger,Samuel A Danziger  <sam.danziger at gmail.com>
+adaptsmoFMRI,"R (>= 2.15.2),Matrix,coda,mvtnorm,MCMCpack,spatstat,parallel",,,Max Hughes,Max Hughes  <hughesgm at me.com>
+adaptTest,lattice,,,Marc Vandemeulebroecke,"Marc Vandemeulebroecke
+ <marc.vandemeulebroecke at novartis.com>"
+AdaSampling,R (>= 3.4.0),"caret (>= 6.0-78) ,class (>= 7.3-14),e1071 (>= 1.6-8),stats,MASS","knitr,rmarkdown",Pengyi Yang,Pengyi Yang  <yangpy7 at gmail.com>
+ADCT,,"stats,mvtnorm","clinfun,gsDesign",Yalin Zhu,Yalin Zhu  <yalin.zhu at outlook.com>
+addhaz,"R (>= 3.1.0),stats,boot (>= 1.3-17),Matrix (>= 1.2-3),MASS",,,"Renata T C Yokota [cre,aut],
+  Caspar W N Looman [aut],
+  Wilma J Nusselder [aut],
+  Herman Van Oyen [aut],
+  Geert Molenberghs [aut]",Renata T C Yokota  <renatayokota at gmail.com>
+addhazard,R (>= 3.3.1),"ahaz,survival,rootSolve",,"Jie (Kate) Hu [aut,cre],
+  Norman Breslow [aut],
+  Gary Chan [aut]",Jie (Kate) Hu  <hujie0704 at gmail.com>
+addinslist,R (>= 3.1.0),"curl,remotes,DT (>= 0.1),miniUI (>= 0.1),shiny (>=
+0.13.2),shinyjs (>= 0.6),rappdirs (>= 0.3.1),rmarkdown,rvest (>= 0.3.1),utils,xml2 (>= 0.1.2)",,"Dean Attali [aut,cre]",Dean Attali  <daattali at gmail.com>
+additiveDEA,"R (>= 3.1.0),lpSolveAPI",Benchmarking,,Andreas Diomedes Soteriades,Andreas Diomedes Soteriades  <andreassot10 at yahoo.com>
+additivityTests,,,knitr,"Marie Simeckova [aut],Thomas Rusch [aut],Petr Simecek [cre]",Petr Simecek  <simecek at gmail.com>
+addreg,R (>= 3.0.1),"splines,combinat,glm2,turboEM",,"Mark W. Donoghoe [aut,cre],
+  Ian C. Marschner [ths]",Mark W. Donoghoe  <markdonoghoe at gmail.com>
+ADDT,"nlme,Matrix,coneproj",,,"Yili Hong,Yimeng Xie,Zhongnan Jin,and Caleb King",Yili Hong  <yilihong at vt.edu>
+ade4,R (>= 2.10),"graphics,grDevices,methods,stats,utils,MASS","ade4TkGUI,adegraphics,adephylo,ape,CircStats,deldir,lattice,pixmap,sp,spdep,splancs,waveslim","Stéphane Dray,Anne-Béatrice Dufour,and Jean Thioulouse,with contributions from Thibaut Jombart,Sandrine Pavoine,Jean R. Lobry,Sébastien Ollier,Daniel Borcard,Pierre Legendre,Stéphanie Bougeard and Aurélie Siberchicot. Based on earlier work by Daniel Chessel.",Aurélie Siberchicot  <aurelie.siberchicot at univ-lyon1.fr>
+ade4TkGUI,"ade4 (>= 1.4-3),adegraphics","graphics,grDevices,lattice,stats,tcltk,tkrplot,utils",pixmap,"Jean Thioulouse,Stéphane Dray,Aurélie Siberchicot",Aurélie Siberchicot  <aurelie.siberchicot at univ-lyon1.fr>
+adeba,,"graphics,mixtools,pdist,Rcpp (>= 0.11.6),stats","parallel,testthat","Christofer Backlin,Mats Gustafsson",Christofer Backlin  <adeba at christofer.backlin.se>
+adegenet,"R (>= 2.14),methods,ade4","utils,stats,grDevices,MASS,igraph,ape,shiny,ggplot2,seqinr,parallel,spdep,boot,reshape2,dplyr (>= 0.4.1),vegan","pegas,hierfstat,akima,maps,splancs,tripack,testthat,poppr","Thibaut Jombart,Zhian N. Kamvar,Caitlin Collins,Roman Lustrik,Marie-
+    Pauline Beugin,Brian J. Knaus,Peter Solymos,Vladimir Mikryukov,Klaus Schliep,Tiago Maié,Libor Morkovsky,Ismail Ahmed,Anne Cori,Federico Calboli,RJ Ewing",Thibaut Jombart  <thibautjombart at gmail.com>
+adegraphics,R (>= 3.0.2),"ade4 (>= 1.7-13),graphics,grid,KernSmooth,lattice,latticeExtra,methods,RColorBrewer,sp (>= 1.1-1),stats","Guerry,knitr,maptools,pixmap,rmarkdown,spdep,splancs","Stéphane Dray and Aurélie Siberchicot,with contributions from Jean Thioulouse. Based on earlier work by Alice Julien-Laferrière.",Aurélie Siberchicot  <aurelie.siberchicot at univ-lyon1.fr>
+adehabitatHR,"R (>= 3.0.1),sp,methods,deldir,ade4,adehabitatMA,adehabitatLT","graphics,grDevices,stats","maptools,tkrplot,MASS,rgeos","Clement Calenge,contributions from Scott Fortmann-Roe",Clement Calenge  <clement.calenge at oncfs.gouv.fr>
+adehabitatHS,"R (>= 3.0.1),sp,methods,ade4,adehabitatMA,adehabitatHR","graphics,grDevices,stats","maptools,tkrplot,MASS,rgeos","Clement Calenge,contributions from Mathieu Basille",Clement Calenge  <clement.calenge at oncfs.gouv.fr>
+adehabitatLT,"R (>= 2.10.0),sp,methods,ade4,adehabitatMA,CircStats,stats","graphics,grDevices,utils","maptools,tkrplot,MASS","Clement Calenge,contributions from Stephane Dray and Manuela Royer",Clement Calenge  <clement.calenge at oncfs.gouv.fr>
+adehabitatMA,"R (>= 2.10.0),sp,methods","utils,graphics,grDevices,stats,filehash","maptools,tkrplot,MASS","Clement Calenge,contributions from Mathieu Basille",Clement Calenge  <clement.calenge at oncfs.gouv.fr>
+adephylo,"methods,ade4 (>= 1.7-10)","phylobase,ape,adegenet",,"Thibaut Jombart,Stéphane Dray,Anders Ellern Bilgrau",Stéphane Dray  <stephane.dray at univ-lyon1.fr>
+adepro,R (>= 3.3.0),"shiny,shinyBS,graphics,audio,shape,Cairo,MASS","knitr,rmarkdown,testthat","Nicole Mentenich,Jens Hooge,Bastian Becker,Christoph Tasto",Nicole Mentenich  <nicole.mentenich at bayer.com>
+adept,R (>= 2.10),"tibble,dplyr,future,magrittr,dvmisc","knitr,rmarkdown,testthat,ggplot2,lubridate,reshape2,gridExtra,spelling,cluster,adeptdata","Marta Karas  [aut,
+    cre],
+  Jacek Urbanek 
+    [aut],
+  Ciprian Crainiceanu [aut],
+  John Muschelli 
+    [ctb],
+  Adi Gherman [ctb]",Marta Karas  <marta.karass at gmail.com>
+adeptdata,R (>= 2.10),,spelling,"Marta Karas  [aut,
+    cre],
+  Jacek Urbanek 
+    [aut],
+  Jaroslaw Harezlak 
+    [aut],
+  William Fadel 
+    [aut]",Marta Karas  <marta.karass at gmail.com>
+AdequacyModel,,"methods,stats,graphics",,"Pedro Rafael Diniz Marinho [aut,cre],
+  Marcelo Bourguignon [aut,ctb],
+  Cicero Rafael Barros Dias [aut,ctb]",Pedro Rafael Diniz Marinho  <pedro.rafael.marinho at gmail.com>
+adespatial,,"ade4 (>= 1.7-13),adegraphics,adephylo,sp,spdep,lattice,methods,grDevices,graphics,MASS,stats,utils,shiny,vegan","knitr,RANN,rgeos,maptools,ape,rmarkdown","Stéphane Dray,David Bauman,Guillaume Blanchet,Daniel Borcard,Sylvie Clappe,Guillaume Guenard,
+    Thibaut Jombart,Guillaume Larocque,Pierre Legendre,Naima Madi,Helene H Wagner",Stéphane Dray  <stephane.dray at univ-lyon1.fr>
+adfExplorer,R (>= 2.10),methods,"knitr,rmarkdown,ProTrackR","Pepijn de Vries [aut,cre,dtc]",Pepijn de Vries  <pepijn.devries at outlook.com>
+ADGofTest,,,,Carlos J. Gil Bellosta,Carlos J. Gil Bellosta  <cgb at datanalytics.com>
+AdhereR,R (>= 3.0),"lubridate (>= 1.5),parallel (>= 3.0),data.table (>= 1.9),manipulate (>= 1.0),shiny (>= 1.0),shinyWidgets (>= 0.4.4),shinyjs (>= 1.0),V8 (>= 1.5),colourpicker (>= 1.0),viridisLite (>= 0.3),highlight (>= 0.4),clipr (>= 0.4),knitr (>= 1.20),readODS (>= 1.6),readxl (>= 1.2),haven (>= 2.0),DBI (>= 1.0),RMariaDB (>= 1.0.5),RSQLite (>= 2.1),scales (>=
+1.0)","rmarkdown (>= 1.1),R.rsp (>= 0.40)","Dan Dediu [aut,cre],
+  Alexandra Dima [aut],
+  Samuel Allemann [aut]",Dan Dediu  <ddediu at gmail.com>
+adhoc,"R (>= 2.15),ape,pegas,polynom",,,Gontran Sonet,Gontran Sonet  <gosonet at gmail.com>
+adimpro,"R (>= 2.14.0),grDevices,methods",awsMethods,,"Karsten Tabelow,
+             		Joerg Polzehl",Karsten Tabelow  <tabelow at wias-berlin.de>
+adiv,"R (>= 3.5.0),ade4,adegraphics,adephylo,ape,phylobase","cluster,methods,rgl",phylosignal,Sandrine Pavoine ,Sandrine Pavoine  <sandrine.pavoine at mnhn.fr>
+AdjBQR,"quantreg,MHadaptive,coda,survival",,,Huixia Judy Wang and Yunwen Yang,Huixia Judy Wang  <judywang at gwu.edu>
+adjclust,R (>= 2.10.0),"stats,graphics,grDevices,Matrix,matrixStats,methods,utils,capushe","knitr,testthat,rmarkdown,rioja,HiTC,snpStats,BiocGenerics","Christophe Ambroise [aut],
+  Shubham Chaturvedi [aut],
+  Alia Dehman [aut],
+  Michel Koskas [aut],
+  Pierre Neuvial [aut,cre],
+  Guillem Rigaill [aut],
+  Nathalie Vialaneix [aut]",Pierre Neuvial  <pierre.neuvial at math.univ-toulouse.fr>
+adjustedcranlogs,R (>= 2.10),"cranlogs,xml2,lubridate,dplyr,rvest",,"Tyler Morgan-Wall [aut,cre]",Tyler Morgan-Wall  <tylermw at gmail.com>
+adklakedata,,"rappdirs,httr,tools,utils","ggplot2,maps,testthat,sf","Luke Winslow [aut,cre],
+  Taylor Leach [aut],
+  Tobi Hahn [aut]",Luke Winslow  <lawinslow at gmail.com>
+adlift,EbayesThresh,,,"Matt Nunes [aut,cre],
+  Marina Knight [aut],
+  Guy Nason [ctb,ths]",Matt Nunes  <nunesrpackages at gmail.com>
+admisc,R (>= 3.5.0),methods,QCA,"Adrian Dusa [aut,cre,cph]",Adrian Dusa  <dusa.adrian at unibuc.ro>
+AdMit,mvtnorm,,coda,"David Ardia [aut,cre],
+  Lennart Hoogerheide [ctb],
+  Herman van Dijk [ctb]",David Ardia  <david.ardia.ch at gmail.com>
+admixturegraph,R (>= 3.2.2),"doParallel,dplyr,foreach,ggplot2,graphics,MASS,methods,neldermead,parallel,pracma,stats,utils,grDevices","knitr,rmarkdown,testthat","Thomas Mailund [cre,aut],
+  Kalle Leppala [aut],
+  Svend Nielsen [aut]",Thomas Mailund  <mailund at birc.au.dk>
+ADMM,,"Rcpp,Matrix,Rdpack,stats,doParallel,foreach,parallel",,"Kisung You  [aut,
+    cre],
+  Xiaozhi Zhu [aut]",Kisung You  <kyou at nd.edu>
+ADMMnet,Matrix (>= 1.2-3),Rcpp (>= 0.12.2),,"Xiang Li,Shanghong Xie,Donglin Zeng and Yuanjia Wang",Xiang Li  <xl2473 at cumc.columbia.edu>
+ADMMsigma,"Rcpp (>= 0.12.10),RcppProgress (>= 0.1),doParallel","stats,parallel,foreach,ggplot2,dplyr","testthat,knitr,rmarkdown,microbenchmark,pkgdown","Matt Galloway [aut,cre]",Matt Galloway  <gall0441 at umn.edu>
+adnuts,R (>= 3.3.0),"ellipse,rstan,R2admb","snowfall (>= 1.84.6.1),shinystan (>= 2.5.0),matrixcalc (>=
+1.0.3),TMB (>= 1.7.15),stats,knitr,rmarkdown","Cole Monnahan [aut,cre]",Cole Monnahan  <monnahc at uw.edu>
+adoption,"R (>= 3.0),RandomFieldsUtils (>= 0.5.3)","stats,graphics,methods,grDevices,utils,quadprog,tcltk,tkrplot",,"Martin Schlather [aut,cre]",Martin Schlather  <schlather at math.uni-mannheim.de>
+adoptr,,"nloptr,methods,glue","knitr,rmarkdown,testthat,covr,rpact,vdiffr","Kevin Kunzmann [aut,cre],
+  Maximilian Pilz [aut]",Kevin Kunzmann  <kevin.kunzmann at mrc-bsu.cam.ac.uk>
+ADPclust,R (>= 3.0.0),"dplyr,cluster,fields,knitr","rmarkdown,testthat","Yifan (Ethan) Xu [aut,cre],
+  Xiao-Feng Wang [aut]",Yifan (Ethan) Xu  <ethan.yifanxu at gmail.com>
+ADPF,"R (>= 3.2.4),stats,utils",,,"Phillip Barak [aut],
+  Samuel Kruse [cre,aut]",Samuel Kruse  <samdkruse at gmail.com>
+adpss,R (>= 3.5.0),Rcpp (>= 0.12.17),"knitr,rmarkdown","Kosuke Kashiwabara [aut,cre]",Kosuke Kashiwabara  <kashiwabara-tky at umin.ac.jp>
+ads,,"ade4,spatstat",,"Raphael Pelissier [aut],
+  Francois Goreau [aut],
+  Philippe Verley [ctb,cre]",Philippe Verley  <philippe.verley at ird.fr>
+AdvBinomApps,"GenBinomApps,rootSolve",,,"Daniel Kurz [aut],
+  Horst Lewitschnig [aut,cre]",Horst Lewitschnig  <horst.lewitschnig at infineon.com>
+advclust,R (>= 3.2.5),"knitr,methods,MASS,clue,ggplot2,reshape2",rmarkdown,"Achmad Fauzi Bagus F,Setia Pramana",Achmad Fauzi Bagus F  <fauzi.pandya at gmail.com>
+AdvDif4,,,,"Jader Lugon Junior,Pedro Paulo Gomes Watts Rodrigues,Luiz Bevilacqua,Gisele Moraes Marinho,Diego Campos Knupp,Joao Flavio Vieira Vasconcellos and Antonio Jose da Silva Neto.",Jader Lugon Junior  <jlugonjr at gmail.com>
+adwave,waveslim,,,Jean Sanderson,Murray Cox  <murray.p.cox at gmail.com>
+adwordsR,R (>= 3.4.0),"RCurl,rjson,utils",,"Sean Longthorpe [aut,cre,cph],
+  Johannes Burkhardt [ctb,cph]",Sean Longthorpe  <sean.longthorpe at branded3.com>
+AEDForecasting,R (>= 3.1.2),"changepoint,forecast,signal",R.rsp,"Claster William B. [aut],
+  Philip Sallis [aut],
+  Nhat Cuong Pham [aut,cre]",Nhat Cuong Pham  <acmetal74 at gmail.com>
+aemo,R (>= 3.1.0),"dplyr (>= 0.2),stringr (>= 0.6.2),assertthat (>= 0.1),lubridate (>= 1.3.3),utils,stats","testthat,httr (>= 0.3),covr","Imanuel Costigan [aut,cre],
+  Australian Energy Market Operator [cph]",Imanuel Costigan  <i.costigan at me.com>
+AER,"R (>= 3.0.0),car (>= 2.0-19),lmtest,sandwich (>= 2.4-0),survival (>= 2.37-5),zoo","stats,Formula (>= 0.2-0)","boot,dynlm,effects,fGarch,forecast,foreign,ineq,KernSmooth,lattice,longmemo,MASS,mlogit,nlme,nnet,np,plm,pscl,quantreg,rgl,ROCR,rugarch,sampleSelection,scatterplot3d,strucchange,systemfit (>= 1.1-20),truncreg,tseries,urca,vars","Christian Kleiber 
+    [aut],
+  Achim Zeileis 
+    [aut,cre]",Achim Zeileis  <Achim.Zeileis at R-project.org>
+AeRobiology,R (>= 2.10),"dplyr,writexl,ggvis,lubridate,plotly,ggplot2,tidyr,circular,scales,grDevices,zoo,grid,data.table","testthat,knitr,rmarkdown","Jesus Rojo,Antonio Picornell,Jose Oteros","""Jose Oteros""  <OterosJose at gmail.com>"
+AF,"stats,base,graphics,survival,drgee,stdReg,R (>= 3.5.0),data.table,ivtools",,,Elisabeth Dahlqwist and Arvid Sjolander,Elisabeth Dahlqwist  <elisabeth.dahlqwist88 at gmail.com>
+afc,,,,"Andreas Weigel [aut],
+  MeteoSwiss [cph],
+  Jonas Bhend [cre,ctb]",Jonas Bhend  <jonas.bhend at meteoswiss.ch>
+afCEC,"R (>= 2.10),graphics,rgl",,,"Krzysztof Byrski [aut,cre],Przemyslaw Spurek [ctb]",Krzysztof Byrski  <krzysiek.byrski at uj.edu.pl>
+afex,"R (>= 3.1.0),lme4 (>= 1.1-8)","pbkrtest (>= 0.4-1),lmerTest (>= 3.0-0),car,reshape2,stats,methods,utils","emmeans (>= 1.4),coin,xtable,parallel,plyr,optimx,nloptr,knitr,rmarkdown,R.rsp,lattice,latticeExtra,multcomp,testthat,mlmRev,dplyr,tidyr,dfoptim,Matrix,psych,ggplot2,MEMSS,effects,carData,ggbeeswarm,nlme,cowplot,jtools,ggpubr,ggpol,MASS,glmmTMB,brms,rstanarm","Henrik Singmann 
+    [aut,cre],
+  Ben Bolker [aut],
+  Jake Westfall [aut],
+  Frederik Aust 
+    [aut],
+  Mattan S. Ben-Shachar [aut],
+  Søren Højsgaard [ctb],
+  John Fox [ctb],
+  Michael A. Lawrence [ctb],
+  Ulf Mertens [ctb],
+  Jonathon Love [ctb],
+  Russell Lenth [ctb],
+  Rune Haubo Bojesen Christensen [ctb]",Henrik Singmann  <singmann+afex at gmail.com>
+affluenceIndex,stats,,,Alicja Wolny-Dominiak and Anna Saczewska-Piotrowska,Alicja Wolny-Dominiak  <alicja.wolny-dominiak at ue.katowice.pl>
+AFheritability,"reshape2,mvtnorm,ggplot2,shiny",,,Elisabeth Dahlqwist,Elisabeth Dahlqwist  <elisabeth.dahlqwist88 at gmail.com>
+AFM,R (>= 3.5),"data.table (>= 1.9.6),stringr (>= 1.0.0),gstat (>=
+1.0-26),fractaldim (>= 0.8-4),rgl (>= 0.96),pracma (>=
+1.8.6),grid (>= 3.1.3),gridExtra (>= 2.0.0),moments (>=
+0.14),ggplot2 (>= 1.0.1),sp (>= 1.2-0),png (>= 0.1-7),plyr (>=
+1.8.3),igraph (>= 1.0.1),methods (>= 3.1.3),shiny (>= 0.12.2),shinyjs (>= 0.4.0),scales (>= 0.4.0),dbscan (>= 0.9-8),mixtools (>= 1.0.4),fftwtools (>= 0.9-8)",,"Mathieu Beauvais [aut,cre],
+  Irma Liascukiene [aut],
+  Jessem Landoulsi [aut]",Mathieu Beauvais  <beauvais.escp at gmail.com>
+afmToolkit,"R (>= 3.2.2),ggplot2","stats,utils,minpack.lm,grid,gridExtra,scales,dplyr,DBI,assertthat,tibble",,"Rafael Benitez,Vicente Jose Bolos,Jose-Luis Toca-Herrera",Rafael Benitez  <rabesua at uv.es>
+afpt,R (>= 3.0.0),"graphics,stats","knitr,rmarkdown,testthat","Marco KleinHeerenbrink [aut,cre],
+  Anders Hedenström [fnd]",Marco KleinHeerenbrink  <Marco.KleinHeerenbrink at zoo.ox.ac.uk>
+aftgee,R (>= 3.4.0),"methods,parallel,geepack,survival,BB,MASS",copula,"Sy Han Chiou [aut,cre],
+  Sangwook Kang [aut],
+  Jun Yan [aut]",Sy Han Chiou  <schiou at utdallas.edu>
+AGD,R (>= 2.10.0),"gamlss,gamlss.dist",,Stef van Buuren,Stef van Buuren  <stef.vanbuuren at tno.nl>
+aGE,R (>= 3.4),"nlme,MASS,survey,stats","knitr,rmarkdown","Tianzhong Yang [aut,cre],
+  Han Chen [aut],
+  Peng Wei [aut]",Tianzhong Yang  <tianzhong.yang at uth.tmc.edu>
+AggregateR,,"dummy,stats,utils,methods",,"Matthias Bogaert,Michel Ballings,Dirk Van den Poel",Matthias Bogaert  <matthias.bogaert at ugent.be>
+aggregation,,,,"Lynn Yi,Lior Pachter",Lynn Yi  <lynnyi at caltech.edu>
+AGHmatrix,R (>= 3.6.0),"Matrix (>= 1.2-7.1),zoo (>= 1.8.6)","knitr,MASS,rmarkdown","Rodrigo Amadeu [aut,cre],
+  Catherine Cellon [ctb],
+  Leticia Lara [ctb],
+  Marcio Resende [ctb],
+  Ivone Oliveira [ctb],
+  Luis Ferrao [ctb],
+  Patricio Munoz [ctb],
+  Augusto Garcia [ctb]",Rodrigo Amadeu  <rramadeu at ufl.edu>
+agop,"R (>= 3.0),stats,grDevices,graphics",,igraph,"Marek Gagolewski [aut,cre],
+  Anna Cena [ctb]",Marek Gagolewski  <marek at gagolewski.com>
+AGread,R (>= 3.1.0),"anytime (>= 0.3.0),binaryLogic (>= 0.3.9),data.table (>=
+1.10.4),DescTools (>= 0.99.20),dplyr (>= 0.5.0),GGIR (>=
+1.5.0),lubridate,magrittr (>= 1.5),PAutilities (>= 0.2.0),rlang (>= 0.2.0),seewave (>= 2.0.5),stats,stringr (>=
+1.3.0),utils,Rcpp (>= 1.0.1)",testthat,"Paul R. Hibbing [aut,cre],
+  Vincent T. van Hees [ctb],
+  Samuel R. LaMunion [ctb],
+  Daniel Judge [ctb],
+  Judge Maygarden [ctb],
+  ActiGraph LLC [cph]",Paul R. Hibbing  <paulhibbing at gmail.com>
+agRee,"R (>= 3.0.2),miscF (>= 0.1-4),lme4 (>= 1.0-4)","R2jags (>= 0.03-11),coda (>= 0.16-1)",,Dai Feng,Dai Feng  <dai_feng at merck.com>
+AgreementInterval,"R (>= 3.5.0),psych",,"testthat,MASS,Matrix,lme4","Jialin Xu [aut,cre],
+  Jason Liao [aut]",Jialin Xu  <jxx120 at gmail.com>
+agricolae,R (>= 2.10),"klaR,MASS,nlme,cluster,spdep,AlgDesign,graphics",,Felipe de Mendiburu,Felipe de Mendiburu  <fmendiburu at lamolina.edu.pe>
+agridat,,,"AER,agricolae,betareg,broom,car,coin,corrgram,desplot,dplyr,effects,equivalence,emmeans,FrF2,gam,gge,ggplot2,gnm,gstat,HH,knitr,lattice,latticeExtra,lme4,lucid,mapproj,maps,MASS,MCMCglmm,metafor,mgcv,NADA,nlme,nullabor,ordinal,pbkrtest,pls,pscl,reshape2,rgdal,qicharts,qtl,sp,SpATS,survival,vcd,testthat","Kevin Wright 
+    [aut,cre]",Kevin Wright  <kw.stat at gmail.com>
+agriTutorial,R (>= 3.1.0),"lmerTest,emmeans,pbkrtest,lattice,nlme,ggplot2",R.rsp,"Rodney Edmondson [aut,cre],
+  Hans-Peter Piepho [aut,ctb],
+  Muhammad Yaseen [aut,ctb]",Rodney Edmondson  <rodney.edmondson at gmail.com>
+agriwater,R (>= 3.2.0),"raster,sp,rgdal","knitr,rmarkdown","Cesar de Oliveira Ferreira Silva
+     [cre],
+  Antonio Heriberto de Castro Teixeira [aut],
+  Rodrigo Lilla Manzione
+     [ctb]",Cesar de Oliveira Ferreira Silva  <cesaroliveira.f.silva at gmail.com>
+agrmt,,,,Didier Ruedin,Didier Ruedin  <didier.ruedin at wolfson.oxon.org>
+agrostab,R (>= 3.1),"ggplot2,dplyr,graphics,stats,rlang",,"Anna Cheshkova [aut,cre]",Anna Cheshkova  <cheshanf at gmail.com>
+AGSDest,,"stats,graphics,grDevices,ldbounds",,"Niklas Hack [aut,cre],Werner Brannath [aut],Matthias Brueckner [aut]",Matthias Brueckner  <matthias.brueckner at posteo.de>
+agsemisc,"R (>= 2.12.0),lattice","grid,MASS",,"Lutz Prechelt [aut,cre]",Lutz Prechelt  <prechelt at inf.fu-berlin.de>
+ahaz,"R (>= 2.10),survival,Matrix",,,Anders Gorst-Rasmussen,Anders Gorst-Rasmussen  <agorstras at gmail.com>
+AHM,"R (>= 2.10),quadprog,glmnet","mixexp,plgp,devtools,dplyr,tibble,tidyr,Matrix","knitr,rmarkdown,partitions","Sumin Shen [aut,cre],
+  Lulu Kang [aut],
+  Xinwei Deng [aut]",Sumin Shen  <sumin at vt.edu>
+AHMbook,"R (>= 2.10),unmarked (>= 0.12.2)","grDevices,graphics,methods,stats,utils,plotrix,raster,sp,RandomFields,coda",,"Marc Kery,Andy Royle,Mike Meredith",Mike Meredith  <mmeredith at wcs.org>
+ahnr,R (>= 3.3.0),"matrixcalc,pracma,purrr,pdist,ggplot2,visNetwork,magrittr","knitr,rmarkdown","Jose Roberto Ayala Solares [aut,cre]",Jose Roberto Ayala Solares  <ichbinjras at gmail.com>
+AhoCorasickTrie,,Rcpp (>= 0.12.5),"Biostrings,microbenchmark","Matt Chambers [aut,cre],
+  Tomas Petricek [aut,cph],
+  Vanderbilt University [cph]",Matt Chambers  <matt.chambers42 at gmail.com>
+ahp,R (>= 3.2.0),"utils,data.tree,yaml,formattable,DiagrammeR","shiny,shinyAce,shinythemes,shinyjs,testthat,knitr,rmarkdown",Christoph Glur,Christoph Glur  <christoph.glur at ipub.com>
+ahpsurvey,,"Rdpack,stats,magrittr,knitr,tidyr,dplyr,randomNames","ggplot2,tidyverse,scales","Frankie Cho [aut,cre]",Frankie Cho  <htcho at connect.hku.hk>
+AHR,survival,"stats,MASS,etm,Rcpp",testthat,"Matthias Brueckner [aut,cre]",Matthias Brueckner  <matthias.brueckner at posteo.de>
+AICcmodavg,R (>= 3.2.0),"methods,stats,graphics,lattice,MASS,Matrix,nlme,stats4,survival,unmarked,VGAM,xtable","betareg,coxme,fitdistrplus,glmmTMB,lavaan,lme4,maxlike,nnet,ordinal,pscl,R2jags,R2OpenBUGS,R2WinBUGS,jagsUI,lmerTest",Marc J. Mazerolle and portions of code contributed by Dan Linden.  ,Marc J. Mazerolle  <marc.mazerolle at sbf.ulaval.ca>
+AID,R (>= 3.2.0),"MASS,tseries,nortest,ggplot2,graphics,psych,stats",onewaytests,"Osman Dag [aut,cre],Ozgur Asar [aut],Ozlem Ilk [aut]",Osman Dag  <osman.dag at outlook.com>
+aidar,,XML,testthat,Andreas Pfeiffer,Andreas Pfeiffer  <apfeiffer1 at gmail.com>
+AIG,,"mgcv,stats,dplyr,rgl,magrittr",,"Bao Sheng Loe (Aiden) [aut,cre,cph],
+  David Condon [ctb,cph],
+  Francis Smart [ctb,cph]",Bao Sheng Loe (Aiden)  <bsl28 at cam.ac.uk>
+AIM,survival,survival,,L. Tian and R. Tibshirani,Robert Tibshirani  <tibs at stat.stanford.edu>
+aimPlot,"R (>= 3.2.0),utils",ggplot2 (>= 2.1.0),"grid,gridExtra","Yusman Kamaleri [aut,cre]",Yusman Kamaleri  <ybkamaleri at gmail.com>
+aire.zmvm,R (>= 3.0.2),"lubridate,dplyr,rvest,tidyr,stringr,xml2,httr,readr,sp,progress,readxl","knitr,rmarkdown,testthat,ggplot2,ggseas,mapproj,selectr,covr,ggmap","Diego Valle-Jones [aut,cre]",Diego Valle-Jones  <diego at diegovalle.net>
+airGR,R (>= 3.0.1),,"knitr,rmarkdown,coda,DEoptim,dplyr,FME,ggmcmc,hydroPSO,Rmalschains","Laurent Coron 
+    [aut,trl],
+  Olivier Delaigue 
+    [aut,cre],
+  Guillaume Thirel 
+    [aut],
+  Charles Perrin 
+    [aut,ths],
+  Claude Michel [aut,ths],
+  Vazken Andréassian
+     [ctb,ths],
+  François Bourgin 
+    [ctb] ('Parameter estimation' vignettes),
+  Pierre Brigode 
+    [ctb],
+  Nicolas Le Moine [ctb],
+  Thibaut Mathevet [ctb],
+  Safouane Mouelhi [ctb],
+  Ludovic Oudin 
+    [ctb],
+  Raji Pushpalatha [ctb],
+  Audrey Valéry [ctb]",Olivier Delaigue  <airGR at irstea.fr>
+airGRteaching,airGR (>= 1.2.13.16),"dygraphs (>= 1.1.1.6),markdown,plotrix,shiny (>= 1.1.0),shinyjs (>= 1.0),xts",knitr,"Olivier Delaigue 
+    [aut,cre],
+  Laurent Coron 
+    [aut],
+  Pierre Brigode 
+    [aut],
+  Guillaume Thirel 
+    [ctb]",Olivier Delaigue  <airGR at irstea.fr>
+airportr,R (>= 2.10.0),dplyr,"knitr,rmarkdown","Dmitry Shkolnik [cre,aut]",Dmitry Shkolnik  <shkolnikd at gmail.com>
+airr,R (>= 3.1.2),"methods,readr,stats,stringi,yaml","knitr,rmarkdown,testthat","Jason Vander Heiden [aut,cre],
+  Susanna Marquez [aut],
+  AIRR Community [cph]",Jason Vander Heiden  <jason.vanderheiden at yale.edu>
+aiRthermo,,,,"Jon Sáenz,Santos J. González-Rojí,Sheila Carreno-Madinabeitia and Gabriel Ibarra-Berastegi",Santos J. González-Rojí  <santosjose.gonzalez at ehu.eus>
+ajv,,"V8,yaml,RJSONIO","knitr,rmarkdown,testthat","Jason Thorpe [aut,cre]",Jason Thorpe  <jdthorpe at gmail.com>
+Ake,,,,"W. E. Wansouwé,S. M. Somé and C. C. Kokonendji",W. E. Wansouwé  <ericwansouwe at gmail.com>
+akima,R (>= 2.0.0),sp,,"Hiroshi Akima [aut,cph] (Fortran code (TOMS 760,761,697 and 433)),
+  Albrecht Gebhardt [aut,cre,cph] (R port (interp* functions),bicubic*
+    functions),
+  Thomas Petzold [ctb,cph] (aspline function),
+  Martin Maechler [ctb,cph] (interp2xyz function + enhancements),
+  YYYY Association for Computing Machinery,Inc. [cph] (covers code from
+    TOMS 760,761,697 and 433)",Albrecht Gebhardt  <albrecht.gebhardt at aau.at>
+akmeans,,,,Jungsuk Kwac,Jungsuk Kwac  <kwjusu1 at stanford.edu>
+akmedoids,R (>= 3.5.0),"kml,Hmisc,ggplot2,utils,reshape2,longitudinalData","knitr,rmarkdown,flextable,kableExtra","Monsuru Adepeju [cre,aut],Samuel Langton [aut],Jon Bannister [aut]",Monsuru Adepeju  <monsuur2010 at yahoo.com>
+ALA4R,,"assertthat,data.table,digest,httr,jsonlite (>= 0.9.8),sp,stringr (>= 1.0.0),wellknown","ape,covr,dplyr,ggplot2,jpeg,knitr,mapdata,maps,maptools,phytools,rmarkdown,testthat,tidyr,vegan","Peggy Newman [aut,cre],
+  Ben Raymond [aut],
+  Jeremy VanDerWal [aut],
+  Lee Belbin [aut],
+  Michael Sumner [ctb],
+  Tom August [ctb],
+  John Baumgartner [ctb]",Peggy Newman  <peggy.newman at csiro.au>
+alabama,"R (>= 2.10.1),numDeriv",,,Ravi Varadhan (with contributions from Gabor Grothendieck),Ravi Varadhan  <ravi.varadhan at jhu.edu>
+alakazam,"R (>= 3.1.2),ggplot2 (>= 2.0.0)","ape,dplyr (>= 0.8.1),graphics,grid,igraph (>= 1.0.0),lazyeval,Matrix,methods,progress,Rcpp (>= 0.12.12),readr,rlang,scales,seqinr,stats,stringi,tibble,tidyr,utils","knitr,rmarkdown,testthat","Jason Vander Heiden [aut,cre],
+  Namita Gupta [aut],
+  Susanna Marquez [ctb],
+  Daniel Gadala-Maria [ctb],
+  Ruoyi Jiang [ctb],
+  Nima Nouri [ctb],
+  Kenneth Hoehn [ctb],
+  Julian Zhou [ctb],
+  Steven Kleinstein [aut,cph]",Jason Vander Heiden  <jason.vanderheiden at yale.edu>
+ALassoSurvIC,R (>= 3.5.0),"Rcpp,parallel",,"Chenxi Li,Daewoo Pak and David Todem",Daewoo Pak  <heavyrain.pak at gmail.com>
+albopictus,,methods,,"Kamil Erguler [aut,cre]",Kamil Erguler  <k.erguler at cyi.ac.cy>
+ald,,,lqr,Christian E. Galarza and Victor H. Lachos,Christian E. Galarza  <cgalarza88 at gmail.com>
+ALDqr,R (>= 2.15.0),"HyperbolicDist,sn",,"Luis Benites Sanchez,Christian E. Galarza,Victor H. Lachos ",Luis Benites Sanchez  <lbenitesanchez at gmail.com>
+ALEPlot,,yaImpute,"R.rsp,nnet",Dan Apley,Dan Apley  <apley at northwestern.edu>
+aLFQ,R (>= 2.15.0),"data.table,plyr,caret,seqinr,lattice,randomForest,ROCR,reshape2,protiq,bio3d",testthat,"George Rosenberger,Hannes Roest,Christina Ludwig,Ruedi Aebersold,Lars Malmstroem",George Rosenberger  <gr2578 at cumc.columbia.edu>
+alfr,R (>= 3.5.0),"httr,jsonlite,magrittr,stringr","devtools,httptest,roxygen2,testthat,knitr,rmarkdown,covr,remotes,spelling,fs",Roy Wetherall,Roy Wetherall  <rwetherall at gmail.com>
+alfred,R (>= 3.3.0),"dplyr,tidyr,tibble,magrittr,lubridate,jsonlite","testthat,knitr,rmarkdown,ggplot2,covr","Onno Kleen  [aut,
+    cre]",Onno Kleen  <r at onnokleen.de>
+algaeClassify,R (>= 3.4.0),"httr,lubridate,plyr,RCurl,rvest,taxize,XML,xml2",,"Vijay Patil [aut,cre],
+  Torsten Seltmann [aut],
+  Nico Salmaso [aut],
+  Orlane Anneville [aut],
+  Marc Lajeunesse [aut],
+  Dietmar Straile [aut]",Vijay Patil  <vpatil at usgs.gov>
+AlgDesign,,,,Bob Wheeler,Jerome Braun  <jvbraun.statistics at gmail.com>
+AlgebraicHaploPackage,R (>= 3.1.3),,compiler,Jan Wolfertz,Jan Wolfertz  <Jan.wolfertz at uni-duesseldorf.de>
+algorithmia,"R (>= 3.3.1),methods (>= 2.5.0)","base64enc,httr,rjson","knitr,rmarkdown,RUnit","James Sutton,James Athappilly",James Athappilly  <jamesa at algorithmia.com>
+aliases2entrez,,"doParallel,limma,utils,org.Hs.eg.db,AnnotationDbi,parallel,foreach,readr,RCurl",spelling,"Raphael Bonnet [aut,cre] (Université Côte d’Azur),
+  Jean-François Peyron [aut] (Inserm)",Raphael Bonnet  <raphael.bonnet at univ-cotedazur.fr>
+alignfigR,R (>= 3.1.1),ggplot2 (>= 2.1.0),knitr,"Stephanie J. Spielman [aut,cre]",Stephanie J. Spielman  <spielman at rowan.edu>
+alineR,,,,"Sean Downey [aut,cre],
+  Guowei Sun [aut],
+  Greg Kondrak [cph] (Copyright holder of original ALINE algorithm C++
+    source code included in package.)",Sean Downey  <sean at codexdata.com>
+allan,biglm,,,Alan Lee,Alan Lee  <alanlee at stanfordalumni.org>
+allanvar,"R (>= 2.10.0),gplots",,,Javier Hidalgo Carrio,Javier Hidalgo Carrio  <javier.hidalgo_carrio at dfki.de>
+alleHap,,"abind,tools,stats,utils",knitr,Nathan Medina-Rodriguez and Angelo Santana,Nathan Medina-Rodriguez  <nathan.medina at ulpgc.es>
+allelematch,"graphics,stats,utils",dynamicTreeCut,R.rsp,"Paul Galpern [aut],
+  Todd Cross [cre,ctb],
+  Katie Zarn [ctb]",Todd Cross  <todd.cross at gmail.com>
+AlleleRetain,R (>= 3.4.0),,pedigree,Emily L. Weiser,Emily Weiser  <emily.l.weiser at gmail.com>
+allelic,,,,Karl Forner,Mickael Guedj  <guedj at genopole.cnrs.fr>
+AllPossibleSpellings,,,,"Antoine Tremblay,IWK Health Center",Antoine Tremblay  <trea26 at gmail.com>
+alluvial,,,"devtools,testthat,reshape2,knitr,rmarkdown,dplyr","Michal Bojanowski [aut,cre],
+  Robin Edwards [aut]",Michal Bojanowski  <michal2992 at gmail.com>
+alpaca,R (>= 3.1.0),"data.table,Formula,MASS,Rcpp,stats,utils","bife,car,knitr,lfe","Amrei Stammann [aut,cre],
+  Daniel Czarnowske 
+    [aut]",Amrei Stammann  <amrei.stammann at hhu.de>
+alphabetr,,"Rcpp (>= 0.12.3),clue (>= 0.3-50),dplyr (>= 0.4.3),multicool (>= 0.1-9)","knitr,rmarkdown","Edward Lee [aut,cre]",Edward Lee  <email.edwardlee at gmail.com>
+alphahull,,"ggplot2,tripack,R.utils,sgeostat,spatstat,splancs",,"Beatriz Pateiro-Lopez [aut,cre],Alberto Rodriguez-Casal,[aut].",Beatriz Pateiro-Lopez  <beatriz.pateiro at usc.es>
+alphaOutlier,"Rsolnp,nleqslv,quantreg,graphics",stats,,"Andre Rehage,Sonja Kuhnt",Andre Rehage  <rehage at statistik.tu-dortmund.de>
+AlphaPart,,"directlabels (>= 1.1),gdata (>= 2.6.0),ggplot2 (>= 0.8.9),pedigree (>= 1.3.1),quadprog (>= 1.5-3),Rcpp (>= 0.9.4),reshape","RColorBrewer (>= 1.0-2),truncnorm (>= 1.0-5),knitr,rmarkdown,testthat","Gregor Gorjanc,Jana Obsteter",Gregor Gorjanc  <gregor.gorjanc at roslin.ed.ac.uk>
+alphashape3d,"geometry,rgl",,alphahull,"Thomas Lafarge,Beatriz Pateiro-Lopez",Beatriz Pateiro-Lopez  <beatriz.pateiro at usc.es>
+AlphaSimR,"R (>= 3.3.0),methods,R6",Rcpp (>= 0.12.7),"knitr,rmarkdown,testthat","Chris Gaynor 
+    [aut,cre],
+  Gregor Gorjanc 
+    [ctb],
+  David Wilson [ctb],
+  Daniel Money 
+    [ctb],
+  John Hickey  [ctb]",Chris Gaynor  <gaynor.robert at hotmail.com>
+alphastable,R (>= 3.4.0),"mvtnorm,nnls,stabledist,nlme","Matrix,fBasics,FMStable,RUnit,Rmpfr,sfsmisc","Mahdi Teimouri,Adel Mohammadpour,and Saralees Nadarajah",Mahdi Teimouri  <teimouri at aut.ac.ir>
+AlphaVantageClient,R (>= 3.2.1),"httr,xts","testthat,knitr,rmarkdown,mockery,httptest",Alex Thompson,Alex Thompson  <alexthompson1991 at hotmail.com>
+alphavantager,R (>= 3.3.0),"dplyr (>= 0.7.0),glue (>= 1.1.1),httr (>= 1.2.1),jsonlite (>= 1.5),purrr (>= 0.2.2.2),readr (>= 1.1.1),stringr (>=
+1.2.0),tibble (>= 1.3.3),tidyr (>= 0.6.3),timetk (>=
+0.1.1.1)","testthat,knitr","Matt Dancho [aut,cre],
+  Davis Vaughan [aut]",Matt Dancho  <mdancho at business-science.io>
+alr3,"R (>= 3.2.0),car",,,Sanford Weisberg,Sanford Weisberg  <sandy at umn.edu>
+alr4,"R (>= 3.0),car,effects",,,Sanford Weisberg,Sanford Weisberg  <sandy at umn.edu>
+ALS,"nnls (>= 1.1),Iso,R (>= 2.10)",,,Katharine M. Mullen,Katharine Mullen  <mullenkate at gmail.com>
+ALSCPC,,,,Dariush Najarzadeh ,Dariush Najarzadeh  <D_Najarzadeh at sbu.ac.ir>
+ALSM,"R (>= 3.0.0),stats,graphics,leaps,SuppDists,car",,,Ali Ghanbari,Ali Ghanbari  <a.ghanbari541 at gmail.com>
+altair,,"reticulate (>= 1.9),htmlwidgets,rlang (>= 0.1.2),assertthat,magrittr,jsonlite,utils,vegawidget (>= 0.2.1),repr","httr,rprojroot,purrr,readr,knitr,rmarkdown,tibble,listviewer (>= 2.0.0),testthat,pryr,stringr,tidyr,dplyr,pkgdown,processx,rsvg,png,fs","Ian Lyttle  [aut,
+    cre],
+  Haley Jeppson [aut],
+  Altair Developers [aut],
+  Alicia Schep 
+    [ctb],
+  Jake Vanderplas [ctb] (Altair library),
+  Brian Granger [ctb] (Altair library)",Ian Lyttle  <ian.lyttle at schneider-electric.com>
+alterryx,,"httr,utils,digest,base64enc,jsonlite (>= 1.4)","knitr,rmarkdown",Michael Treadwell,Michael Treadwell  <michael.treadwell at interworks.com>
+altmeta,R (>= 2.14.0),,,Lifeng Lin and Haitao Chu,Lifeng Lin  <linl at umn.edu>
+ALTopt,R (>= 3.0.0),"cubature (>= 1.0),lattice (>= 0.20)",,"Kangwon Seo [aut,cre],
+  Rong Pan [aut]",Kangwon Seo  <kseo7 at asu.edu>
+altR2,R (>= 3.5.0),"gsl (>= 1.9-10.3),purrr (>= 0.3.2)","testthat (>= 2.1.0),MASS (>= 7.3-51.1)","Julian Karch [aut,cre]",Julian Karch  <j.d.karch at fsw.leidenuniv.nl>
+amap,R (>= 3.6.0),,Biobase,Antoine Lucas,Antoine Lucas  <antoinelucas at gmail.com>
+AMAP.Seq,,,,Yaqing Si,Yaqing Si  <siyaqing at gmail.com>
+amber,R (>= 3.4.0),"classInt,doParallel,foreach,latex2exp,ncdf4,parallel,raster,rgeos,scico,sp,spatial.tools,stats,utils,viridis,xtable","knitr,rmarkdown,testthat","Christian Seiler [cre,aut]",Christian Seiler  <christian.seiler at canada.ca>
+ambhasGW,R (>= 3.2.3),"yaml,raster,stats,rgdal",,"Sat Tomer [aut,cre],
+  Sekhar Muddu [aut],
+  Vishal K. Mehta [aut],
+  Subash Yegina [aut],
+  Thiyaku S. [aut]",Sat Tomer  <sat.kumar at aapahinnovations.com>
+ambient,,Rcpp (>= 0.12.18),,"Thomas Lin Pedersen [cre,aut],
+  Jordan Peck [aut] (Developer of FastNoise)",Thomas Lin Pedersen  <thomasp85 at gmail.com>
+AMCP,R (>= 3.0.0),,,"Scott Maxwell [aut],
+  Harold Delaney [aut],
+  Ken Kelley [aut,cre]",Ken Kelley  <kkelley at nd.edu>
+AMCTestmakeR,,,"knitr,rmarkdown",Nils Myszkowski,Nils Myszkowski  <nmyszkowski at pace.edu>
+ameco,R (>= 2.10.0),,"knitr,rmarkdown,dplyr,ggplot2,testthat,xml2","Eric Persson [aut,cre]",Eric Persson  <expersso5 at gmail.com>
+Amelia,"R (>= 3.0.2),Rcpp (>= 0.11)","foreign,utils,grDevices,graphics,methods,stats","tcltk,Zelig","James Honaker,
+        Gary King,
+        Matthew Blackwell",Matthew Blackwell  <mblackwell at gov.harvard.edu>
+amelie,,stats,"testthat,knitr,rmarkdown","Dmitriy Bolotov [aut,cre]",Dmitriy Bolotov  <dbolotov at live.com>
+amen,R (>= 2.10),,"coda,network,knitr","Peter Hoff,Bailey Fosdick,Alex Volfovsky,Yanjun He",Peter Hoff  <peter.hoff at duke.edu>
+AmericanCallOpt,R (>= 2.0.0),,,Paolo Zagaglia,Paolo Zagaglia  <paolo.zagaglia at gmail.com>
+amerika,,,,"Philip Waggoner 
+    [aut,cre]",Philip Waggoner  <philip.waggoner at gmail.com>
+AmesHousing,R (>= 2.10),"dplyr,magrittr",,"Max Kuhn [aut,cre],
+  RStudio [cph]",Max Kuhn  <max at rstudio.com>
+AMGET,,,,Benjamin Guiastrennec,Benjamin Guiastrennec  <guiastrennec at gmail.com>
+AMIAS,"utils,zoo,limSolve,Matrix",,,"Canhong Wen,Xueqin Wang,Shijie Quan,Zelin Hong,Aijun Zhang",Canhong Wen  <wench at ustc.edu.cn>
+AmigaFFH,"tuneR (>= 1.0),R (>= 2.10)","grDevices,methods,utils","ProTrackR (>= 0.3.4),adfExplorer (>= 0.1.4)","Pepijn de Vries [aut,cre,dtc]",Pepijn de Vries  <pepijn.devries at outlook.com>
+aml,"R (>= 2.10),lars",,MASS,"Dong Wang [aut,cre]",Dong Wang  <dwangstat at gmail.com>
+ammistability,R (>= 3.5.0),"agricolae,ggcorrplot,ggplot2,methods,reshape2,stats,Rdpack","knitr,rmarkdown,pander","B. C. Ajay  [aut,
+    cre],
+  J. Aravind  [aut],
+  R. Abdul Fiyaz [aut],
+  ICAR [cph] (https://www.icar.org.in)",B. C. Ajay  <ajaygpb at yahoo.co.in>
+AMModels,,"methods,unmarked","R.rsp,shiny,shinyBS,knitr,AICcmodavg","Jon Katz,Therese Donovan",Jon Katz  <jonkatz4 at gmail.com>
+AmmoniaConcentration,,,,Monica Serra and Felipe Tumenas Marques,Felipe Tumenas Marques  <tumenas at gmail.com>
+aMNLFA,R (>= 3.1.0),"grDevices,graphics,stats,utils,ggplot2,MplusAutomation,reshape2,gridExtra,stringr,plyr,devtools",,"Veronica Cole [aut,cre],
+  Nisha Gottfredson [aut],
+  Michael Giordano [aut],
+  Tim Janssen [ctb]",Veronica Cole  <vcole at email.unc.edu>
+AMOEBA,"snowfall,rlecuyer,spdep",,"maptools,plotrix",Guillermo Valles,Guillermo Valles  <amoeba_spatial_cluster at yahoo.com>
+AMORE,,,,"Manuel Castejon Limas,Joaquin B. Ordieres Mere,Ana Gonzalez
+        Marcos,Francisco Javier Martinez de Pison Ascacibar,Alpha V.
+        Pernia Espinoza,Fernando Alba Elias,Jose Maria Perez Ramos",Manuel Castejón Limas  <manuel.castejon at gmail.com>
+AmostraBrasil,R (>= 3.1.3),"methods,RJSONIO,RCurl,stringr,sp,rgdal,foreign",,Celso Stephan;Ricardo Cordeiro,Celso Stephan  <celso.stephan at gmail.com>
+ampd,R (>= 3.2.0),,,Felix Scholkmann,Oliver Sieber  <oliver.sieber at gmail.com>
+AMPLE,shiny (>= 1.3.2),"ggplot2 (>= 3.1.1),dplyr (>= 0.8.1),tidyr (>= 0.8.3),wesanderson (>= 0.3.6),shinyjs (>= 1.0)",testthat (>= 2.1.0),"Finlay Scott [aut,cre]",Finlay Scott  <finlays at spc.int>
+AmpliconDuo,"R (>= 2.10),stats,ggplot2,xtable",,,"Anja Lange [aut,cre],
+  Daniel Hoffmann [aut]",Anja Lange  <anja.lange at uni-due.de>
+AMR,R (>= 3.1.0),"backports,clean (>= 1.1.0),crayon (>= 1.3.0),data.table (>=
+1.9.0),dplyr (>= 0.7.0),ggplot2,knitr (>= 1.0.0),microbenchmark,pillar,rlang (>= 0.3.1),tidyr (>= 0.7.0)","covr (>= 3.0.1),curl,readxl,rmarkdown,rstudioapi,rvest (>= 0.3.2),testthat (>= 1.0.2),xml2 (>= 1.0.0)","Matthijs S. Berends
+     [aut,cre],
+  Christian F. Luz 
+    [aut,ctb],
+  Alex W. Friedrich 
+    [aut,ths],
+  Bhanu N. M. Sinha 
+    [aut,ths],
+  Casper J. Albers 
+    [aut,ths],
+  Corinna Glasner 
+    [aut,ths],
+  Judith M. Fonville [ctb],
+  Erwin E. A. Hassing [ctb],
+  Eric H. L. C. M. Hazenberg [ctb],
+  Annick Lenglet [ctb],
+  Bart C. Meijer [ctb],
+  Dennis Souverein [ctb]",Matthijs S. Berends  <m.s.berends at umcg.nl>
+amt,R (>= 3.5),"broom,checkmate,circular,ctmm,dplyr (>= 0.7.0),fitdistrplus,FNN,geosphere,glue,graphics,grDevices,KernSmooth,lazyeval,leaflet,lubridate,magrittr,maptools,methods,purrr,raster,Rcpp (>= 0.12.7),rgeos,rlang,sf,sp,survival,stats,tibble,tidyr (>= 1.0.0),utils,velox","adehabitatLT,ggplot2,bcpa,devtools,moveHMM,move,sessioninfo,spacetime,testthat,trajectories,knitr,Rdpack,rmarkdown","Johannes Signer [aut,cre],
+  Bjoern Reineking [ctb],
+  Ulrike Schlaegel [ctb],
+  Scott LaPoint [dtc]",Johannes Signer  <jsigner at gwdg.de>
+AmyloGram,R (>= 3.0.0),"biogram,ranger,seqinr,shiny",,"Michal Burdukiewicz [cre,aut],
+  Piotr Sobczyk [ctb],
+  Stefan Roediger [ctb]",Michal Burdukiewicz  <michalburdukiewicz at gmail.com>
+AnaCoDa,"R (>= 3.3.0),Rcpp (>= 0.11.3),methods,mvtnorm",,"knitr,Hmisc,VGAM,coda,testthat,lmodel2","Cedric Landerer [aut,cre],
+  Gabriel Hanas [ctb],
+  Jeremy Rogers [ctb],
+  Alex Cope [ctb],
+  Denizhan Pak [ctb]",Cedric Landerer  <cedric.landerer at gmail.com>
+anacor,R (>= 3.0.2),"graphics,stats,car,colorspace,fda,splines,grDevices",,"Patrick Mair [aut,cre],
+  Jan De Leeuw [aut]",Patrick Mair  <mair at fas.harvard.edu>
+analogsea,,"stats,utils,httr (>= 1.2.0),jsonlite (>= 1.1),magrittr,yaml,aws.s3","roxygen2 (>= 6.1.1),testthat,knitr,ssh (>= 0.6)","Scott Chamberlain [aut,cre],
+  Hadley Wickham [aut],
+  Winston Chang [aut],
+  Bob Rudis [ctb],
+  Bryce Mecum  [ctb],
+  RStudio [cph]",Scott Chamberlain  <myrmecocystus at gmail.com>
+analogue,"R (>= 3.5.0),vegan (>= 2.2-0)","mgcv,MASS,stats,graphics,grid,brglm,princurve (>=
+2.0.2),lattice",testthat,"Gavin L. Simpson 
+    [aut,cre],
+  Jari Oksanen [aut]",Gavin L. Simpson  <ucfagls at gmail.com>
+analogueExtra,"vegan3d (>= 0.65-0),analogue (>= 0.16-0)",rgl,testthat,"Gavin L. Simpson [aut,cre]",Gavin L. Simpson  <ucfagls at gmail.com>
+analysisPipelines,"R (>= 3.4.0),magrittr,pipeR,methods","ggplot2,dplyr,futile.logger,RCurl,rlang (>= 0.3.0),proto,purrr,devtools","plotly,knitr,rmarkdown,parallel,visNetwork,rjson,DT,shiny,R.devices,corrplot,car,foreign","Naren Srinivasan [aut],
+  Zubin Dowlaty [aut],
+  Sanjay [ctb],
+  Neeratyoy Mallik [ctb],
+  Anoop S [ctb],
+  Mu Sigma,Inc. [cre]","""Mu Sigma,Inc.""  <ird.experiencelab at mu-sigma.com>"
+analytics,R (>= 3.1.0),"powerplus (>= 3.1),tcltk (>= 3.3.1),cluster (>= 2.0.4),MASS (>= 7.3-45),car (>= 2.1-4),robust (>= 0.4-18),trend (>=
+0.2.0),TSA (>= 1.01),lmtest (>= 0.9-35),fractal (>= 2.0-1),urca (>= 1.3-0),np (>= 0.60-3),VIM (>= 4.7.0)",,Albert Dorador,Albert Dorador  <albert.dorador.chalar at gmail.com>
+analyz,R (>= 2.15.1),methods,,Rodrigo Buhler,Rodrigo Buhler  <rodrigo.buhler at ymail.com>
+AnalyzeFMRI,"R (>= 3.6.0),R.matlab,fastICA,tcltk,tkrplot",,,"Pierre Lafaye De Micheaux [aut,cre],
+  Jonathan L Marchini [aut]",Pierre Lafaye De Micheaux  <lafaye at unsw.edu.au>
+AnalyzeTS,"MASS,TSA,TTR,tseries,urca",,,"Tran Thi Ngoc Han,Doan Hai Nghi,Mai Thi Hong Diem,Nguyen Thi Diem My,Hong Viet Minh,Vo Van Tai,Pham Minh Truc.",Hong Viet Minh  <hongvietminh at gmail.com>
+anapuce,R (>= 3.4.0),,,"Julie Aubert [aut,cre]",Julie Aubert  <julie.aubert at agroparistech.fr>
+AncestryMapper,R (>= 2.10),"svd (>= 0.3.3-2),parallel (>= 3.2.1),grDevices,graphics,stats,utils",knitr,"Tiago R Magalhaes,Eoghan T O'Halloran",Eoghan T O'Halloran  <eoghan.ohalloran2 at mail.dcu.ie>
+anchoredDistr,R (>= 3.1.0),"np,RSQLite,DBI,methods,stats,reshape2,Rmisc,ggplot2,plyr,dplyr","knitr,rmarkdown",Heather Savoy,Heather Savoy  <frystacka at berkeley.edu>
+anchors,"R (>= 2.10),rgenoud,MASS",,,"Wand,Jonathan and Gary King,and Olivia Lau",Chris Hare  <chare at uga.edu>
+AnDE,"R (>= 2.14.0),discretization,functional,foreign,stringr",,,Sai Teja Ranuva & Nayyar Zaidi,Sai Teja Ranuva  <ranuva.teja at gmail.com>
+andrews,R (>= 2.9.1),,,Jaroslav Myslivec,Jaroslav Myslivec  <jaroslav.myslivec at upce.cz>
+anesrake,"Hmisc,weights",,,"Josh Pasek [aut,cre]",Josh Pasek  <josh at joshpasek.com>
+anfis,"R (>= 3.0),methods,parallel",,,"Cristobal Fresno,Andrea S. Llera and Elmer A. Fernandez",Cristobal Fresno  <cfresno at bdmg.com.ar>
+AnglerCreelSurveySimulation,R (>= 3.0.2),"dplyr,ggplot2,stats,grid","knitr,rmarkdown,testthat",Steven H. Ranney,Steven H. Ranney  <steven.ranney at gmail.com>
+angstroms,"R (>= 3.3.0),raster","nabor,ncdf4,proj4,sp,spbabel","testthat,covr","Michael D. Sumner [aut,cre]",Michael D. Sumner  <mdsumner at gmail.com>
+aniDom,,rptR,,Damien R. Farine and Alfredo Sanchez-Tojar,Damien R. Farine  <dfarine at orn.mpg.de>
+anim.plots,,animation,"maps,knitr,mapdata,testthat",David Hugh-Jones,David Hugh-Jones  <davidhughjones at gmail.com>
+animalTrack,"R (>= 2.10.0),rgl",,,Ed Farrell and Lee Fuiman,Ed Farrell  <edward.farrell27 at gmail.com>
+animation,R (>= 2.14.0),magick,"MASS,class,testit","Yihui Xie [aut,cre],
+  Christian Mueller [ctb],
+  Lijia Yu [ctb],
+  Weicheng Zhu [ctb]",Yihui Xie  <xie at yihui.name>
+animint2,R (>= 3.4.0),"digest,RJSONIO,grid,gtable (>= 0.1.1),MASS,plyr (>=
+1.7.1),reshape2,scales (>= 0.4.1),stats,tibble,lazyeval","knitr (>= 1.5.33),servr,gistr (>= 0.2),shiny,htmltools,rmarkdown,testthat,devtools,httr,maps,ggplot2movies,hexbin,Hmisc,lattice,mapproj,maptools,mgcv,nlme,quantreg,rpart,svglite","Toby Hocking [aut,cre] (Original animint code),
+  Hadley Wickham [aut] (Forked ggplot2 code),
+  Winston Chang [aut] (Forked ggplot2 code),
+  RStudio [cph] (Forked ggplot2 code),
+  Nicholas Lewin-Koh [aut] (hexGrob),
+  Martin Maechler [aut] (hexGrob),
+  Randall Prium [aut] (cut_width),
+  Susan VanderPlas [aut] (Animint GSOC 2013),
+  Carson Sievert [aut] (Animint GSOC 2014),
+  Kevin Ferris [aut] (Animint GSOC 2015),
+  Tony Tsai [aut] (Animint GSOC 2015),
+  Faizan Khan [aut] (Animint GSOC 2016-2017),
+  Vivek Kumar [aut] (Animint GSOC 2018)",Toby Hocking  <toby.hocking at r-project.org>
+anipaths,R (>= 2.10),"animation,knitr,RColorBrewer,scales,sp,rgdal,mgcv,grDevices,ggmap","ellipse,igraph",Henry Scharf,Henry Scharf  <henry.scharf at colostate.edu>
+anMC,mvtnorm,Rcpp (>= 0.11.1),"DiceKriging,TruncatedNormal,tmg",Dario Azzimonti,Dario Azzimonti  <dario.azzimonti at gmail.com>
+ANN2,,"Rcpp (>= 0.12.18),reshape2 (>= 1.4.3),ggplot2 (>= 3.0.0),viridisLite (>= 0.3.0),methods",testthat,Bart Lammers,Bart Lammers  <bart.f.lammers at gmail.com>
+AnnotationBustR,R (>= 3.4),"ape (>= 4.1),seqinr (>= 3.3-6)","knitr,rmarkdown,testthat","Samuel R. Borstein,Brian O'Meara",Samuel R. Borstein  <sam at borstein.com>
+AnnotLists,tcltk,,,Nicolas Cagnard,Nicolas Cagnard  <nicolas.cagnard at gmail.com>
+AnnuityRIR,"R (>= 3.2.5),mc2d","tseries,EnvStats,fitdistrplus,actuar,stats",MASS,"Salvador Cruz Rambaud [aut],
+  Fabrizio Maturo [aut,cre],
+  Ana Maria Sanchez Perez [aut]",Fabrizio Maturo  <f.maturo at unich.it>
+anocva,R (>= 2.10.0),cluster,"MASS,igraph","Maciel C. Vidal [aut,cre],Andre Fujita [aut]",Maciel C. Vidal  <calebe at ime.usp.br>
+anoint,"R (>= 2.13.0),stats,survival,MASS,graphics,grid","methods,glmnet",,Ravi Varadhan and Stephanie Kovalchik,Stephanie Kovalchik  <s.a.kovalchik at gmail.com>
+ANOM,R (>= 3.0.0),"ggplot2,MCPAN,multcomp,nparcomp,SimComp","knitr,lme4,nlme,sandwich",Philip Pallmann,Philip Pallmann  <p.pallmann at lancaster.ac.uk>
+anomalize,R (>= 3.0.0),"dplyr,glue,timetk,sweep,tibbletime (>= 0.1.3),purrr,rlang,tibble,tidyr (>= 1.0.0),ggplot2,cli,crayon,rstudioapi","tidyverse,tidyquant,stringr,testthat (>= 2.1.0),covr,knitr,rmarkdown,devtools,roxygen2","Matt Dancho [aut,cre],
+  Davis Vaughan [aut]",Matt Dancho  <mdancho at business-science.io>
+anomaly,R (>= 2.10),"dplyr,rlang,methods,assertive,Rdpack,ggplot2,reshape2,Rcpp (>=
+0.12.18),robust",magrittr,"Alex Fisch [aut],
+  Daniel Grose [aut,cre],
+  Lawrence Bardwell [ctb],
+  Idris Eckley [ths],
+  Paul Fearnhead [ths]",Daniel Grose  <dan.grose at lancaster.ac.uk>
+anominate,"stats,coda,wnominate,pscl,MCMCpack",,,"Royce Carroll,Christopher Hare,Jeffrey B. Lewis,James Lo,Keith T. Poole,and Howard Rosenthal",Christopher Hare  <cdhare at ucdavis.edu>
+ANOVA.TFNs,,FuzzyNumbers,,"Abbas Parchami (Department of Statistics,Faculty of Mathematics and Computer,Shahid Bahonar University of Kerman,Kerman,Iran)",Abbas Parchami  <parchami at uk.ac.ir>
+ANOVAIREVA,R (>= 3.0.3),"shiny,rmarkdown,dplyr,datasets,car,ggplot2,plotly",,Kartikeya Bolar,Kartikeya Bolar  <kartikeya.bolar at tapmi.edu.in>
+ANOVAreplication,"quadprog,graphics,grDevices,shiny,stats,utils",,"knitr,rmarkdown,testthat","M.A.J. Zondervan-Zwijnenburg [aut,cre],
+  Herbert Hoijtink [ths],
+  Caspar J van Lissa [ctb],
+  Consortium Individual Development [fnd] (NWO grant number 024.001.003)",M.A.J. Zondervan-Zwijnenburg  <m.a.j.zwijnenburg at uu.nl>
+ANOVAShiny,R (>= 3.0.3),"shiny,rmarkdown,dplyr,datasets,rhandsontable,DescTools,HH",,Kartikeya Bolar,Kartikeya Bolar  <kartikeya.bolar at tapmi.edu.in>
+AntAngioCOOL,"caret,rJava,RWeka,rpart,R (>= 2.10.0)",,,Babak Khorsand,Javad Zahiri  <zahiri at modares.ac.ir>
+antaresEditObject,antaresRead,"assertthat,grDevices,data.table,whisker","testthat,covr","Veronique Bachelier [aut,cre],
+  Frederic Breant [aut],
+  Victor Perrier [aut],
+  Baptiste Seguinot [ctb],
+  Benoit Thieurmel [ctb],
+  Titouan Robert [ctb],
+  Jalal-Edine Zawam [ctb],
+  Etienne Sanchez [ctb],
+  RTE [cph]",Veronique Bachelier  <veronique.bachelier at rte-france.com>
+antaresProcessing,antaresRead (>= 1.1.5),"data.table,methods,stats,stringi","rhdf5 (>= 2.24.0),parallel,testthat,knitr,rmarkdown,covr","Jalal-Edine ZAWAM [aut,cre],
+  Francois Guillem [aut],
+  Benoit Thieurmel [aut],
+  Titouan Robert [aut],
+  RTE [cph]",Jalal-Edine ZAWAM  <jalal-edine.zawam at rte-france.com>
+antaresRead,,"data.table (>= 1.9.6),bit64,lubridate (>= 1.7.1),plyr,methods,stats,stringr,shiny","rhdf5 (>= 2.24.0),testthat,knitr,rmarkdown,foreach,parallel,DT,htmltools","Veronique Bachelier [aut,cre],
+  Jalal-Edine ZAWAM [aut],
+  Frederic Breant [aut],
+  Victor Perrier [aut],
+  Francois Guillem [aut],
+  Benoit Thieurmel [aut],
+  Titouan Robert [aut],
+  RTE [cph]",Veronique Bachelier  <veronique.bachelier at rte-france.com>
+antaresViz,"antaresRead (>= 2.0.0),antaresProcessing (>= 0.13.0),spMaps (>= 0.2)","dygraphs (>= 1.1.1.6),shiny (>= 0.13.0),plotly (>= 4.5.6),htmltools,htmlwidgets (>= 0.7.0),manipulateWidget (>=
+0.10.0),leaflet (>= 1.1.0),sp,rgeos,raster,webshot,data.table,methods,lubridate,geojsonio,graphics,stats,leaflet.minicharts (>= 0.5.3),assertthat,rAmCharts,utils","testthat,covr,rhdf5 (>= 2.20.2),rbokeh,knitr,visNetwork","Jalal-Edine ZAWAM [aut,cre],
+  Francois Guillem [aut],
+  Benoit Thieurmel [aut],
+  Titouan Robert [aut],
+  Baptiste SEGUINOT [ctb],
+  RTE [cph]",Jalal-Edine ZAWAM  <jalal-edine.zawam at rte-france.com>
+anthro,R (>= 3.2),survey,"testthat,covr","Dirk Schumacher [aut,cre],
+  Elaine Borghi [ctb],
+  Jonathan Polonsky [ctb]",Dirk Schumacher  <mail at dirk-schumacher.net>
+AnthropMMD,R (>= 3.5.0),"plotrix,scatterplot3d,shiny,smacof","cluster,covr,knitr,rmarkdown,testthat (>= 2.1.0)","Frédéric Santos 
+    [aut,cre]",Frédéric Santos  <frederic.santos at u-bordeaux.fr>
+Anthropometry,R (>= 3.3.0),"shapes,rgl,archetypes,nnls,depth,FNN,ICGE,cluster,biclust","knitr,calibrate,mvtnorm,SportsAnalytics,RColorBrewer,plotrix,abind","Guillermo Vinue,Irene Epifanio,Amelia Simo,M. Victoria Ibanez,Juan Domingo,Guillermo Ayala",Guillermo Vinue  <Guillermo.Vinue at uv.es>
+antitrust,,"methods,MASS,evd,BB,numDeriv,shiny,rhandsontable",ggplot2,Charles Taragin and Michael Sandfort,Charles Taragin  <ctaragin at ftc.gov>
+antiword,,sys (>= 2.0),,"Jeroen Ooms  [aut,
+    cre],
+  Adri van Os [cph] (Author 'antiword' utility)",Jeroen Ooms  <jeroen at berkeley.edu>
+AntWeb,R (>= 3.0.1),"rjson,plyr,assertthat,httr,leafletR (>= 0.1-1)",,"'Karthik Ram' [aut,cre]",'Karthik Ram'  <karthik.ram at gmail.com>
+anyLib,,"devtools,withr,BiocManager,httr,curl","knitr,rmarkdown,testthat","Aurelien Chateigner [aut,cre]",Aurelien Chateigner  <aurelien.chateigner at gmail.com>
+anytime,R (>= 3.2.0),Rcpp (>= 0.12.9),"tinytest (>= 1.0.0),gettz",Dirk Eddelbuettel,Dirk Eddelbuettel  <edd at debian.org>
+aod,"R (>= 2.10),methods,stats",,"MASS,boot,lme4","Matthieu Lesnoff and Renaud
+        Lancelot",Renaud Lancelot  <renaud.lancelot at cirad.fr>
+aods3,"R (>= 3.0.0),stats,boot,lme4",,,"Matthieu Lesnoff and Renaud
+        Lancelot",Renaud Lancelot  <renaud.lancelot at cirad.fr>
+aoos,"methods,R (>= 3.2.0)","magrittr,utils,roxygen2","testthat,knitr,rbenchmark,R6,rmarkdown","Sebastian Warnholz [aut,cre]",Sebastian Warnholz  <wahani at gmail.com>
+Aoptbdtvc,"R (>= 3.4.0),lpSolve,MASS",,,"Baidya Nath Mandal [aut,cre],
+  Sukanta Dash [aut],
+  Rajender Parsad [aut]",Baidya Nath Mandal  <mandal.stat at gmail.com>
+aoristic,"ggplot2,spatstat,GISTools","lubridate,classInt,reshape2,rgdal,plotKML,MASS,sp,maptools,RColorBrewer",,George Kikuchi,George Kikuchi  <gkikuchi at csufresno.edu>
+apa,R (>= 3.1.0),"dplyr (>= 0.4),magrittr,purrr,rmarkdown,stringr","afex (>= 0.14),ez,testthat,knitr","Daniel Gromer [aut,cre]",Daniel Gromer  <dgromer at mailbox.org>
+ApacheLogProcessor,,"foreach,parallel,doParallel,utils,stringr",,Diogo Silveira Mendonca,Diogo Silveira Mendonca  <diogosmendonca at gmail.com>
+apaTables,R (>= 3.1.2),"stats,utils,methods,car,broom,dplyr,boot,tibble","testthat,knitr,rmarkdown,psych,ez,tidyr,forcats,MBESS","David Stanley [aut,cre]",David Stanley  <dstanley at uoguelph.ca>
+apaText,R (>= 3.1.2),"stats,dplyr",apaTables,"David Stanley [aut,cre]",David Stanley  <dstanley at uoguelph.ca>
+apc,,lattice,,Bent Nielsen,Bent Nielsen  <bent.nielsen at nuffield.ox.ac.uk>
+APCanalysis,R (>= 3.3.0),,,Arden Miller and Abu Zar Md. Shafiullah.,Arden Miller  <a.miller at auckland.ac.nz>
+apcf,R (>= 3.3.0),"Rcpp (>= 0.12),graphics","knitr,rmarkdown","Robert Nuske 
+    [aut,cre]",Robert Nuske  <robert.nuske at mailbox.org>
+apcluster,R (>= 3.0.0),"Rcpp (>= 0.11.1),methods,Matrix,stats,graphics,grDevices","Biostrings,kebabs (>= 1.5.4),knitr","Ulrich Bodenhofer,Johannes Palme,Chrats Melkonian,Andreas Kothmeier,
+	Nikola Kostic",Ulrich Bodenhofer  <bodenhofer at bioinf.jku.at>
+apdesign,R (>= 3.2.3),Matrix (>= 1.2),testthat,"Tyler Matta [aut,cre],
+  Quinn Lathrop [ctb],
+  Yeow Meng Thum [ctb]",Tyler Matta  <tyler.matta at gmail.com>
+ape,R (>= 3.2.0),"nlme,lattice,graphics,methods,stats,tools,utils,parallel,Rcpp (>= 0.12.0)","gee,expm,igraph","Emmanuel Paradis 
+    [aut,cre,cph],
+  Simon Blomberg 
+    [aut,cph],
+  Ben Bolker  [aut,
+    cph],
+  Joseph Brown [aut,cph],
+  Julien Claude [aut,cph],
+  Hoa Sien Cuong [aut,cph],
+  Richard Desper [aut,cph],
+  Gilles Didier [aut,cph],
+  Benoit Durand [aut,cph],
+  Julien Dutheil [aut,cph],
+  RJ Ewing [aut,cph],
+  Olivier Gascuel [aut,cph],
+  Thomas Guillerme [aut,cph],
+  Christoph Heibl [aut,cph],
+  Anthony Ives [aut,cph],
+  Bradley Jones [aut,cph],
+  Franz Krah [aut,cph],
+  Daniel Lawson [aut,cph],
+  Vincent Lefort [aut,cph],
+  Pierre Legendre 
+    [aut,cph],
+  Jim Lemon [aut,cph],
+  Eric Marcon [aut,cph],
+  Rosemary McCloskey [aut,cph],
+  Johan Nylander [aut,cph],
+  Rainer Opgen-Rhein [aut,cph],
+  Andrei-Alin Popescu [aut,cph],
+  Manuela Royer-Carenzi [aut,cph],
+  Klaus Schliep [aut,cph],
+  Korbinian Strimmer [aut,cph],
+  Damien de Vienne [aut,cph]",Emmanuel Paradis  <Emmanuel.Paradis at ird.fr>
+apercu,,pls,testthat,Aurelien Chateigner,Aurelien Chateigner  <aurelien.chateigner at gmail.com>
+apex,"R (>= 3.1.3),methods,ape,phangorn","utils,graphics,stats,grDevices,adegenet","testthat,knitr,rmarkdown","Thibaut Jombart [aut,cre],
+  Zhian Namir Kamvar [aut],
+  Klaus Schliep [aut],
+  Eric Archer [aut],
+  Rebecca Harris [aut]",Thibaut Jombart  <thibautjombart at gmail.com>
+apexcharter,R (>= 2.10),"htmlwidgets,magrittr,rlang,ggplot2,scales","testthat,dplyr,knitr,rmarkdown,shiny","Victor Perrier [aut,cre],
+  Fanny Meyer [aut],
+  Juned Chhipa [cph] (apexcharts.js library)",Victor Perrier  <victor.perrier at dreamrs.fr>
+APFr,R (>= 3.5.0),"stats (>= 3.5.2),graphics (>= 3.5.2)",,"Nicolò Margaritella [cre,aut],
+  Piero Quatto [aut]",Nicolò Margaritella  <N.Margaritella at sms.ed.ac.uk>
+APfun,R (>= 3.4.0),"sp,raster,rgdal,methods,maptools",testthat,Andrew Plowright,Andrew Plowright  <andrew.plowright at alumni.ubc.ca>
+aphid,R (>= 3.0.0),"graphics,openssl,kmer (>= 1.0.0),Rcpp (>= 0.12.5),stats","ape (>= 4.0),knitr,rmarkdown,testthat","Shaun Wilkinson [aut,cre]",Shaun Wilkinson  <shaunpwilkinson at gmail.com>
+APIS,R (>= 3.4.0),"foreach,parallel,doParallel,ggplot2,gridExtra","knitr,rmarkdown","Ronan Griot,François Allal,Romain Morvezen,Sophie Brard-Fudulea,Pierrick Haffray,Florence Phocas and Marc Vandeputte",Ronan Griot  <ronan.griot at gmail.com>
+aplore3,R (>= 3.1.1),,"knitr,MASS,vcdExtra,nnet,survival,pROC","Luca Braglia [aut,cre]",Luca Braglia  <lbraglia at gmail.com>
+aplpack,R (>= 3.0.0),,"tkrplot,jpeg,png,splines,utils,tcltk","Hans Peter Wolf [aut,cre]",Hans Peter Wolf  <pwolf at wiwi.uni-bielefeld.de>
+APML0,Matrix (>= 1.2-10),Rcpp (>= 0.12.12),,"Xiang Li,Shanghong Xie,Donglin Zeng and Yuanjia Wang",Xiang Li  <xli256 at its.jnj.com>
+apmsWAPP,R (>= 3.0.1),"genefilter,Biobase,seqinr,multtest,gtools,edgeR,DESeq,aroma.light",,Martina Fischer,Martina Fischer  <fischerm at rki.de>
+apng,bitops,,,Quinten Stokkink,Quinten Stokkink  <q.a.stokkink at tudelft.nl>
+apollo,"R (>= 3.1.0),stats,utils","Rcpp (>= 1.0.0),maxLik,mnormt,mvtnorm,graphics,coda,sandwich,randtoolbox,numDeriv,RSGHB,parallel","knitr,rmarkdown,testthat","Stephane Hess [aut],
+  David Palma [aut,cre]",David Palma  <D.Palma at leeds.ac.uk>
+apparent,"R (>= 3.0.2),outliers",,,"Arthur Melo,Iago Hale",Arthur Melo  <arthurmelobio at gmail.com>
+APPEstimation,densratio,,,"Eisuke Inoue,Hajime Uno",Eisuke Inoue  <eisuke.inoue at marianna-u.ac.jp>
+apple,MASS,,,"Yi Yu,Yang Feng",Yi Yu  <yuyi at fudan.edu.cn>
+AppliedPredictiveModeling,R (>= 2.10),"CORElearn,MASS,plyr,reshape2,lattice,ellipse",caret (>= 6.0-22),"Max Kuhn,Kjell Johnson",Max Kuhn  <mxkuhn at gmail.com>
+appnn,,,,"Carlos Família,Sarah R. Dennison,Alexandre Quintas,David A. Phoenix",Carlos Família  <carlosfamilia at gmail.com>
+approximator,"R (>= 2.0.0),emulator (>= 1.2-11)",mvtnorm,,Robin K. S. Hankin,Robin K. S. Hankin  <hankin.robin at gmail.com>
+approxmatch,,,"optmatch,MASS",Bikram Karmakar,Bikram Karmakar  <bikramk at wharton.upenn.edu>
+aprean3,R (>= 3.1.1),,,"Luca Braglia [aut,cre]",Luca Braglia  <lbraglia at gmail.com>
+apricom,R (>= 3.1.1),"logistf,penalized,rms,graphics,stats,shrink","knitr,testthat,rmarkdown","Romin Pajouheshnia [aut,cre],
+  Wiebe Pestman [aut],
+  Rolf Groenwold [aut]",Romin Pajouheshnia  <R.Pajouheshnia at umcutrecht.nl>
+aprof,,"graphics,grDevices,stats,testthat",,Marco D. Visser,Marco D. Visser  <marco.d.visser at gmail.com>
+APSIM,,"data.table (>= 1.9.4),lubridate (>= 1.3.3),stringr (>=
+0.6.2),plyr (>= 1.8.1),sirad,methods,utils,RSQLite",,Justin Fainges,Dean Holzworth  <Dean.Holzworth at csiro.au>
+APSIMBatch,,,,Bangyou Zheng,Bangyou Zheng  <Bangyou.Zheng at csiro.au>
+apsimr,"R (>= 3.0),ggplot2,XML","lubridate,reshape2,MASS,mgcv",knitr,Bryan Stanfill,Bryan Stanfill  <bstanfill2003 at gmail.com>
+apsrtable,"R (>= 2.14.0),methods",,,Michael Malecki,Michael Malecki  <malecki at wustl.edu>
+apt,"R (>= 3.0.0),erer,gWidgets","car,urca,copula","RGtk2,gWidgetsRGtk2,cairoDevice",Changyou Sun,Changyou Sun  <cs258 at msstate.edu>
+aptg,"ape,brranching,phytools,taxize,xml2",,"paco,vegan,knitr,rmarkdown",Christophe Benjamin,Christophe Benjamin  <c.chignac.benjamin at gmail.com>
+APtools,"graphics,stats,utils,survival,cmprsk",,,"Hengrui Cai,Yan Yuan,Qian
+    Michelle Zhou,Bingying Li",Hengrui Cai  <hengruicai at gmail.com>
+apTreeshape,"R (>= 2.0.0),ape","quantreg,cubature,coda,pbapply",,"Nicolas Bortolussi,Michael Blum,Eric Durand,Olivier Francois,Odile Maliet",Michael Blum  <michael.blum at univ-grenoble-alpes.fr>
+aqfig,geoR,,maps,"Jenise Swall,with contributions from Kristen Foley",Jenise Swall  <jswall at vcu.edu>
+aqp,R (>= 3.0.0),"grDevices,graphics,stats,utils,methods,plyr,reshape,grid,lattice,cluster,sp,Hmisc,stringr,scales,plotrix,RColorBrewer,MASS,digest","colorspace,maptools,foreign,ape,soilDB,latticeExtra,maps,compositions,sharpshootR,markovchain,xtable,testthat,Gmedian,farver","Dylan Beaudette [aut,cre],
+  Pierre Roudier [aut,ctb],
+  Andrew Brown [aut,ctb]",Dylan Beaudette  <dylan.beaudette at ca.usda.gov>
+aqr,"R (>= 2.1),xts,RCurl",,,"Ulrich Staudinger,ActiveQuant GmbH",Ulrich Staudinger  <ustaudinger at activequant.com>
+AquaEnv,R (>= 2.15.0),"minpack.lm,graphics,grDevices,stats",deSolve,"Andreas F. Hofmann,Karline Soetaert,Filip J.R. Meysman,
+        Mathilde Hagens",Karline Soetaert  <Karline.Soetaert at nioz.nl>
+AR,,DISTRIB,,"Abbas Parchami (Department of Statistics,Faculty of Mathematics and Computer,Shahid Bahonar University of Kerman,Kerman,Iran)",Abbas Parchami  <parchami at uk.ac.ir>
+ar.matrix,R (>= 3.3.0),"MASS,Matrix,sparseMVN,sp","ggplot2,leaflet","Neal Marquez [aut,cre,cph]",Neal Marquez  <nmarquez at uw.edu>
+AR1seg,Segmentor3IsBack,,,"S. Chakar,E. Lebarbier,C. Levy-Leduc,S. Robin",Souhil Chakar  <souhil.chakar at agroparistech.fr>
+arabicStemR,,,,Rich Nielsen,Rich Nielsen  <rnielsen at mit.edu>
+ArArRedux,R (>= 3.0.2),"utils,stats,methods,graphics,grDevices",,"Pieter Vermeesch [aut,cre]",Pieter Vermeesch  <p.vermeesch at ucl.ac.uk>
+arc,"R (>= 3.2.3),arules (>= 1.5-0),R.utils,discretization","Matrix,methods,datasets",qCBA,"Tomas Kliegr [aut,cre]",Tomas Kliegr  <kliegr at gmail.com>
+ARCensReg,,"mvtnorm,tmvtnorm,msm,numDeriv,utils,graphics,stats",SMNCensReg,"Fernanda L. Schumacher,Victor H. Lachos and Christian E. Galarza",Fernanda L. Schumacher  <fernandalschumacher at gmail.com>
+ArchaeoChron,"R (>= 2.10),coda,rjags,ArchaeoPhases","stats,utils,graphics,grDevices,Bchron","knitr,rmarkdown","Anne Philippe [aut,cre],
+  Marie-Anne Vibet [aut]",Anne Philippe  <anne.philippe at univ-nantes.fr>
+ArchaeoPhases,"R (>= 2.10),coda,hdrcde","stats,utils,graphics,grDevices,shiny,shinythemes,DT,readr,ggthemes,toOrdinal,ggplot2,ggalt","knitr,rmarkdown","Anne Philippe [aut,cre],
+  Marie-Anne Vibet [aut],
+  Thomas S. Dye [ctb]",Anne Philippe  <anne.philippe at univ-nantes.fr>
+archdata,,,"ca,circular,plotrix,MASS,spatstat,rgl",David L. Carlson and Georg Roth,David L. Carlson  <dcarlson at tamu.edu>
+archetypal,R (>= 3.1.0),"Matrix,geometry,inflection,doParallel,lpSolve,methods","knitr,rmarkdown,plot3D","Demetris Christopoulos [aut,cre],
+  David Midgley [ctb],
+  INSEAD Fontainebleau France [fnd,cph]",Demetris Christopoulos  <dchristop at econ.uoa.gr>
+archetypes,"methods,stats,modeltools,nnls (>= 1.1)",,"MASS,vcd,mlbench,ggplot2,TSP","Manuel J. A. Eugster [aut,cre],
+  Friedrich Leisch [aut],
+  Sohan Seth [ctb]",Manuel J. A. Eugster  <manuel at mjae.net>
+archiDART,,"stats,utils,graphics,grDevices,XML,rgl,sp",TDA,"Benjamin M Delory,Caroline Baudson,Yves Brostaux,Guillaume Lobet,Patrick du Jardin,Loic Pages,Pierre Delaplace ",Benjamin M Delory  <Benjamin.Delory at leuphana.de>
+archivist,R (>= 3.2.0),"RCurl,digest,httr,DBI,lubridate,RSQLite,magrittr,flock","shiny,dplyr,testthat,ggplot2,devtools,knitr","Przemyslaw Biecek [aut,cre],
+  Marcin Kosinski [aut],
+  Witold Chodor [ctb]",Przemyslaw Biecek  <przemyslaw.biecek at gmail.com>
+archivist.github,"R (>= 3.2.0),archivist","httr,git2r,jsonlite,digest",knitr,"Marcin Kosinski [aut,cre],
+  Przemyslaw Biecek [aut]",Marcin Kosinski  <m.p.kosinski at gmail.com>
+ArCo,,"Matrix,glmnet,boot",,"Yuri R. Fonseca [aut],
+  Ricardo Masini [aut],
+  Marcelo C. Medeiros [aut],
+  Gabriel F. R. Vasconcelos [aut,cre]",Gabriel F. R. Vasconcelos  <gabrielrvsc at yahoo.com.br>
+arcos,R (>= 3.3.0),"stringr,magrittr,jsonlite,dplyr,urltools,vroom","tidyverse,leaflet,knitr,sf,tigris,testthat (>= 2.1.0),rmarkdown,data.table,formattable,geofacet,lubridate,scales,viridis","Steven Rich [aut,ctb],
+  Andrew Ba Tran [aut,cre],
+  Aaron Williams [aut,ctb],
+  Jason Holt [ctb],
+  The Washington Post [cph],
+  The Charleston Gazette-Mail [cph]",Andrew Ba Tran  <andrew.tran at washpost.com>
+ArDec,,,,Susana Barbosa,Susana Barbosa  <sabarbosa at fc.ul.pt>
+areal,R (>= 3.3),"dplyr,glue,purrr,rlang,sf","knitr,rmarkdown,testthat,covr","Christopher Prener
+     [aut,cre],
+  Charlie Revord [aut]",Christopher Prener  <chris.prener at slu.edu>
+areaplot,,"graphics,grDevices,stats",MASS,"Arni Magnusson [aut,cre]",Arni Magnusson  <arni.magnusson at ices.dk>
+arena2r,R (>= 2.10),"stats,utils,rlang,tidyr,magrittr,dplyr,purrr,shiny,shinydashboard,shinyBS,shinyjs,ggplot2","testthat,covr,knitr,rmarkdown","Pedro Nascimento de Lima [aut,cre]",Pedro Nascimento de Lima  <pedrolima.n at gmail.com>
+arf3DS4,"R (>= 2.15.0),methods,graphics,tcltk,corpcor",,,Wouter D. Weeda,Wouter D. Weeda  <w.d.weeda at gmail.com>
+arfima,"R (>= 3.0.0),ltsa",parallel,,"JQ (Justin) Veenstra [aut,cre],A.I. McLeod [aut]",JQ Veenstra  <jqveenstra at gmail.com>
+ArfimaMLM,"R (>= 3.0.0),lme4,fractal",fracdiff,,"Patrick Kraft [aut,cre],
+  Christopher Weber [ctb]",Patrick Kraft  <patrick.kraft at stonybrook.edu>
+argo,,"xts,glmnet,zoo,XML,xtable,Matrix,boot",testthat,"Shaoyang Ning,Shihao Yang,S. C. Kou",Shihao Yang  <shihaoyang at g.harvard.edu>
+argon2,R (>= 3.0.0),,,"Drew Schmidt [aut,cre]",Drew Schmidt  <wrathematics at gmail.com>
+argonDash,,"shiny,htmltools,argonR",magrittr,"David Granjon [aut,cre],
+  RinteRface [cph],
+  Creative Tim [ctb,cph] (Argon theme for Bootstrap 4)",David Granjon  <dgranjon at ymail.com>
+argonR,,"htmltools,utils","magrittr,knitr,rmarkdown","David Granjon [aut,cre],
+  Creative Tim [ctb,cph] (Argon theme for Bootstrap 4),
+  Winston Chang [ctb,cph] (Unexported functions from htmltools)",David Granjon  <dgranjon at ymail.com>
+argosfilter,,,,Carla Freitas,Carla Freitas  <carla.freitas at imr.no>
+argparse,,"R6,findpython,jsonlite","covr,knitr (>= 1.15.19),testthat","Trevor L Davis [aut,cre],
+  Allen Day [ctb] (Some documentation and examples ported from the getopt
+    package.),
+  Python Software Foundation [ctb] (Some documentation from the optparse
+    Python module.),
+  Paul Newell [ctb]",Trevor L Davis  <trevor.l.davis at gmail.com>
+argparser,methods,,,David J. H. Shih,David J. H. Shih  <djh.shih at gmail.com>
+ArgumentCheck,R (>= 3.0.0),,"knitr,testthat",Benjamin Nutter,Benjamin Nutter  <benjamin.nutter at gmail.com>
+ARHT,R (>= 2.10),stats,testthat,"Haoran Li [aut,cre]",Haoran Li  <hrli at ucdavis.edu>
+ari,R (>= 3.1.0),"text2speech (>= 0.2.4),tuneR,webshot,purrr,rmarkdown,xml2,rvest,tools,progress,hms","testthat,grDevices,xaringan,aws.signature,aws.polly","Sean Kross [aut,cre],
+  John Muschelli [ctb]",Sean Kross  <sean at seankross.com>
+ARIbrain,,"hommel,RNifti,plyr","knitr,rmarkdown","Livio Finos,Jelle Goeman,Wouter Weeda,Jonathan Rosenblatt,Aldo Solari",Livio Finos  <livio.finos at unipd.it>
+aricode,,"Matrix,Rcpp",testthat,"Julien Chiquet 
+    [aut,cre],
+  Guillem Rigaill [aut],
+  Valentin Dervieux [ctb]",Julien Chiquet  <julien.chiquet at inra.fr>
+arkdb,,"DBI,progress,tools,utils","readr,spelling,dplyr,dbplyr,nycflights13,testthat,knitr,covr,fs,rmarkdown,RSQLite,MonetDBLite (>= 0.5.0)","Carl Boettiger 
+    [aut,cre,cph],
+  Richard FitzJohn [ctb]",Carl Boettiger  <cboettig at gmail.com>
+arm,"R (>= 3.1.0),MASS,Matrix (>= 1.0),stats,lme4 (>= 1.0)","abind,coda,graphics,grDevices,methods,nlme,utils",,"Andrew Gelman [aut],
+  Yu-Sung Su [aut,cre],
+  Masanao Yajima [ctb],
+  Jennifer Hill [ctb],
+  Maria Grazia Pittau [ctb],
+  Jouni Kerman [ctb],
+  Tian Zheng [ctb],
+  Vincent Dorie [ctb]",Yu-Sung Su  <suyusung at tsinghua.edu.cn>
+armada,,"stats,mvtnorm,ClustOfVar,FAMT,graphics,VSURF,glmnet,anapuce,qvalue,parallel,doParallel,impute,ComplexHeatmap,circlize",,"Aurelie Gueudin [aut,cre],
+  Anne Gegout-Petit [aut]",Aurelie Gueudin  <aurelie.gueudin at univ-lorraine.fr>
+armspp,R (>= 3.2.3),Rcpp,"knitr,rmarkdown,covr,testthat","Michael Bertolacci [aut,cre]",Michael Bertolacci  <m.bertolacci at gmail.com>
+arnie,R (>= 3.1.0),,,"'Imanuel Costigan' [aut,cre]",'Imanuel Costigan'  <i.costigan at me.com>
+AROC,,"stats,grDevices,graphics,splines,np,Matrix,Hmisc,MASS,moments",,"Maria Xose Rodriguez-Alvarez
+     [aut,cre],
+  Vanda Inacio de Carvalho
+     [aut]",Maria Xose Rodriguez-Alvarez  <mxrodriguez at bcamath.org>
+aroma.affymetrix,"R (>= 3.2.0),R.utils (>= 2.9.0),aroma.core (>= 3.2.0)","methods,R.methodsS3 (>= 1.7.1),R.oo (>= 1.21.0),R.cache (>=
+0.13.0),R.devices (>= 2.16.0),R.filesets (>= 2.13.0),aroma.apd (>= 0.6.0),MASS,splines,matrixStats (>= 0.54.0),listenv,future","DBI (>= 1.0.0),gsmoothr (>= 0.1.7),RColorBrewer (>= 1.1-2),Biobase (>= 2.28.0),BiocGenerics (>= 0.14.0),affxparser (>=
+1.40.0),affy (>= 1.46.0),affyPLM (>= 1.44.0),aroma.light (>=
+2.4.0),gcrma (>= 2.40.0),limma (>= 3.24.1),oligo (>=
+1.32.0),oligoClasses (>= 1.30.0),pdInfoBuilder (>= 1.32.0),preprocessCore (>= 1.28.0),AffymetrixDataTestFiles,dChipIO (>= 0.1.1)","Henrik Bengtsson [aut,cre,cph],
+  James Bullard [ctb],
+  Kasper Hansen [ctb],
+  Pierre Neuvial [ctb],
+  Elizabeth Purdom [ctb],
+  Mark Robinson [ctb],
+  Ken Simpson [ctb]",Henrik Bengtsson  <henrikb at braju.com>
+aroma.apd,R (>= 3.0.0),"R.methodsS3 (>= 1.7.0),R.oo (>= 1.18.0),R.utils (>= 1.34.0),R.huge (>= 0.9.0)",affxparser,"Henrik Bengtsson [aut,cre,cph]",Henrik Bengtsson  <henrikb at braju.com>
+aroma.cn,"R (>= 3.1.1),R.utils (>= 2.1.0),aroma.core (>= 2.14.0)","R.methodsS3 (>= 1.7.0),R.oo (>= 1.19.0),R.filesets (>=
+2.9.0),R.cache (>= 0.10.0),matrixStats (>= 0.15.0),PSCBS (>=
+0.50.0)","aroma.light (>= 2.2.1),DNAcopy (>= 1.40.0),GLAD (>= 1.12.0)","Henrik Bengtsson [aut,cre,cph],
+  Pierre Neuvial [aut]",Henrik Bengtsson  <henrikb at braju.com>
+aroma.core,"R (>= 3.2.0),R.utils (>= 2.6.0),R.filesets (>= 2.12.1),R.devices (>= 2.15.1)","stats,utils,R.methodsS3 (>= 1.7.1),R.oo (>= 1.22.0),R.cache (>= 0.13.0),R.rsp (>= 0.42.0),matrixStats (>=
+0.53.1),RColorBrewer (>= 1.1-2),PSCBS (>= 0.63.0),listenv,future","KernSmooth,png (>= 0.1-7),Cairo (>= 1.5-9),EBImage (>=
+4.8.3),preprocessCore (>= 1.28.0),aroma.light (>= 2.2.1),DNAcopy (>= 1.40.0),GLAD (>= 2.30.0),sfit (>= 0.1.8),expectile (>= 0.2.5),HaarSeg (>= 0.0.2),mpcbs (>= 1.1.1)","Henrik Bengtsson [aut,cre,cph],
+  Mark Robinson [ctb],
+  Ken Simpson [ctb]",Henrik Bengtsson  <henrikb at braju.com>
+Arothron,R (>= 3.4.0),"compositions (>= 1.40-1),doParallel (>= 1.0.11),foreach (>=
+1.4.4),geometry (>= 0.3-6),graphics (>= 3.4.0),grDevices (>=
+3.4.0),Morpho (>= 2.5.0),rgl (>= 0.93.0),Rvcg (>= 0.17),stats (>= 3.4.0),stringr (>= 1.3.0),utils (>= 3.4.0),vegan (>= 2.4)",,"Antonio Profico,Alessio Veneziano,Marina Melchionna,Pasquale Raia",Antonio Profico  <antonio.profico at uniroma1.it>
+ARpLMEC,,"Matrix,stats4,gmm,sandwich,mvtnorm,tmvtnorm,numDeriv,utils,graphics,stats,MASS,lmec,mnormt",,"Rommy C. Olivari,Aldo M. Garay and Victor H. Lachos ",Rommy Camasca Olivari  <rco1 at de.ufpe.br>
+ARPobservation,,stats,"shiny,plyr,reshape2,dplyr,ggplot2,viridis,knitr,testthat","James E. Pustejovsky,with contributions from Daniel M. Swan",James E. Pustejovsky  <jepusto at gmail.com>
+arpr,,magrittr,,Jirka Lewandowski,Jirka Lewandowski  <jirka.lewandowski at wzb.eu>
+aRpsDCA,,"stats,methods",,"Derrick Turk [aut,cre,cph]",Derrick Turk  <dwt at terminusdatascience.com>
+arrangements,R (>= 3.4.0),"methods,R6,gmp","foreach,testthat,knitr,rmarkdown","Randy Lai [aut,cre]",Randy Lai  <randy.cs.lai at gmail.com>
+arrApply,,Rcpp (>= 0.12.0),testthat,Serguei Sokol,Serguei Sokol  <sokol at insa-toulouse.fr>
+ArrayBin,"R (>= 2.15.0),SAGx",,,"Ed Curry [aut,cre]",Ed Curry  <e.curry at imperial.ac.uk>
+arrayhelpers,,"methods,utils,svUnit",,C. Beleites,C. Beleites  <claudia.beleites at chemometrix.eu>
+arrow,R (>= 3.1),"assertthat,bit64,methods,purrr,R6,Rcpp (>= 1.0.1),rlang,tidyselect,utils","covr,fs,hms,knitr,lubridate,rmarkdown,testthat,tibble,vctrs","Romain François 
+    [aut],
+  Jeroen Ooms [aut],
+  Neal Richardson [aut,cre],
+  Javier Luraschi [ctb],
+  Jeffrey Wong [ctb],
+  Apache Arrow [aut,cph]",Neal Richardson  <neal at ursalabs.org>
+ars,R (>= 3.1.2),,,"Paulino Perez Rodriguez original C++ code
+        from Arnost Komarek based on ars.f written by P. Wild and W. R.
+        Gilks",Paulino Perez Rodriguez  <perpdgo at colpos.mx>
+arse,"R (>= 3.5.0),dplyr,pracma",,,"Nathaniel Ratcliff [aut,cre],
+  Devika Nair [aut],
+  Joshua Goldstein [aut],
+  Teja Pristavec [ctb],
+  Aaron Schroeder [ctb],
+  Jon Spring [ctb]",Nathaniel Ratcliff  <nr3xe at virginia.edu>
+arsenal,"R (>= 3.2.0),stats (>= 3.2.0)",utils (>= 3.2.0),"broom,stringr,magrittr,knitr,rmarkdown,testthat,xtable,pander,survival (>= 2.41-3),coin,pROC,MASS,gam,rpart,yaml","Ethan Heinzen [aut,cre],
+  Jason Sinnwell [aut],
+  Elizabeth Atkinson [aut],
+  Tina Gunderson [aut],
+  Gregory Dougherty [aut],
+  Patrick Votruba [ctb],
+  Ryan Lennon [ctb],
+  Andrew Hanson [ctb],
+  Krista Goergen [ctb],
+  Emily Lundt [ctb],
+  Brendan Broderick [ctb],
+  Maddie McCullough [art]",Ethan Heinzen  <heinzen.ethan at mayo.edu>
+ART,,"stats,car",,Pablo J. Villacorta,Pablo J. Villacorta  <pjvi at decsai.ugr.es>
+artfima,R (>= 2.1.0),"ltsa,gsl",,"A. I. McLeod,Mark M. Meerschaert,Farzad Sabzikar",A.I. McLeod  <aimcleod at uwo.ca>
+ARTIVA,"MASS,igraph,gplots",,,S. Lebre and G. Lelandais.,S. Lebre  <sophie.lebre at icube.unistra.fr>
+ARTool,R (>= 3.2),"lme4,car (>= 2.0-24),plyr,magrittr,dplyr","testthat (>= 0.10.0),emmeans,knitr,rmarkdown,ggplot2,tidyr,pander,lmerTest,cluster,phia,survival,psych,stringi,DescTools","Matthew Kay [aut,cre],
+  Jacob O. Wobbrock [aut]",Matthew Kay  <mjskay at umich.edu>
+ARTP,,,,"Kai Yu,Qizhai Li and William Wheeler",Bill Wheeler  <wheelerb at imsweb.com>
+ARTP2,"R (>= 3.4.0),stats,utils","Formula,parallel,data.table (>= 1.9.4)",,"Han Zhang,Bill Wheeler,Kai Yu,Yifan Yang,R Core Team",Bill Wheeler  <wheelerb at imsweb.com>
+arules,"R (>= 3.4.0),Matrix (>= 1.2-0)","stats,methods,graphics,utils","pmml,XML,arulesViz,testthat","Michael Hahsler [aut,cre,cph],
+  Christian Buchta [aut,cph],
+  Bettina Gruen [aut,cph],
+  Kurt Hornik [aut,cph],
+  Ian Johnson [ctb,cph],
+  Christian Borgelt [ctb,cph]",Michael Hahsler  <mhahsler at lyle.smu.edu>
+arulesCBA,"R (>= 3.2.0),Matrix (>= 1.2-0),arules (>= 1.6-2),discretization (>= 1.0-1)","methods,testthat",,"Ian Johnson [aut,cre,cph],
+  Michael Hahsler [aut,cph]",Ian Johnson  <ianjjohnson at icloud.com>
+arulesNBMiner,"R (>= 2.10),arules (>= 0.6-6),rJava (>= 0.6-3)","methods,stats,graphics",,Michael Hahsler,Michael Hahsler  <mhahsler at lyle.smu.edu>
+arulesSequences,"R (>= 3.3.2),methods,arules (>= 1.5-1)",,,"Christian Buchta and Michael Hahsler,with contributions from
+        Daniel Diaz",Christian Buchta  <christian.buchta at wu.ac.at>
+arulesViz,"arules (>= 1.4.1),grid","scatterplot3d,vcd,seriation,igraph (>= 1.0.0),graphics,methods,utils,grDevices,stats,colorspace,DT,plotly,visNetwork","graph,Rgraphviz,iplots,shiny,shinythemes,htmlwidgets","Michael Hahsler [aut,cre,cph],
+  Giallanza Tyler [ctb],
+  Sudheer Chelluboina [ctb]",Michael Hahsler  <mhahsler at lyle.smu.edu>
+aRxiv,R (>= 3.0.0),"httr,utils,XML","devtools,knitr,rmarkdown,roxygen2,testthat","Karthik Ram  [aut],
+  Karl Broman  [aut,
+    cre]",Karl Broman  <broman at wisc.edu>
+asaur,,,,Dirk F. Moore ,Dirk F. Moore  <dirkfmoore at gmail.com>
+asbio,"R (>= 2.15.1),tcltk","scatterplot3d,pixmap,plotrix,mvtnorm,deSolve,lattice,multcompView,grDevices,graphics,stats,utils","akima,boot",Ken Aho,Ken Aho  <kenaho1 at gmail.com>
+asciiruler,R (>= 2.14),stringr,testthat,Jeremy Leipzig,Jeremy Leipzig  <leipzig at gmail.com>
+asciiSetupReader,R (>= 3.1.0),"data.table,haven,readr,stringr,zoo,shiny (>= 0.13),miniUI (>= 0.1.1),rstudioapi (>= 0.5)","covr,knitr,rmarkdown,testthat (>= 2.1.0)","Jacob Kaplan 
+    [aut,cre]",Jacob Kaplan  <jkkaplan6 at gmail.com>
+asd,mvtnorm,,,Nick Parsons,Nick Parsons  <nick.parsons at warwick.ac.uk>
+asdreader,R (>= 3.0),,,"Pierre Roudier [aut,cre],
+  Etienne Lalibert'{e} [ctb]",Pierre Roudier  <roudierp at landcareresearch.co.nz>
+ASGS.foyer,R (>= 3.4.0),"sp,methods,utils","testthat,spdep,codetools","Hugh Parsonage [aut,cre]",Hugh Parsonage  <hugh.parsonage at gmail.com>
+ash,,,,"S original by David W. Scott
+        R port by Albrecht Gebhardt
+        adopted to recent S-PLUS by Stephen Kaluzny",Albrecht Gebhardt  <albrecht.gebhardt at aau.at>
+ashr,R (>= 3.1.0),"Matrix,stats,graphics,assertthat,truncnorm,mixsqp,SQUAREM,doParallel,pscl,Rcpp (>= 0.10.5),foreach,etrunct","testthat,knitr,rmarkdown,ggplot2,REBayes","Matthew Stephens [aut],
+  Peter Carbonetto [aut,cre],
+  Chaoxing Dai [ctb],
+  David Gerard [aut],
+  Mengyin Lu [aut],
+  Lei Sun [aut],
+  Jason Willwerscheid [aut],
+  Nan Xiao [aut],
+  Mazon Zeng [ctb]",Peter Carbonetto  <pcarbo at uchicago.edu>
+asht,"stats,exact2x2,exactci,bpcp,coin","perm,ssanv",bootstrap,Michael P. Fay,Michael P. Fay  <mfay at niaid.nih.gov>
+AsioHeaders,,,,Dirk Eddelbuettel,Dirk Eddelbuettel  <edd at debian.org>
+ASIP,R (>= 3.4.0),"raster (>= 2.6-7),utils,rgdal (>= 1.2-16),stringr (>=
+1.2.0)",,"M J Riyas [aut,cre],
+  T H Syed [aut]",M J Riyas  <riyasmjgeo at gmail.com>
+askpass,,sys (>= 2.1),testthat,"Jeroen Ooms  [aut,
+    cre]",Jeroen Ooms  <jeroen at berkeley.edu>
+aslib,,"BatchExperiments,BatchJobs,BBmisc,checkmate,corrplot,ggplot2,llama,mlr,parallelMap,ParamHelpers,plyr,reshape2,RWeka,stringr,yaml","testthat,rpart","Bernd Bischl,Lars Kotthoff,
+    Pascal Kerschke [ctb]",Lars Kotthoff  <larsko at cs.ubc.ca>
+ASMap,"R (>= 2.10),qtl,gtools,fields,RColorBrewer,lattice",,"knitr,formatR,digest","Julian Taylor,David Butler.",Julian Taylor  <julian.taylor at adelaide.edu.au>
+asnipe,R (>= 2.10),"MASS,Matrix","ape,raster,sna",Damien R. Farine,Damien R. Farine  <dfarine at ab.mpg.de>
+aspace,"R (>= 2.15.1),splancs,Hmisc,shapefiles",,,"Randy Bui,Ron N. Buliung,Tarmo K. Remmel",Ron N. Buliung  <ron.buliung at utoronto.ca>
+ASPBay,"hexbin,Rcpp",,,Claire Dandine-Roulland ,Claire Dandine-Roulland   <claire.Dandine-Roulland at inserm.fr>
+aSPC,,"mvtnorm,energy,stats",,Zhiyuan (Jason) Xu and Wei Pan,Zhiyuan (Jason) Xu  <xuxx0284 at umn.edu>
+aspect,R (>= 3.0.0),"stats,graphics,grDevices","sem,polycor","Patrick Mair [cre,aut],
+  Jan De Leeuw [aut]",Patrick Mair  <mair at fas.harvard.edu>
+aspi,R (>= 2.10),,"knitr,rmarkdown,testthat",Matt Wayland,Matt Wayland  <mw283 at cam.ac.uk>
+aSPU,"R (>= 3.1.0),gee,MASS,mvtnorm,fields,matrixStats",,knitr,Il-Youp Kwak and others (See Author(s) in each function manual),Il-Youp Kwak  <ikwak at umn.edu>
+asremlPlus,R (>= 3.1.0),"dae,ggplot2,stats,methods,utils,reshape,plyr,dplyr,stringr,RColorBrewer,grDevices,foreach,parallel,doParallel","testthat,lattice,emmeans,lmerTest,pbkrtest,R.rsp","Chris Brien  [aut,
+    cre]",Chris Brien  <chris.brien at unisa.edu.au>
+ASSA,R (>= 3.0.1),stats,,"Miguel de Carvalho [aut,cre],
+  Gabriel Martos [aut]",Miguel de Carvalho  <miguel.decarvalho at ed.ac.uk>
+AssayCorrector,"R (>= 3.3.0),RColorBrewer,lattice,latticeExtra,kSamples,RVAideMemoire",,,"Bogdan Mazoure (McGill University,Department of Mathematics and Statistics),Iurie Caraus (UQAM,Departement d'Informatique),Robert Nadon (McGill University,Department of Human Genetics and Genome Quebec Innovation Center) and Vladimir Makarenkov (UQAM,Departement d'Informatique)",Bogdan Mazoure  <bogdan.mazoure at gmail.com>
+assertable,R (>= 3.1.0),"data.table,parallel","knitr,rmarkdown","Grant Nguyen [aut,cre],
+  Max Czapanskiy [ctb]",Grant Nguyen  <grant.nguyen at gmail.com>
+assertive,R (>= 3.0.0),"assertive.base (>= 0.0-4),assertive.properties (>= 0.0-2),assertive.types (>= 0.0-2),assertive.numbers,assertive.strings,assertive.datetimes,assertive.files,assertive.sets (>= 0.0-2),assertive.matrices,assertive.models,assertive.data,assertive.data.uk,assertive.data.us,assertive.reflection (>= 0.0-2),assertive.code,knitr",testthat,"Richard Cotton [aut,cre]",Richard Cotton  <richierocks at gmail.com>
+assertive.base,R (>= 3.0.0),"methods,utils",testthat,"Richard Cotton [aut,cre],
+  Sunkyu Choi [trl],
+  Ivanka Skakun [trl],
+  Gergely Dar<c3><b3>czi [trl],
+  Anton Antonov [trl],
+  Hisham Ben Hamidane [trl],
+  Anja Billing [trl],
+  Aditya Bhagwat [trl],
+  Rasmus B<c3><a5><c3><a5>th [trl],
+  Mine Cetinkaya-Rundel [trl],
+  Aspasia Chatziefthymiou [trl]",Richard Cotton  <richierocks at gmail.com>
+assertive.code,R (>= 3.0.0),"assertive.base (>= 0.0-2),assertive.properties,assertive.types,methods",testthat,"Richard Cotton [aut,cre]",Richard Cotton  <richierocks at gmail.com>
+assertive.data,R (>= 3.0.0),"assertive.base (>= 0.0-2),assertive.strings",testthat,"Richard Cotton [aut,cre]",Richard Cotton  <richierocks at gmail.com>
+assertive.data.uk,R (>= 3.0.0),"assertive.base (>= 0.0-2),assertive.strings",testthat,"Richard Cotton [aut,cre]",Richard Cotton  <richierocks at gmail.com>
+assertive.data.us,R (>= 3.0.0),"assertive.base (>= 0.0-2),assertive.strings","testthat,devtools","Richard Cotton [aut,cre]",Richard Cotton  <richierocks at gmail.com>
+assertive.datetimes,R (>= 3.0.0),"assertive.base (>= 0.0-2),assertive.types",testthat,"Richard Cotton [aut,cre]",Richard Cotton  <richierocks at gmail.com>
+assertive.files,R (>= 3.0.0),"assertive.base (>= 0.0-2),assertive.numbers",testthat,"Richard Cotton [aut,cre]",Richard Cotton  <richierocks at gmail.com>
+assertive.matrices,R (>= 3.0.0),assertive.base (>= 0.0-2),testthat,"Richard Cotton [aut,cre]",Richard Cotton  <richierocks at gmail.com>
+assertive.models,R (>= 3.0.0),"assertive.base (>= 0.0-2),stats",testthat,"Richard Cotton [aut,cre]",Richard Cotton  <richierocks at gmail.com>
+assertive.numbers,R (>= 3.0.0),assertive.base (>= 0.0-2),testthat,"Richard Cotton [aut,cre]",Richard Cotton  <richierocks at gmail.com>
+assertive.properties,R (>= 3.0.0),"assertive.base (>= 0.0-7),methods",testthat,"Richard Cotton [aut,cre]",Richard Cotton  <richierocks at gmail.com>
+assertive.reflection,R (>= 3.0.0),"assertive.base (>= 0.0-7),utils",testthat,"Richard Cotton [aut,cre]",Richard Cotton  <richierocks at gmail.com>
+assertive.sets,R (>= 3.0.0),assertive.base (>= 0.0-7),testthat,"Richard Cotton [aut,cre]",Richard Cotton  <richierocks at gmail.com>
+assertive.strings,R (>= 3.0.0),"assertive.base (>= 0.0-2),assertive.types,stringi",testthat,"Richard Cotton [aut,cre],
+  Aditya Bhagwat [ctb]",Richard Cotton  <richierocks at gmail.com>
+assertive.types,R (>= 3.0.0),"assertive.base (>= 0.0-7),assertive.properties,codetools,methods,stats","testthat,data.table,dplyr,xml2","Richard Cotton [aut,cre]",Richard Cotton  <richierocks at gmail.com>
+assertr,R (>= 3.1.0),"dplyr (>= 0.7.0),MASS,stats,utils,rlang (>= 0.3.0)","knitr,testthat,magrittr","Tony Fischetti [aut,cre]",Tony Fischetti  <tony.fischetti at gmail.com>
+assertthat,,tools,"testthat,covr","Hadley Wickham [aut,cre]",Hadley Wickham  <hadley at rstudio.com>
+AssetCorr,,"VineCopula,mvtnorm,boot,numDeriv,mvQuad,ggplot2,Rdpack",knitr,"Maximilian Nagl [aut,cre],Yevhen Havrylenko [aut],Marius Pfeuffer [aut],Kevin Jakob [aut],Matthias Fischer [aut],Daniel Roesch [aut]",Maximilian Nagl  <maximilian.nagl at ur.de>
+AssetPricing,R (>= 0.99),"polynom,deSolve",,Rolf Turner,Rolf Turner  <r.turner at auckland.ac.nz>
+assignPOP,R (>= 2.3.2),"caret,doParallel,e1071,foreach,ggplot2,MASS,parallel,randomForest,reshape2,stringr,tree","gtable,iterators,klaR,stringi,knitr,rmarkdown,testthat","Kuan-Yu (Alex) Chen [aut,cre],Elizabeth A. Marschall [aut],Michael
+    G. Sovic [aut],Anthony C. Fries [aut],H. Lisle Gibbs [aut],Stuart A. Ludsin
+    [aut]",Kuan-Yu (Alex) Chen  <alexkychen at gmail.com>
+assist,"R (>= 3.0.2),nlme,lattice",,,"Yuedong Wang,and
+ Chunlei Ke.",Yuedong Wang  <yuedong at pstat.ucsb.edu>
+ASSISTant,,"R6,mvtnorm,knitr,magrittr,dplyr",rmarkdown,"Tze Leung Lai [ctb],
+  Philip Lavori [aut],
+  Olivia Liao [aut],
+  Balasubramanian Narasimhan [aut,cre],
+  Ka Wai Tsang [aut]",Balasubramanian Narasimhan  <naras at stat.Stanford.EDU>
+AssocAFC,R (>= 3.2.0),CompQuadForm,,"Khalid B. Kunji [aut,cre],
+  Mohamad Saad [aut]",Khalid B. Kunji  <kkunji at hbku.edu.qa>
+assocInd,R (>= 2.10),,rootSolve,William Hoppitt and Damien Farine,Damien Farine  <dfarine at orn.mpg.de>
+ASSOCShiny,R (>= 3.4.0),"shiny,rmarkdown,arules,arulesViz,shinyMatrix,plotly,dplyr,methods",,Kartikeya Bolar,Kartikeya Bolar  <kartikeya.bolar at tapmi.edu.in>
+AssocTests,"cluster,mvtnorm,combinat,fExtremes,R (>= 2.10.0)",,,"Lin Wang [aut],
+    Wei Zhang [aut],
+    Qizhai Li [aut],
+    Weicheng Zhu [ctb]",Lin Wang  <wanglin2009 at amss.ac.cn>
+assortnet,,,,Damien Farine,Damien Farine  <dfarine at orn.mpg.de>
+AssotesteR,mvtnorm,,,Gaston Sanchez,Gaston Sanchez  <gaston.stat at gmail.com>
+AST,"R (>= 3.0.0),stats",,,"Parinaz Mehdipour [aut],Ali Ghanbari [cre,aut],Farshad Farzadfar [cph]",Ali Ghanbari   <a.ghanbari541 at gmail.com>
+aster,"R (>= 3.0.2),trust",stats,numDeriv,Charles J. Geyer,Charles J. Geyer  <charlie at stat.umn.edu>
+aster2,"R (>= 3.2.0),Matrix",stats,aster,Charles J. Geyer.,Charles J. Geyer  <charlie at stat.umn.edu>
+astro,"MASS,plotrix",,,Lee Kelvin,Lee Kelvin  <lee.kelvin at uibk.ac.at>
+astrochron,,"multitaper,IDPmisc,fields,doParallel,parallel,iterators,foreach",,"Stephen Meyers [aut,cre],Alberto Malinverno [ctb],Linda Hinnov [ctb],Christian Zeeden [ctb],Vincent Moron [ctb]",Stephen Meyers  <smeyers at geology.wisc.edu>
+astrodatR,,,,Eric D. Feigelson,"""Eric D.,Feigelson""  <edf at astro.psu.edu>"
+astroFns,,,,Andrew Harris,Andrew Harris  <harris at astro.umd.edu>
+astrolibR,,,,Arnab Chakraborty and Eric D. Feigelson,Eric D. Feigelson  <edf at astro.psu.edu>
+astsa,,,,David Stoffer,David Stoffer  <stoffer at pitt.edu>
+asus,R (>= 3.4.2),"rwt,wavethresh,stats,utils","knitr,rmarkdown","Trambak Banerjee [aut,cre],
+  Gourab Mukherjee [aut],
+  Wenguang Sun [aut]",Trambak Banerjee  <trambakb at usc.edu>
+asVPC,,"ggplot2,plyr",Hmisc,Eun-Kyung Lee,Eun-Kyung Lee  <lee.eunk at gmail.com>
+AsyK,,,,"Javaria Ahmad Khan,Atif Akbar.",Javaria Ahmad Khan  <jakhan0 at yahoo.com>
+asymLD,,,"haplo.stats,fields",Richard M. Single,Richard M. Single  <rsingle at uvm.edu>
+asymmetry,,"gplots,stats,methods,smacof","knitr,rmarkdown,RColorBrewer",Berrie Zielman,Berrie Zielman  <berrie.zielman at gmail.com>
+asympTest,R (>= 1.8.0),,,Cqls Team,Pierre Lafaye de Micheaux  <lafaye at unsw.edu.au>
+AsynchLong,"compiler,parallel,stats,graphics,methods",,,"Hongyuan Cao,Donglin Zeng,Jialiang Li,Jason P. Fine,and Shannon T. Holloway",Shannon T. Holloway  <sthollow at ncsu.edu>
+asypow,"R (>= 2.2.0),stats",,,"S original by Barry W. Brown,James Lovato and Kathy Russel. 
+            R port by Kjetil B Halvorsen",Kjetil B Halvorsen  <kjetil1001 at gmail.com>
+atable,R (>= 3.5.0),"stats (>= 3.4),doBy (>= 4.6),plyr (>= 1.8.4),reshape2 (>=
+1.4.3),Hmisc (>= 4.1),settings (>= 0.2.4),DescTools (>=
+0.99.24),effsize (>= 0.7.1)","testthat,knitr,officer,flextable","Armin Ströbel 
+    [aut,cre]",Armin Ströbel  <arminstroebel at web.de>
+ATE,,,,Asad Haris and Gary Chan,Asad Haris  <aharis at uw.edu>
+AtelieR,"R (>= 2.10),proto,cairoDevice,gWidgetsRGtk2,partitions",,,Yvonnick Noel,Yvonnick Noel  <yvonnick.noel at uhb.fr>
+atlas,,"httr,testthat",,Vladimir Polony,Vladimir Polony  <podalv at gmail.com>
+atmcmc,,,,Jinyoung Yang,Jinyoung Yang  <jinyoung.yang at mail.utoronto.ca>
+ATmet,"R (>= 2.7.0),DiceDesign,lhs,metRology,msm,sensitivity",,,"S.Demeyer,A.Allard",Alexandre Allard  <alexandre.allard at lne.fr>
+atmopt,,"DoE.base,hierNet,gtools",,Simon Mak,Simon Mak  <smak6 at gatech.edu>
+AtmRay,,,RSEIS,Jake Anderson,Jake Anderson  <ajakef at gmail.com>
+ATR,"grid,partykit",stats,"trtf,mlbench","Jon Eugster [ctr],
+  Andrea Farnham [ctr],
+  Raphael Hartmann [ctr],
+  Tea Isler [ctr],
+  Gilles Kratzer [ctr],
+  Ke Li [ctr],
+  Silvia Panunzi [ctr],
+  Sophie Schneider [ctr],
+  Craig Wang [ctr],
+  Torsten Hothorn 
+    [aut,cre]",Torsten Hothorn  <Torsten.Hothorn at R-project.org>
+aTSA,,,,Debin Qiu,Debin Qiu  <debinqiu at uga.edu>
+atsd,R (>= 3.1.2),"RCurl (>= 1.95.4.5),httr (>= 0.6.1)","zoo,knitr,chron,timeDate,testthat,rmarkdown",Axibase Corporation,Mikhail Zvagelsky  <mikhail.zvagelsky at axibase.com>
+attachment,R (>= 3.3),"desc (>= 1.2.0),devtools (>= 1.13.6),glue (>= 1.3.0),knitr (>= 1.20),magrittr (>= 1.5),rmarkdown (>= 1.10),stats,stringr (>= 1.3.1),utils","covr,pkgdown (>= 1.3.0),testthat (>= 2.0.0)","Vincent Guyader 
+    [cre,aut],
+  Sébastien Rochette
+     [aut],
+  ThinkR [cph,fnd]",Vincent Guyader  <vincent at thinkr.fr>
+attempt,,rlang,"testthat,knitr,rmarkdown,curl","Colin Fay  [aut,
+    cre]",Colin Fay  <contact at colinfay.me>
+attrCUSUM,R (>= 3.3.2),"Rcpp (>= 0.12.8),stats (>= 3.3.2),utils (>= 3.3.2)","testthat (>= 1.0.2),knitr (>= 1.15.1),rmarkdown (>= 1.2)","Hanwool Kim [aut,cre],
+  Sangyeol Lee [aut]",Hanwool Kim  <stat.hanwool at gmail.com>
+atus,R (>= 2.10),,,Paul Gramieri and Xiaofei Wang,Xiaofei Wang  <xiaofei.wang at yale.edu>
+AUC,,,,Michel Ballings and Dirk Van den Poel,Michel Ballings  <Michel.Ballings at UGent.be>
+aucm,"R (>= 3.1.3),kyotil",,"RUnit,mvtnorm","Youyi Fong [cre],
+  Krisztian Sebestyen [aut],
+  Shuxin Yin [aut],
+  Ying Huang [aut],
+  Alexandros Karatzoglou [ctb],
+  Alex Smola [ctb],
+  Kurt Hornik [ctb]",Youyi Fong  <youyifong at gmail.com>
+AUCRF,"R (>= 2.11.0),randomForest",,,"Victor Urrea,M.Luz Calle",Victor Urrea  <victor.urrea at uvic.cat>
+auctestr,R (>= 3.3.1),"dplyr,tidyr","knitr,rmarkdown,testthat","Josh Gardner [aut,cre]",Josh Gardner  <jpgard at umich.edu>
+audio,R (>= 2.0.0),,,Simon Urbanek,Simon Urbanek  <simon.urbanek at r-project.org>
+audiolyzR,"hexbin,RJSONIO,plotrix",,,"Eric Stone,Jesse Garrison",Eric Stone  <ericstone at temple.edu>
+audit,,,,Glen Meeden.,Glen Meeden  <glen at stat.umn.edu>

@@ -1,0 +1,69 @@
+\documentclass{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage[capitalise,noabbrev]{cleveref}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{breqn}
+
+\usepackage{tikz}
+\usetikzlibrary{angles,quotes}
+
+\def\radius{3cm}
+\def\distance{5cm}
+\def\appxangle{33.55731}
+\def\appxheight{1.658312cm}
+
+\def\phiangle{22.5}
+\def\phiheight{0.8284271cm}
+
+\begin{document}
+	
+First, let $r$ denote the radius of both circles and $d$ denote the distance between the center of the two circles. Also let $A_C$ be the total area of the circle (so $A_C = \pi r^2$) and let $A_I$ be the area of the intersection of the two circles. Given $r$, we want to find $d$ such that the area of the circle excluding the intersecting area (given by $A_C - A_I$) is equal to the intersection area $A_I$. That is,
+\begin{equation}
+	A_C - A_I = A_I \Rightarrow A_C = 2 A_I.
+\end{equation}
+
+We can use integration in polar coordinates to find $A_I$. First, we need to find the limits of integration by finding $\theta$ in the figure below.
+\begin{center}
+\begin{tikzpicture}
+\coordinate (O1) at (-\distance/2,0);
+\coordinate (O2) at (\distance/2,0);
+\coordinate (P1) at (0, \appxheight);
+
+\draw (O1) node[circle,inner sep=1.5pt,fill] {} circle [radius=\radius];
+\draw (O2) node[circle,inner sep=1.5pt,fill] {} circle [radius=\radius];
+
+\draw
+	(O2) coordinate (xcoord) --
+	node[midway,below] {$d$} (O1) --
+	node[midway,above] {$r$} (P1)
+	pic [draw,->,angle radius=1cm,"$\theta$"] {angle = O2--O1--P1};
+\end{tikzpicture}
+\end{center}
+Using the definition of the cosine, we can see that $\cos(\theta) = (d / 2) / r$, which implies that $\theta = \arccos(d / (2r))$.
+
+Next, we can find the distance between the left circle's center and the edge of the right circle, which will be denoted with $f(\varphi)$ for angle $\varphi$. This is shown in the picture below.
+\begin{center}
+	\begin{tikzpicture}
+	\coordinate (O1) at (-\distance/2,0);
+	\coordinate (O2) at (\distance/2,0);
+	\coordinate (P1) at (0, \appxheight);
+	\coordinate (P2) at (-0.5, \phiheight);
+	
+	\fill (O1) circle [radius=1.5pt];
+	\draw (O2) node[circle,inner sep=1.5pt,fill] {} circle [radius=\radius];
+	
+	\draw
+	(O2) coordinate (xcoord) --
+	node[midway,below] {$d$} (O1) --
+	node[midway,above] {$f(\varphi)$} (P2)
+	pic [draw,->,angle radius=1.5cm,"$\varphi$"] {angle = O2--O1--P2};
+	\end{tikzpicture}
+\end{center}
+
+\end{document}
