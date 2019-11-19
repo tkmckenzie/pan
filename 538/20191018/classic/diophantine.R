@@ -94,3 +94,5 @@ while (!solution.found){
     c = c - 1
   }
 }
+
+solution

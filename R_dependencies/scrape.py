@@ -92,8 +92,9 @@ for package_name in package_names:
 		authors_str = ','.join(authors)
 		maintainers_str = ','.join(maintainers)
 		
-		replace_chars = {'≥': '>=', '≤': '<=', 'ł': 'l', 'č': 'c', 'ó': 'o', 'ń': 'n',
-				   'ğ': 'g', 'Ö': 'O'}
+		replace_chars = {'≥': '>=', '≤': '<=', 'ł': 'l', 'č': 'c', 'ć': 'c', 'ó': 'o', 'ń': 'n',
+				   'ğ': 'g', 'Ö': 'O', 'ā': 'a', 'ą': 'a', 'ż': 'z', 'Ł': 'L', 'ś': 's', 'ş': 's', 'Ś': 'S',
+				   'ę': 'e', 'è': 'e', 'Ż': 'Z'}
 		replace_char = list(replace_chars.keys())[0]
 		for replace_char in replace_chars.keys():
 			dependencies_str = re.sub(replace_char, replace_chars[replace_char], dependencies_str)
