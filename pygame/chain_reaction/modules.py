@@ -31,7 +31,7 @@ class Atom(GameObject):
 		
 		self.pos = np.array([float(random.randint(self.radius, App.size[0] - self.radius)), float(random.randint(self.radius, App.size[1] - self.radius))])
 		
-		self.velocity_abs = 60 / App.framerate
+		self.velocity_abs = 90 / App.framerate
 		self.velocity_vec = np.array([random.random() * 2 - 1, random.random() * 2 - 1])
 		self.velocity_vec *= self.velocity_abs / np.sqrt(sum(self.velocity_vec**2))
 		
@@ -55,25 +55,29 @@ class Atom(GameObject):
 			self.velocity_vec[1] *= -1
 	
 	def explode(self):
-		return Explosion(self.pos, self.App)
+		return Explosion(self.pos, self.color, self.App)
 
 class Explosion(GameObject):
-	def __init__(self, pos, App):
+	def __init__(self, pos, color, App):
 		self.pos = np.array(pos)
 		
 		self.radius = float(init_radius)
-		self.max_radius = 10 * self.radius
+		self.max_radius = 15 * self.radius
 		
-		self.radius_velocity = 60 / App.framerate
+		self.radius_velocity = 1.5 * 90 / App.framerate
 		self.radius_growing = True
 		self.radius_stationary = False
 		self.radius_shrinking = False
 		
 		self.nonexistent = False
 		
-		self.radius_stationary_duration = 25
+		self.radius_stationary_duration = 50
 		
-		self.color = self.draw_color()
+#		self.color = self.draw_color()
+		if color == None:
+			self.color = self.draw_color()
+		else:
+			self.color = color
 	
 	def update_radius(self):
 		if self.radius_growing:
@@ -94,5 +98,5 @@ class Explosion(GameObject):
 				self.radius = 0
 				self.nonexistent = True
 		
-		self.color = self.draw_color()
+#		self.color = self.draw_color()
 	
