@@ -12,72 +12,62 @@ class App:
 		self.framerate = 60
 		
 	def on_init(self):
+		self.initialize_pygame()
+		self.initialize_objects()
+	
+	def initialize_pygame(self):
 		pygame.init()
 		self._display_surf = pygame.display.set_mode(self.size)
 		self._running = True
-		
-		self.initialize_atoms()
 	
-	def initialize_atoms(self):
+	def initialize_objects(self):
 		pygame.draw.rect(self._display_surf, pygame.Color(0, 0, 0), pygame.Rect((0, 0, self.width, self.height)))
 		
-		self.atoms = [Atom(self) for i in range(100)]
+		self.atoms = [Atom(self) for i in range(25)]
 		for atom in self.atoms:
-			if not atom.drawn:
-				pygame.draw.circle(self._display_surf, atom.color, atom.get_pos(), atom.radius)
-				atom.drawn = True
+			pygame.draw.circle(self._display_surf, atom.color, atom.get_pos(), atom.get_radius())
 		
-		self.neutrons = []
+		self.explosions = []
+		
+		self.explosion_triggered = False
 		
 	def on_event(self, event):
 		if event.type == pygame.QUIT:
 			self._running = False
 		
-		if event.type == pygame.MOUSEBUTTONDOWN:
+		if event.type == pygame.MOUSEBUTTONDOWN and not self.explosion_triggered:
 			mouse_pos = pygame.mouse.get_pos()
-			selected_atoms = list(filter(lambda atom: atom.distance(mouse_pos) <= atom.radius, self.atoms))
-			if len(selected_atoms) > 0:
-				pygame.draw.circle(self._display_surf, pygame.Color(0, 0, 0), selected_atoms[0].get_pos(), selected_atoms[0].radius)
-				self.atoms.remove(selected_atoms[0])
-				self.neutrons.extend(selected_atoms[0].fission())
+			self.explosions.append(Explosion(mouse_pos, self))
+			self.explosion_triggered = True
 				
 		if event.type == pygame.KEYDOWN:
 			if event.key == pygame.K_n:
-				self.initialize_atoms()
+				self.initialize_objects()
+				self.explosion_triggered = False
 			if event.key == pygame.K_ESCAPE:
 				self._running = False
 	
 	def on_loop(self):
-		for neutron in self.neutrons:
-			pygame.draw.circle(self._display_surf, pygame.Color(0, 0, 0), neutron.get_pos(), 1)
-			neutron.update_pos()
-			
-			neutron_pos = neutron.get_pos()
-			if neutron_pos[0] <= 0 or neutron_pos[0] >= self.width or neutron_pos[1] <= 0 or neutron_pos[1] >= self.height:
-				self.neutrons.remove(neutron)
-			else:
-				for jitter_h in [-1, 0, 1]:
-					for jitter_v in [-1, 0, 1]:
-						test_pos = neutron_pos + np.array([jitter_h, jitter_v])
-						try:
-							color = self._display_surf.get_at(test_pos)
-						except:
-							color = pygame.Color(0, 0, 0)
-						if color != pygame.Color(0, 0, 0):
-							impacted_atoms = list(filter(lambda atom: atom.distance(neutron.pos) <= atom.radius, self.atoms))
-							for atom in impacted_atoms:
-								pygame.draw.circle(self._display_surf, pygame.Color(0, 0, 0), atom.get_pos(), atom.radius)
-								self.atoms.remove(atom)
-								try:
-									self.neutrons.remove(neutron)
-								except ValueError:
-									pass
-								self.neutrons.extend(atom.fission())
+		for atom in self.atoms:
+			pygame.draw.circle(self._display_surf, pygame.Color(0, 0, 0), atom.get_pos(), atom.get_radius())
+			atom.update_pos()
+			if any([atom.is_collison(explosion) for explosion in self.explosions]):
+				self.explosions.append(Explosion(atom.pos, self))
+				self.atoms.remove(atom)
+		
+		for explosion in self.explosions:
+			pygame.draw.circle(self._display_surf, pygame.Color(0, 0, 0), explosion.get_pos(), explosion.get_radius())
+			explosion.update_radius()
+			if explosion.nonexistent:
+				self.explosions.remove(explosion)
 	
 	def on_render(self):
-		for neutron in self.neutrons:
-			pygame.draw.circle(self._display_surf, pygame.Color(255, 255, 255), neutron.get_pos(), 1)
-				
+		for atom in self.atoms:
+			pygame.draw.circle(self._display_surf, atom.color, atom.get_pos(), atom.get_radius())
+		
+		for explosion in self.explosions:
+			pygame.draw.circle(self._display_surf, explosion.color, explosion.get_pos(), explosion.get_radius())
+		
 		pygame.display.flip()
 	
 	def on_cleanup(self):
