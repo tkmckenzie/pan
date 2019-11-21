@@ -71,7 +71,7 @@ class Explosion(GameObject):
 		
 		self.nonexistent = False
 		
-		self.radius_stationary_duration = 50
+		self.radius_stationary_duration = 75
 		
 #		self.color = self.draw_color()
 		if color == None:
