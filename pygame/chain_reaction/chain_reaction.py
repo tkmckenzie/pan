@@ -46,6 +46,7 @@ class App:
 		self.explosions = []
 		
 		self.explosion_triggered = False
+		self.pause = False
 		
 	def on_event(self, event):
 		if event.type == pygame.QUIT:
@@ -61,6 +62,10 @@ class App:
 				self.score = 0
 				self.current_round = 0
 				self.begin_round()
+			if event.key == pygame.K_r and not self.explosion_triggered:
+				self.initialize_objects(self.round_dict['num_atoms'][self.current_round])
+			if event.key == pygame.K_p:
+				self.pause = not self.pause
 			if event.key == pygame.K_ESCAPE:
 				self._running = False
 	
@@ -90,14 +95,18 @@ class App:
 		
 		pygame.display.flip()
 		
-	def draw_text(self, text):
-		text = self.font.render(text, True, (255, 255, 255), (0, 0, 0))
-		text_rect = text.get_rect()
-		text_rect.centerx = self._display_surf.get_rect().centerx
-		text_rect.centery = self._display_surf.get_rect().centery
-		
+	def draw_text(self, text_list):
+		num_lines = len(text_list)
 		self._display_surf.fill((0, 0, 0))
-		self._display_surf.blit(text, text_rect)
+		
+		for i in range(num_lines):
+			text = text_list[i]
+			text = self.font.render(text, True, (255, 255, 255), (0, 0, 0))
+			text_rect = text.get_rect()
+			text_rect.centerx = self._display_surf.get_rect().centerx
+			text_rect.centery = self._display_surf.get_rect().centery + int(48 * ((2 * i + 1) - num_lines) / 2)
+			
+			self._display_surf.blit(text, text_rect)
 		pygame.display.flip()
 		
 		self.wait_for_click()
@@ -111,26 +120,28 @@ class App:
 					return True
 				if event.type == pygame.QUIT:
 					self._running = False
-				if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
-					self._running = False
+				if event.type == pygame.KEYDOWN:
+					if event.key == pygame.K_ESCAPE:
+						self._running = False
 	
 	def begin_round(self):
-		self.draw_text('Need %i/%i explosions' % (self.round_dict['required_explosions'][self.current_round], self.round_dict['num_atoms'][self.current_round]))
+		self.draw_text(['Need %i/%i explosions' % (self.round_dict['required_explosions'][self.current_round], self.round_dict['num_atoms'][self.current_round]), 'Current score: %i' % self.score])
 		self.initialize_objects(self.round_dict['num_atoms'][self.current_round])
 	
 	def on_round_end(self):
 		num_explosions = self.round_dict['num_atoms'][self.current_round] - len(self.atoms)
-		self.draw_text('%i/%i needed explosions occurred' % (num_explosions, self.round_dict['required_explosions'][self.current_round]))
-		if num_explosions >= self.round_dict['required_explosions'][self.current_round]:
-			self.score += num_explosions
+		self.draw_text(['%i/%i needed explosions occurred' % (num_explosions, self.round_dict['required_explosions'][self.current_round])])
+		self.score += num_explosions
 		
 		if self.current_round == (self.num_rounds - 1) or num_explosions < self.round_dict['required_explosions'][self.current_round]:
-			self.score += num_explosions
+			message = ['Game over']
 			if self.score > self.gamedata['high_score']:
 				self.gamedata['high_score'] = self.score
 				with open('gamedata.pkl', 'wb') as f:
 					pkl.dump(self.gamedata, f)
-			self.draw_text('Game over! Score: %i; High score: %i' % (self.score, self.gamedata['high_score']))
+				message += ['New high score!!!']
+			message += ['Score: %i' % self.score, 'High score: %i' % self.gamedata['high_score']]
+			self.draw_text(message)
 			
 			self.score = 0
 			self.current_round = 0
