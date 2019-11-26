@@ -125,13 +125,17 @@ class App:
 						self._running = False
 	
 	def begin_round(self):
-		self.draw_text(['Need %i/%i explosions' % (self.round_dict['required_explosions'][self.current_round], self.round_dict['num_atoms'][self.current_round]), 'Current score: %i' % self.score])
+		self.draw_text(['Level %i' % (self.current_round + 1), 'Need %i/%i explosions' % (self.round_dict['required_explosions'][self.current_round], self.round_dict['num_atoms'][self.current_round]), 'Current score: %i' % self.score])
 		self.initialize_objects(self.round_dict['num_atoms'][self.current_round])
 	
 	def on_round_end(self):
 		num_explosions = self.round_dict['num_atoms'][self.current_round] - len(self.atoms)
-		self.draw_text(['%i/%i needed explosions occurred' % (num_explosions, self.round_dict['required_explosions'][self.current_round])])
 		self.score += num_explosions
+		message = ['Needed %i explosions' % self.round_dict['required_explosions'][self.current_round], '%i/%i atoms exploded' % (num_explosions, self.round_dict['num_atoms'][self.current_round])]
+		if num_explosions == self.round_dict['num_atoms'][self.current_round]:
+			message += ['DOUBLE POINTS!!!']
+			self.score += num_explosions
+		self.draw_text(message)
 		
 		if self.current_round == (self.num_rounds - 1) or num_explosions < self.round_dict['required_explosions'][self.current_round]:
 			message = ['Game over']
@@ -139,7 +143,7 @@ class App:
 				self.gamedata['high_score'] = self.score
 				with open('gamedata.pkl', 'wb') as f:
 					pkl.dump(self.gamedata, f)
-				message += ['New high score!!!']
+				message += ['NEW HIGH SCORE!!!']
 			message += ['Score: %i' % self.score, 'High score: %i' % self.gamedata['high_score']]
 			self.draw_text(message)
 			
