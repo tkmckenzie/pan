@@ -17,17 +17,17 @@ class GameObject:
 	def draw_color(self):
 		return pygame.Color(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 	
-	def is_collison(self, other):
+	def is_collision(self, other):
 		if self.distance(other) <= self.radius + other.radius:
 			return True
 		else:
 			return False
 
 class Atom(GameObject):
+	radius = float(init_radius)
+	
 	def __init__(self, App):
 		self.App = App
-		
-		self.radius = float(init_radius)
 		
 		self.pos = np.array([float(random.randint(self.radius, App.size[0] - self.radius)), float(random.randint(self.radius, App.size[1] - self.radius))])
 		
@@ -56,15 +56,22 @@ class Atom(GameObject):
 	
 	def explode(self):
 		return Explosion(self.pos, self.color, self.App)
+	
+	def __copy__(self):
+		atom_output = Atom(self.App)
+		atom_output.pos = np.array(self.pos)
+		atom_output.velocity_vec = np.array(self.velocity_vec)
+		
+		return(atom_output)
 
 class Explosion(GameObject):
+	radius = float(init_radius)
+	max_radius = 15 * radius
+	
 	def __init__(self, pos, color, App):
 		self.App = App
 		
 		self.pos = np.array(pos)
-		
-		self.radius = float(init_radius)
-		self.max_radius = 15 * self.radius
 		
 		self.radius_velocity = 1.5 * 90 / App.framerate
 		self.radius_growing = True

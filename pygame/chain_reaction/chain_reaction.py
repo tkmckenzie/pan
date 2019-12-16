@@ -13,12 +13,16 @@ class App:
 		self.clock = pygame.time.Clock()
 		self.framerate = 60
 		
+		self.pause = False
+		self.waiting_for_click = False
+		
 		self.round_dict = {'num_atoms': [5, 10, 15, 25, 40, 55, 75, 100],
 					 'required_explosions': [1, 3, 5, 10, 18, 30, 50, 75]}
 		self.current_round = 0
 		self.num_rounds = len(self.round_dict['num_atoms'])
 		
 		self.score = 0
+		
 		
 		if 'gamedata.pkl' in os.listdir():
 			with open('gamedata.pkl', 'rb') as f:
@@ -54,8 +58,7 @@ class App:
 		
 		if event.type == pygame.MOUSEBUTTONDOWN and not self.explosion_triggered:
 			mouse_pos = pygame.mouse.get_pos()
-			self.explosions.append(Explosion(mouse_pos, None, self))
-			self.explosion_triggered = True
+			self.create_explosion(mouse_pos)
 				
 		if event.type == pygame.KEYDOWN:
 			if event.key == pygame.K_n:
@@ -73,7 +76,7 @@ class App:
 		for atom in self.atoms:
 			pygame.draw.circle(self._display_surf, pygame.Color(0, 0, 0), atom.get_pos(), atom.get_radius())
 			atom.update_pos()
-			if any([atom.is_collison(explosion) for explosion in self.explosions]):
+			if any([atom.is_collision(explosion) for explosion in self.explosions]):
 				self.explosions.append(atom.explode())
 				self.atoms.remove(atom)
 		
@@ -95,6 +98,10 @@ class App:
 		
 		pygame.display.flip()
 		
+	def create_explosion(self, pos):
+		self.explosions.append(Explosion(pos, None, self))
+		self.explosion_triggered = True
+		
 	def draw_text(self, text_list):
 		num_lines = len(text_list)
 		self._display_surf.fill((0, 0, 0))
@@ -114,9 +121,11 @@ class App:
 		pygame.display.flip()
 		
 	def wait_for_click(self):
+		self.waiting_for_click = True
 		while self._running:
 			for event in pygame.event.get():
 				if event.type == pygame.MOUSEBUTTONDOWN:
+					self.waiting_for_click = False
 					return True
 				if event.type == pygame.QUIT:
 					self._running = False
