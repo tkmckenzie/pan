@@ -1,5 +1,6 @@
-library(ggplot2)
-library(rstan)
+if (!(require(ggplot2) & require(rstan))){
+  install.packages(c("ggplot2", "rstan"))
+}
 
 setwd("~/git/pan/Baba")
 
@@ -13,6 +14,7 @@ df = read.csv("data.csv")
   # Area
   # (1) Strong relationship to Flow, best described by log-log transformation
   qplot(Area, Flow, data = df) + scale_y_log10() + scale_x_log10()
+  qplot(Area, Flow, data = df)
 }
 {
   # Elevation related variables
