@@ -1,6 +1,8 @@
 if (!(require(ggplot2) & require(rstan))){
   install.packages(c("ggplot2", "rstan"))
 }
+library(ggplot2)
+library(rstan)
 
 setwd("~/git/pan/Baba")
 
@@ -49,6 +51,7 @@ df = read.csv("data.csv")
   # Dependency between independent variables
   qplot(Area, Forest.Area, data = df) + scale_y_log10() + scale_x_log10()
   qplot(Area, Annual.Precipitation, data = df) + scale_y_log10() + scale_x_log10()
+  qplot(Elevation, Annual.Precipitation, data = df) + scale_y_log10() + scale_x_log10()
 }
 
 # Linear models
@@ -97,5 +100,5 @@ df = read.csv("data.csv")
   
   # Pretty similar to classical regression results, as expected
   apply(stan.extract$beta, 2, mean)
-  apply(stan.extract$beta, 2, function(col) mean(col > 0))
+  apply(stan.extract$beta, 2, function(col) mean(col < 0))
 }
