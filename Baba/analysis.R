@@ -101,4 +101,6 @@ df = read.csv("data.csv")
   # Pretty similar to classical regression results, as expected
   apply(stan.extract$beta, 2, mean)
   apply(stan.extract$beta, 2, function(col) mean(col < 0))
+  
+  
 }
