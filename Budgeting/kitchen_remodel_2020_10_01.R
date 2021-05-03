@@ -2,8 +2,8 @@ library(ggplot2)
 
 rm(list = ls())
 
-balance.current = 6446.64 + 49796.46 + 15000
-date.current = as.Date("2020-10-05") # Whatever date above balance is current as of
+balance.current = 41644
+date.current = as.Date("2020-10-25") # Whatever date above balance is current as of
 
 paycheck = function(date){
   last.paydate = as.Date("2020-10-01")
@@ -26,8 +26,8 @@ projected.credit.card = function(date){
   # Should include all Citi charges after 2020/09/18 and all SLFCU charges after 2020/10/20
   payment = switch(as.character(date),
                    "2020-11-15" = 475.13 + 300, # Citi card ending 2020/10/18
-                   "2020-12-15" = 750, # Citi card ending 2020/11/18
-                   "2020-11-20" = 0, # SLFCU card ending 2020/11/20
+                   "2020-12-15" = 1618 + 382, # Citi card ending 2020/11/18
+                   "2020-11-20" = 1226, # SLFCU card ending 2020/11/20
                    "2020-12-20" = 0, # SLFCU card ending 2020/12/20
                    0)
   return(payment)
@@ -81,10 +81,10 @@ comcast.bill = function(date){
 }
 remodel.bill = function(date){
   payment = switch(as.character(date),
-                   "2020-10-09" = 20000,
-                   "2020-10-23" = 20000,
-                   "2020-11-07" = 22000,
-                   "2020-11-14" = 1500,
+                   "2020-10-26" = 15188,
+                   "2020-10-28" = 6472,
+                   "2020-11-13" = 15250,
+                   "2020-11-06" = 1500,
                    0)
   return(payment)
 }
