@@ -15,3 +15,4 @@ table_links = list(map(lambda entry: '/../' + entry.find('a').attrs['href'], tab
 for link in table_links[:1]:
     page = requests.get(electric_url + link)
     soup = bs(page.content, features = 'lxml')
+    
