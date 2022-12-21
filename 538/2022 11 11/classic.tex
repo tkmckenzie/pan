@@ -1,0 +1,85 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath}
+\usepackage{fullpage}
+\usepackage{graphicx}
+
+\begin{document}
+	
+\section*{Riddler Classic}
+
+I have made a square peanut butter and jelly sandwich, and now it’s time to slice it. But rather than making a standard horizontal or diagonal cut, I instead pick two random points along the perimeter of the sandwich and make a straight cut from one point to the other. (These points can be on the same side.)
+
+My slice is ``reasonable'' if I cut the square into two pieces and the smaller resulting piece has an area that is at least one-quarter of the whole area. What is the probability that my slice is reasonable?
+
+\section*{Solution}
+First, without loss of generality, assume the sandwich has side length of 1 and assume the first point selected is on the bottom side of the square sandwich. Let the distance from the left side of the bottom of the square be denoted $b$. Note that $b\sim \mbox{Uniform}(0, 1)$.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=2in]{1.png}
+	\caption{Position of first point}
+\end{figure}
+
+The second point has a 1/4 chance of being on any given side. First, consider the case where the second point is also located on the bottom of the square. In that case, the smallest sandwich piece has zero area and therefore the slice is not reasonable.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=2in]{2.png}
+	\caption{Position of second point on left side}
+\end{figure}
+
+Next, consider the case where the second point is located on the left side of the square. Let $s$ denote the distance between that point and the lower left corner of the square, where $s\sim \mbox{Uniform}(0, 1)$. The area of the triangle in the lower left corner of the square is at most half of the area of the entire square, and is therefore the smallest piece resulting from the slice. The area of that triangle is $sb / 2$, which must be greater than 1/4 for the slice to be reasonable. Note that for $p = sb$ (which is the product of two uniform random variables), the density of $p$ is given by\footnote{See https://math.stackexchange.com/questions/659254/product-distribution-of-two-uniform-distribution-what-about-3-or-more}
+\begin{equation}
+	f(p) = -\log(p).
+\end{equation}
+So, the probability the slice is reasonable is
+\begin{align}
+	\nonumber
+	\Pr(sb/2 \geq 1/4) &= \Pr(sb \geq 1/2)\\
+	\nonumber	
+	&= \Pr(p \geq 1/2)\\
+	\nonumber
+	&= \int_{1/2}^1 f(p) dp\\
+	\nonumber
+	&= \left[p(1 - \log(p))\right]_{1/2}^1\\
+	\nonumber
+	&= 1(1 - 0) - 0.5(1 - \log(0.5))\\
+	\nonumber
+	&= 0.5 + 0.5 \cdot \log(0.5)\\
+	\nonumber
+	&\approx 0.1534264
+\end{align}
+Notice that the probability of the slice being reasonable in this case is the same as if the point were located on the right side of the square.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=2in]{3.png}
+	\caption{Position of second point on top side}
+\end{figure}
+
+Finally, consider the case where the second point is on the top side of the square. Let $t$ denote the distance between that point and the top left of the square. Notice that the area of the trapezoid on the left side of the square is given by $(b + t) / 2$. For this slice to be reasonable, the area of the left trapezoid must be greater than 1/4 and less than 3/4 (otherwise the right trapezoid would have area less than 1/4). Note that $x = b + t$ has the density
+\begin{equation}
+	g(x) =
+	\left\{\begin{array}{cl}
+	x & 0 \leq x\leq 1 \\
+	2 - x & 1 \leq x \leq 2\\
+	0 & \mbox{otherwise}
+	\end{array}\right.
+\end{equation}
+So, the probability that the slice will be reasonable is
+\begin{align}
+	\nonumber
+	\Pr(1/4 \leq (b+t)/2 \leq 3/4) &= \Pr(1/2 \leq b+t \leq 3/2)\\
+	&= \Pr(1/2 \leq x \leq 3/2) \\
+	&= \int_{1/2}^{3/2} g(x) dx\\
+	&= \int_{1/2}^1 x dx + \int_1^{3/2} (2-x) dx\\
+	&= \left[0.5x^2\right]_{1/2}^1 + \left[2x - 0.5x^2\right]_1^{3/2}\\
+	&= (0.5 - 0.5\cdot1/4) + ((2\cdot 3/2 - 0.5\cdot 9/4) - (2 - 0.5))\\
+	&= (1/2 - 1/8) + ((3 - 9/8) - 3/2)\\
+	&= 3/8 + (15/8 - 12/8)\\
+	&= 3/8 + 3/8\\
+	&= 3/4
+\end{align}
+
+\end{document}
